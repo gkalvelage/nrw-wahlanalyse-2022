@@ -5,7 +5,7 @@ description: |
 site: distill::distill_website
 output:
   distill::distill_article:
-    toc: true
+    toc: false
 repository_url: https://github.com/gkalvelage/nrw-wahlanalyse-2022
 base_url: https://gkalvelage.github.io/nrw-wahlanalyse-2022
 creative_commons: CC BY

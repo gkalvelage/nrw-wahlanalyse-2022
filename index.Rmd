@@ -61,20 +61,11 @@ Alle Daten und ihre Quellen sind [hier](https://gkalvelage.github.io/nrw-wahlana
 
 ## So alt sind die Kandidat:innen -- verglichen mit der Bevölkerung
 
-Die Parlamente spiegeln in unterschiedlicher Hinsicht nicht die Bevölkerung wider. Personen ohne Berufsausbildung oder Studium sind in der Regel z.B. deutlich unterrepräsentiert. Und auch Frauen bilden meist deutlich weniger als die Hälfte aller Abgeordneten.  
-
-<aside>
-Für den Bundestag schlüsselt die [Bundeszentrale für politische Bildung](https://www.bpb.de/kurz-knapp/zahlen-und-fakten/bundestagswahlen/341095/gewaehlte-abgeordnete/) verschiedene Merkmale auf.
-</aside>  
-
+Die Parlamente spiegeln in unterschiedlicher Hinsicht nicht die Bevölkerung wider.^[Für den Bundestag schlüsselt die [Bundeszentrale für politische Bildung](https://www.bpb.de/kurz-knapp/zahlen-und-fakten/bundestagswahlen/341095/gewaehlte-abgeordnete/) verschiedene Merkmale auf.] Personen ohne Berufsausbildung oder Studium sind in der Regel z.B. deutlich unterrepräsentiert. Und auch Frauen bilden meist deutlich weniger als die Hälfte aller Abgeordneten.  
 
 Wir wissen prinzipiell auch, dass z.B. Jüngere und Ältere unterrepräsentiert sind. Aber wie deutlich ist der Unterschied zwischen den (potenziellen) Abgeordneten und der Bevölkerung -- konkret bei der NRW-Landtagswahl 2022? Und wie sind die Chancen der Jüngeren, in die Parlamente einzuziehen?  
 
-<aside>
-Ich konzentriere mich auf die Parteien mit der größten Chance, die [5%-Hürde](https://www.wahlrecht.de/landtage/nordrhein-westfalen.htm) zu erreichen. Die Linke war zuletzt nicht im Landtag vertreten und steht nach [Umfragen](https://www.wahlrecht.de/umfragen/landtage/nrw.htm) unter 5%.
-</aside>
-
-Um diese Fragen zu beantworten, analysiere ich das Alter aller Kandidat:innen der sechs großen Parteien.^[Die Kandidat:innen dieser Parteien bilden `r pct(nrow(kandi_landtag)/1375)` aller 1.375 Kandidat:innen zur Landtagswahl ab.] Mich interessiert, welches personelle Angebot -- bezogen auf das Alter -- die Parteien den Wähler:innen machen. Denn nur wenn überhaupt ein gutes Angebot  vorhanden ist, können Wähler:innen die Zusammensetzung des Parlaments beeinflussen.  
+Um diese Fragen zu beantworten, analysiere ich das Alter aller Kandidat:innen der sechs großen Parteien.^[Ich konzentriere mich auf die Parteien mit der größten Chance, die [5%-Hürde](https://www.wahlrecht.de/landtage/nordrhein-westfalen.htm) zu erreichen. Die Kandidat:innen dieser Parteien bilden `r pct(nrow(kandi_landtag)/1375)` aller 1.375 Kandidat:innen zur Landtagswahl ab. Die Linke war zuletzt nicht im Landtag vertreten und steht nach [Umfragen](https://www.wahlrecht.de/umfragen/landtage/nrw.htm) unter 5%.] Mich interessiert, welches personelle Angebot -- bezogen auf das Alter -- die Parteien den Wähler:innen machen. Denn nur wenn überhaupt ein gutes Angebot  vorhanden ist, können Wähler:innen die Zusammensetzung des Parlaments beeinflussen.  
 
 ### Mehr als ein Durchschnitt -- die Kandidat:innen nach Altersgruppen
 
@@ -128,7 +119,7 @@ Die Bevölkerung im mittleren Alter zwischen 25 und 64 Jahren ist unter den Kand
 
 ### Die Linke spiegelt die Bevölkerung am besten, FDP und Grüne sind am jüngsten und die AfD am ältesten
 
-Betrachtet man das Alter nach Partei, stechen unterschiedliche Profile hervor (Figure \@ref(fig:alter-partei)).^[Die Reihenfolge der Parteien entspricht der Reihenfolge auf dem Stimmzettel. Sie leitet sich aus der Zweitstimmenverteilung bei der letzten Wahl ab.] Auch wenn nach wie vor Kandidat:innen im mittleren Alter überrepräsentiert sind, gibt es z.B. keine Altersgruppe, die *in jeder Partei* überrepräsentiert ist.  
+Betrachtet man das Alter nach Partei, stechen unterschiedliche Profile hervor (Figure \@ref(fig:alter-partei)).^[Die Reihenfolge der Parteien entspricht der Reihenfolge auf dem Stimmzettel. Sie leitet sich aus der Zweitstimmenverteilung bei der letzten Wahl ab.] Auch wenn nach wie vor Kandidat:innen im mittleren Alter überrepräsentiert sind, gibt es z.B. keine Altersgruppe, die *in jeder Partei* überrepräsentiert ist.^[Die Parteien haben etwa gleich viele Kandidat:innen: Mit 153 Kandidat:innen hat die CDU am meisten; die übrigen Parteien stellen zwischen 122 (AfD) und 135 (Grüne) Kandidat:innen.]  
 
 ```{r alter-partei, fig.cap="Das Alter der Kandidat:innen nach Partei", layout="l-body-outset", preview=TRUE}
 
@@ -174,11 +165,7 @@ ggplot(mapping = aes(x = alter_kat, y = anteil)) +
 
 Mit Ausnahme der Ältesten spiegelt Die Linke am besten die Bevölkerung. CDU und SPD haben ihre Schwerpunkte zwischen 35 und 64 Jahren. Die SPD ist etwas jünger (größte Gruppe: 35- bis 44-Jährige); die CDU ist etwas älter (größte Gruppe: 45-54-Jährige).  
 
-Bei FDP und Grünen verteilen sich die Kandidat:innen am gleichmäßigsten zwischen 25 und 64 Jahren. In beiden Parteien sind Ältere dafür stark unterrepräsentiert. Besonders deutlich wird dies bei der FDP, die den zweitgrößten Anteil an Unter-25-Jährigen hat, dafür aber niemanden über 64 Jahren aufgestellt hat.
-
-<aside>
-Die Parteien haben etwa gleich viele Kandidat:innen: Mit 153 Kandidat:innen hat die CDU am meisten; die übrigen Parteien stellen zwischen 122 (AfD) und 135 (Grüne) Kandidat:innen.
-</aside>
+Bei FDP und Grünen verteilen sich die Kandidat:innen am gleichmäßigsten zwischen 25 und 64 Jahren. In beiden Parteien sind Ältere dafür stark unterrepräsentiert. Besonders deutlich wird dies bei der FDP, die den zweitgrößten Anteil an Unter-25-Jährigen hat, dafür aber niemanden über 64 Jahren aufgestellt hat.  
 
 Anders ist dies bei der AfD, bei der die Gruppe der 65- bis 74-Jährigen sogar überrepräsentiert ist. Über ein Drittel der AfD-Kandidat:innen ist zudem zwischen 55 und 64 Jahren alt. Dafür sind Kandidat:innen bis unter 45 Jahren insgesamt unterrepräsentiert. Als einzige Partei hat die AfD niemanden unter 25 Jahren aufgestellt.
 
@@ -188,11 +175,7 @@ Nur weil eine Partei junge Kandidat:innen aufstellt, bedeutet das noch nicht, da
 
 Wie stehen also die Chancen der Jüngeren? 
 
-Das ist schwierig einzuschätzen, weil Erst- und Zweitstimmen in Kombination entscheiden, wer in den Landtag einzieht. In NRW ist eine Prognose noch schwieriger, da durch eine hohe Zahl an Direktwahlkreisen viele Überhang- und Ausgleichsmandate entstehen können.^[Siehe hierzu z.B. die Hinweise von [Wahlrecht.de](https://www.wahlrecht.de/landtage/nordrhein-westfalen.htm).] Es bräuchte also eine Wahlkreisprognose, die mit rein öffentlichen Daten aber wenig verlässlich ist.^[Außerdem wurde seit der letzten Wahl die [Einteilung der Wahlkreise teils geändert](https://de.wikipedia.org/wiki/Liste_der_Landtagswahlkreise_in_Nordrhein-Westfalen_2022#%C3%84nderungen_zu_2017).]
-
-<aside>
-Der Landtag hat insg. mind. 181 Sitze, davon werden 128 per Direktwahl vergeben. Durch Überhang- und Ausgleichsmandate waren es zuletzt 199 Sitze (2017) bzw. 237 Sitze (2012).
-</aside>
+Das ist schwierig einzuschätzen, weil Erst- und Zweitstimmen in Kombination entscheiden, wer in den Landtag einzieht. In NRW ist eine Prognose noch schwieriger, da durch eine hohe Zahl an Direktwahlkreisen viele Überhang- und Ausgleichsmandate entstehen können.^[Siehe hierzu z.B. die Hinweise von [Wahlrecht.de](https://www.wahlrecht.de/landtage/nordrhein-westfalen.htm). Der Landtag hat insg. mind. 181 Sitze, davon werden 128 per Direktwahl vergeben. Durch Überhang- und Ausgleichsmandate waren es zuletzt 199 Sitze (2017) bzw. 237 Sitze (2012).] Es bräuchte also eine Wahlkreisprognose, die mit rein öffentlichen Daten aber wenig verlässlich ist.^[Außerdem wurde seit der letzten Wahl die [Einteilung der Wahlkreise teils geändert](https://de.wikipedia.org/wiki/Liste_der_Landtagswahlkreise_in_Nordrhein-Westfalen_2022#%C3%84nderungen_zu_2017).]  
 
 Ich treffe daher vereinfachende Annahmen^[Am stärksten vereinfache ich bei der Erststimme: Ich nehme an, dass nur CDU und SPD Direktmandate gewinnen. Das war bei der letzten Wahl 2017 so. Beide Parteien liegen auch aktuell in etwa gleich auf und deutlich vor den Grünen. Der Abstand zu FDP, AfD und Die Linke ist nochmals deutlich größer. Die Grünen haben als einzige dieser Parteien bei der Bundestagswahl 2021 vier Direktmandate in NRW gewonnen. Die Wahlkreiszuschnitte zwischen Bundes- und Landtagswahl unterscheiden sich aber. Zudem sind die Kandidat:innen in diesen aussichtsreichen Städten größtenteils über sehr gute Listenplätze abgesichert.] und unterscheide in:
 

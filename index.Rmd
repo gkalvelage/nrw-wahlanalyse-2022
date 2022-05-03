@@ -1,5 +1,5 @@
 ---
-title: "Das Alter der Landtagskandidat:innen"
+title: "Das Alter der Kandidat:innen"
 description: |
   Wie gut repräsentieren die sechs großen Parteien die Bevölkerung? Und welche Chancen haben jüngere Kandidat:innen?
 site: distill::distill_website
@@ -55,9 +55,9 @@ Diese Analyse erweitere ich für die sechs großen Parteien und finde, dass ...
 - die sechs großen Parteien sehr unterschiedliche Altersprofile haben.  
 - sich diese Altersprofile teils ändern, betrachtet man nur aussichtsreiche Kandidat:innen  
 
-Du hast noch andere Ideen? Melde dich bei mir [\@g_kalvelage](https://twitter.com/g_kalvelage).
+Unten gibt es alle Details!  
 
-Alle Daten und ihre Quellen sind [hier](https://gkalvelage.github.io/nrw-wahlanalyse-2022/daten.html) verlinkt. Dort findest du auch eine filterbare Tabelle, wenn du dir die Kandidat:innen anschauen möchtest.
+Du hast noch andere Ideen? Melde dich bei mir [\@g_kalvelage](https://twitter.com/g_kalvelage).  
 
 ## So alt sind die Kandidat:innen -- verglichen mit der Bevölkerung
 

@@ -65,7 +65,7 @@ Die Parlamente spiegeln in unterschiedlicher Hinsicht nicht die Bevölkerung wid
 
 <aside>
 Für den Bundestag schlüsselt die [Bundeszentrale für politische Bildung](https://www.bpb.de/kurz-knapp/zahlen-und-fakten/bundestagswahlen/341095/gewaehlte-abgeordnete/) verschiedene Merkmale auf.
-</aside>
+</aside>  
 
 Wir wissen prinzipiell auch, dass z.B. Jüngere und Ältere unterrepräsentiert sind. Aber wie deutlich ist der Unterschied zwischen den (potenziellen) Abgeordneten und der Bevölkerung -- konkret bei der NRW-Landtagswahl 2022? Und wie sind die Chancen der Jüngeren, in die Parlamente einzuziehen?  
 
@@ -284,7 +284,7 @@ Als logische Folge der getroffenen Annahmen werden viele Kandidat:innen nicht in
 - Bei der FDP verschiebt sich der Schwerpunkt von jünger zu älter, betrachtet man nur die aussichtsreichen Kandidat:innen. Die 25- bis 34-Jährigen, die unter allen Kandidat:innen die größte Gruppen bilden, sind unter den aussichtsreichen die kleinste Gruppe.  
 - Die aussichtsreichen Grünen verteilen sich gleichmäßig auf die mittleren Altersgruppen zwischen 25 und 54 Jahren. Ältere ab 55 Jahren sind bei den Grünen vergleichsweise weniger stark vertreten.  
 
-**Mit Blick auf Jüngeren von Grünen, FDP, AfD und Die Linke bedeutet das:**
+**Mit Blick auf die Jüngeren von Grünen, FDP, AfD und Die Linke bedeutet das:**
 
 - Unter-25-Jährige haben vor allem bei der Linkspartei die Chance auf ein Mandat.^[Plus eine Kandidatin auf Platz 41 der Grünen Liste.] Da die Linkspartei in aktuellen Umfragen unter der 5%-Hürde steht, könnte es letztlich kein (sehr) junges Mandat bei den vier kleineren Parteien geben.  
 - 25- bis 34-Jährige haben bessere Chancen. Alle vier kleineren Parteien haben aussichtsreiche Kandidat:innen. Mit Ausnahme der FDP besitzt diese Altersgruppe in etwa das gleiche Gewicht wie die 2-3 nächstälteren Gruppen.  

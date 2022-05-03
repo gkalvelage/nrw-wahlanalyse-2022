@@ -1,0 +1,14 @@
+name: "nrw-wahlanalyse-2022"
+title: "NRW-Wahl 2022"
+description: |
+  NRW-Wahl 2022
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Das Alter"
+      href: index.html
+    - text: "Tabelle/Daten"
+      href: daten.html
+    - text: "Über/Kontakt"
+      href: about.html
+output: distill::distill_article

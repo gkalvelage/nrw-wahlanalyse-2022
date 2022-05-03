@@ -1,0 +1,15 @@
+---
+title: "Über/Kontakt"
+description: |
+  Feedback und Input willkommen!
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Diese Seite ist ein privates Projekt und vollständig [quelloffen](https://github.com/gkalvelage/nrw-wahlanalyse-2022). Ideen, Daten und Code dürfen unter Beachtung der jeweiligen Lizenzen weiterverwendet werden.
+
+Du hast noch andere Ideen? Melde dich bei mir [\@g_kalvelage](https://twitter.com/g_kalvelage).
+
+Letztes Update aller Inhalte der Seite: `r Sys.time()`

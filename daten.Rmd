@@ -1,0 +1,65 @@
+---
+title: "Tabelle/Daten"
+description: |
+  Links zu originalen und verarbeiteten Daten mit filterbarer Tabelle
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# siehe "renv.lock" für Versionen
+library("here")
+library("tidyverse")
+library("formattable")
+library("DT")
+
+# lade vorbereitete Daten (siehe "prep_data.R")
+kandi_landtag <- readRDS(here("results", "nrw_landtag_2022_kandidierende.rds"))
+```
+
+Wer sich die Daten selber anschauen möchte, findet alle Quellen auf dieser Seite.  
+
+Die Daten zu den Kandidat:innen stammen vom [Landeswahlleiter](https://wahlergebnisse.nrw/landtagswahlen/2022/bewerber.shtml). Die Information zur bisherigen Mitgliedschaft im Landtag stammt von [Wikipedia](https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(17._Wahlperiode)#Abgeordnete). Angaben zur Bevölkerung kommen von den [Statistischen Ämtern des Bundes und der Länder](https://www.regionalstatistik.de/genesis/online/)  
+
+Verarbeitete Datensätze finden sich [hier](https://github.com/gkalvelage/nrw-wahlanalyse-2022/tree/master/results) (.rds/.csv). Der zugehörige R-Code findet sich [hier](https://github.com/gkalvelage/nrw-wahlanalyse-2022/blob/master/prep_data.R).
+
+### Die Kandidat:innen der sechs großen Parteien
+
+In der Tabelle sind alle `r nrow(kandi_landtag)` Kandidat:innen der sechs großen Parteien aufgeführt.^[Um die Tabelle übersichtlich zu halten, werden nicht alle Informationen dargestellt. Alle Informationen finden sich in den oben verlinkten Quellen.] Da nur das Geburtsjahr verfügbar ist, ist das dargestellte Alter bei einigen Abgeordneten um 1 Jahr zu hoch angegeben (2022 - Geburtsjahr).
+
+```{r tabelle, layout="l-body-outset"}
+tmp <- kandi_landtag %>%
+  select(partei, name, alter, ges, listenplatz, MdL_2017, beruf, wohnort) %>%
+  mutate(listenplatz = if_else(is.na(listenplatz), "", as.character(listenplatz)))
+
+as.datatable(
+  formattable(tmp, align = "c" , list(
+    listenplatz = color_tile("#01a08a", "#E5F5F3"),
+    MdL_2017 = color_text("#1e8f89", "#ee5a45"),
+    partei = formatter("span", style = x ~ style("color" = case_when(
+      x == "CDU" ~ "#000000",
+      x == "SPD" ~ "#e2001a",
+      x == "FDP" ~ "#f3e03b",
+      x == "AfD" ~ "#009ee0",
+      x == "GRÜNE" ~ "#46962b",
+      x == "DIE LINKE" ~ "#be3075"
+      ), "font-weight" = "bold"))
+    )),
+  filter = "top", rownames = FALSE,
+  colnames = c("Partei",
+               "Name",
+               "Alter",
+               "Geschlecht",
+               "Listenplatz",
+               "im 2017er Landtag?",
+               "Beruf",
+               "Wohnort"),
+  options = list(pageLength = 5,
+                 searchHighlight = TRUE,
+                 order = list(list(2, "asc"), list(0, "asc"), list(3, "desc")),
+                 columnDefs = list(
+                   list(className = 'dt-center', targets = "_all")),
+                 language = list(
+                   url = '//cdn.datatables.net/plug-ins/1.10.11/i18n/German.json')))
+```

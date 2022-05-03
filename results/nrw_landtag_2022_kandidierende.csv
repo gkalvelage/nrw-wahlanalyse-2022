@@ -1,0 +1,793 @@
+﻿"wkreis_nr";"partei";"titel";"nname";"vname";"geb_jahr";"ges";"beruf";"wohnort";"listenplatz";"alter";"alter_kat";"name";"wkreis_2017_bez";"erststimm_perc";"MdL_2017";"stimme"
+"91";"AfD";NA;"Wagner";"Markus";"1964";"m";"Mitglied des Landtages";"Bad Oeynhausen";"1";"58";"55-64 J.";"Markus Wagner";NA;NA;"Ja";"zweitstimme"
+"48";"AfD";"Dr.";"Vincentz";"Martin";"1986";"m";"Mitglied des Landtages";"Krefeld";"2";"36";"35-44 J.";"Martin Vincentz";NA;NA;"Ja";"zweitstimme"
+"20";"AfD";NA;"Keith-Volkmer";"Andreas";"1967";"m";"Mitglied des Landtages";"Leverkusen";"3";"55";"55-64 J.";"Andreas Keith-Volkmer";NA;NA;"Ja";"zweitstimme"
+"109";"AfD";NA;"Loose";"Christian";"1975";"m";"Mitglied des Landtages";"Bochum";"4";"47";"45-54 J.";"Christian Loose";NA;NA;"Ja";"zweitstimme"
+"87";"AfD";"Dr.";"Blex";"Christian";"1975";"m";"Mitglied des Landtages";"Wadersloh";"5";"47";"45-54 J.";"Christian Blex";NA;NA;"Ja";"zweitstimme"
+"16";"AfD";NA;"Tritschler";"Sven";"1981";"m";"Mitglied des Landtages";"Köln";"6";"41";"35-44 J.";"Sven Tritschler";NA;NA;"Ja";"zweitstimme"
+"74";"AfD";NA;"Seli-Zacharias";"Enxhi";"1993";"w";"Wissenschaftliche Mitarbeiterin";"Gelsenkirchen";"7";"29";"25-34 J.";"Enxhi Seli-Zacharias";NA;NA;"Nein";NA
+"22";"AfD";NA;"Clemens";"Carlo";"1989";"m";"Wissenschaftlicher Mitarbeiter";"Bergisch Gladbach";"8";"33";"25-34 J.";"Carlo Clemens";NA;NA;"Nein";NA
+"32";"AfD";"Dr.";"Beucker";"Hartmut";"1962";"m";"Wissenschaftlicher Mitarbeiter, Rechtsanwalt";"Wuppertal";"9";"60";"55-64 J.";"Hartmut Beucker";NA;NA;"Nein";NA
+"12";"AfD";NA;"Esser";"Klaus";"1981";"m";"Landesgeschäftsführer der AfD NRW";"Düren";"10";"41";"35-44 J.";"Klaus Esser";NA;NA;"Nein";NA
+"71";"AfD";"Dr.";"Zerbin";"Daniel";"1973";"m";"Professor";"Dorsten";"11";"49";"45-54 J.";"Daniel Zerbin";NA;NA;"Nein";NA
+"47";"AfD";NA;"Schalley";"Zacharias";"1991";"m";"Wissenschaftlicher Mitarbeiter";"Meerbusch";"12";"31";"25-34 J.";"Zacharias Schalley";NA;NA;"Nein";NA
+"89";"AfD";NA;"Röckemann";"Thomas";"1965";"m";"Mitglied des Landtages";"Minden";"13";"57";"55-64 J.";"Thomas Röckemann";NA;NA;"Ja";"zweitstimme"
+NA;"AfD";NA;"Seifen";"Helmut";"1953";"m";"Mitglied des Landtages";"Gronau";"14";"69";"65-74 J.";"Helmut Seifen";NA;NA;"Ja";"zweitstimme"
+"19";"AfD";NA;"Dworeck-Danielowski";"Iris";"1978";"w";"Mitglied des Landtages";"Köln";"15";"44";"35-44 J.";"Iris Dworeck-Danielowski";NA;NA;"Ja";"zweitstimme"
+"127";"AfD";NA;"Zaum";"Christian";"1969";"m";"Studienrat";"Bad Laasphe";"16";"53";"45-54 J.";"Christian Zaum";NA;NA;"Nein";NA
+"62";"AfD";NA;"Schaary";"Alexander";"1988";"m";"Wissenschaftlicher Mitarbeiter";"Duisburg";"17";"34";"25-34 J.";"Alexander Schaary";NA;NA;"Nein";NA
+NA;"AfD";NA;"Pauen";"Udo";"1949";"m";"Rechtsanwalt, Notar a.D.";"Bottrop";"18";"73";"65-74 J.";"Udo Pauen";NA;NA;"Nein";NA
+"23";"AfD";NA;"Rummler";"Bernd";"1969";"m";"Veranstaltungsmanager";"Gummersbach";"19";"53";"45-54 J.";"Bernd Rummler";NA;NA;"Nein";NA
+"120";"AfD";"von";"Zons";"Ulrich";"1968";"m";"Wissenschaftlicher Mitarbeiter";"Lippstadt";"20";"54";"45-54 J.";"Ulrich Zons";NA;NA;"Nein";NA
+"124";"AfD";NA;"Antoni";"Jürgen";"1964";"m";"Polizeibeamter";"Arnsberg";"21";"58";"55-64 J.";"Jürgen Antoni";NA;NA;"Nein";NA
+"95";"AfD";NA;"Dyck";"Maxim";"1988";"m";"Fraktionsmitarbeiter Landschaftsverband";"Gütersloh";"22";"34";"25-34 J.";"Maxim Dyck";NA;NA;"Nein";NA
+NA;"AfD";NA;"Gedig";"Dietmar";"1985";"m";"Polizeioberkommissar";"Solingen";"23";"37";"35-44 J.";"Dietmar Gedig";NA;NA;"Nein";NA
+"76";"CDU";NA;"Wüst";"Hendrik";"1975";"m";"Ministerpräsident";"Rhede";"1";"47";"45-54 J.";"Hendrik Wüst";"Borken I";"52,9";"Ja";"erststimme"
+"116";"CDU";NA;"Scharrenbach";"Ina";"1976";"w";"Dipl.-Betriebswirtin (FH)";"Kamen";"2";"46";"45-54 J.";"Ina Scharrenbach";NA;NA;"Nein";NA
+"24";"CDU";NA;"Löttgen";"Bodo";"1959";"m";"Dipl.-Verwaltungswirt";"Nümbrecht";"3";"63";"55-64 J.";"Bodo Löttgen";"Oberbergischer Kreis II";"44,5";"Ja";"erststimme"
+"22";"CDU";NA;"Reul";"Herbert";"1952";"m";"Minister des Innern";"Leichlingen";"4";"70";"65-74 J.";"Herbert Reul";NA;NA;"Nein";NA
+"82";"CDU";NA;"Laumann";"Karl-Josef";"1957";"m";"Maschinenschlosser, Landesminister";"Hörstel-Riesenbeck";"5";"65";"65-74 J.";"Karl-Josef Laumann";NA;NA;"Nein";NA
+"18";"CDU";NA;"Heinen-Esser";"Ursula";"1965";"w";"Staatsministerin";"Köln";"6";"57";"55-64 J.";"Ursula Heinen-Esser";NA;NA;"Nein";NA
+"113";"CDU";NA;"Brandes";"Ina";"1977";"w";"Historikerin";"Düsseldorf";"7";"45";"45-54 J.";"Ina Brandes";NA;NA;"Nein";NA
+"88";"CDU";NA;"Winkelmann";"Bianca";"1967";"w";"Mitglied des Landtages";"Rahden";"8";"55";"55-64 J.";"Bianca Winkelmann";"Minden-Lübbecke I";"43,5";"Ja";"erststimme"
+"71";"CDU";NA;"Hovenjürgen";"Josef";"1963";"m";"Mitglied des Landtages";"Haltern am See";"9";"59";"55-64 J.";"Josef Hovenjürgen";"Recklinghausen IV";"41,1";"Ja";"erststimme"
+"47";"CDU";NA;"Lienenkämper";"Lutz";"1969";"m";"Staatsminister, Mitglied des Landtages";"Meerbusch";"10";"53";"45-54 J.";"Lutz Lienenkämper";"Rhein-Kreis Neuss III";"47,1";"Ja";"erststimme"
+"61";"CDU";NA;"Vogt";"Petra";"1969";"w";"Oberstudienrätin a. D.";"Duisburg";"11";"53";"45-54 J.";"Petra Vogt";NA;NA;"Ja";"zweitstimme"
+"15";"CDU";NA;"Liminski";"Nathanael";"1985";"m";"Staatssekretär, Chef der Staatskanzlei des Landes Nordrhein-Westfalen";"Düsseldorf";"12";"37";"35-44 J.";"Nathanael Liminski";NA;NA;"Nein";NA
+"11";"CDU";"Dr.";"Peill";"Patricia";"1962";"w";"Dipl.-Kauffrau, Mitglied des Landtages";"Nörvenich";"13";"60";"55-64 J.";"Patricia Peill";"Düren I";"41,5";"Ja";"erststimme"
+"121";"CDU";NA;"Schick";"Thorsten";"1971";"m";"Mitglied des Landtages";"Iserlohn";"14";"51";"45-54 J.";"Thorsten Schick";"Märkischer Kreis I";"39,4";"Ja";"erststimme"
+"3";"CDU";NA;"Schmitz";"Hendrik";"1978";"m";"Landwirtschaftlicher Unternehmer, Mitglied des Landtages";"Baesweiler";"15";"44";"35-44 J.";"Hendrik Schmitz";NA;NA;"Ja";"zweitstimme"
+"83";"CDU";NA;"Wendland";"Simone";"1963";"w";"Rechtsanwältin";"Münster";"16";"59";"55-64 J.";"Simone Wendland";"Münster I";"37,2";"Ja";"erststimme"
+"95";"CDU";NA;"Tigges";"Raphael";"1973";"m";"Sparkassenbetriebswirt, Mitglied des Landtages";"Gütersloh";"17";"49";"45-54 J.";"Raphael Tigges";"Gütersloh II";"42,4";"Ja";"erststimme"
+"75";"CDU";"Dr.";"Bunse";"Antoinette";"1958";"w";"Mitglied des Landtages";"Bottrop";"18";"64";"55-64 J.";"Antoinette Bunse";NA;NA;"Nein";NA
+"43";"CDU";NA;"Erwin";"Angela";"1980";"w";"Rechtsanwältin";"Düsseldorf";"19";"42";"35-44 J.";"Angela Erwin";"Düsseldorf III";"37,5";"Ja";"erststimme"
+"59";"CDU";NA;"Quik";"Charlotte";"1982";"w";"Wissenschaftliche Mitarbeiterin, Mitglied des Landtages";"Hamminkeln";"20";"40";"35-44 J.";"Charlotte Quik";"Wesel III";"39,4";"Ja";"erststimme"
+"68";"CDU";NA;"Schrumpf";"Fabian";"1982";"m";"Mitglied des Landtages, Rechtsanwalt";"Essen";"21";"40";"35-44 J.";"Fabian Schrumpf";"Essen IV";"38,2";"Ja";"erststimme"
+"5";"CDU";NA;"Plonsker";"Romina";"1988";"w";"Bankkauffrau, Mitglied des Landtages";"Pulheim";"22";"34";"25-34 J.";"Romina Plonsker";"Rhein-Erft-Kreis I";"40,1";"Ja";"erststimme"
+"53";"CDU";"Dr.";"Optendrenk";"Marcus";"1969";"m";"Jurist";"Nettetal";"23";"53";"45-54 J.";"Marcus Optendrenk";"Viersen II";"45,8";"Ja";"erststimme"
+"56";"CDU";NA;"Hausmann";"Wilhelm";"1970";"m";"Architekt";"Oberhausen";"24";"52";"45-54 J.";"Wilhelm Hausmann";NA;NA;"Ja";"zweitstimme"
+"17";"CDU";NA;"Braun";"Florian";"1989";"m";"Mitglied des Landtages";"Köln";"25";"33";"25-34 J.";"Florian Braun";"Köln V";"36,1";"Ja";"erststimme"
+"2";"CDU";NA;"Fohn";"Annika";"1987";"w";"Sozialwissenschaftlerin, Doktorandin";"Aachen";"26";"35";"35-44 J.";"Annika Fohn";NA;NA;"Nein";NA
+"119";"CDU";NA;"Frieling";"Heinrich";"1985";"m";"Mitglied des Landtages, Rechtsanwalt";"Ense-Sieveringen";"27";"37";"35-44 J.";"Heinrich Frieling";"Soest I";"42,3";"Ja";"erststimme"
+"39";"CDU";"Dr.";"Heinisch";"Jan";"1976";"m";"Bürgermeister";"Heiligenhaus";"28";"46";"45-54 J.";"Jan Heinisch";NA;NA;"Nein";NA
+"92";"CDU";NA;"Nettelstroth";"Ralf";"1964";"m";"Mitglied des Landtages, Rechtsanwalt";"Bielefeld";"29";"58";"55-64 J.";"Ralf Nettelstroth";NA;NA;"Ja";"zweitstimme"
+"127";"CDU";NA;"Fuchs-Dreisbach";"Anke";"1977";"w";"Physiotherapeutin, Mitglied des Landtages";"Bad Berleburg";"30";"45";"45-54 J.";"Anke Fuchs-Dreisbach";"Siegen-Wittgenstein II";"43,2";"Ja";"erststimme"
+"105";"CDU";NA;"Brandt";"Christian";"1977";"m";"Berufsschullehrer";"Herdecke";"31";"45";"45-54 J.";"Christian Brandt";NA;NA;"Nein";NA
+"48";"CDU";NA;"Oellers";"Britta";"1973";"w";"Sparkassenfachwirtin, Mitglied des Landtages";"Krefeld";"32";"49";"45-54 J.";"Britta Oellers";"Krefeld I – Viersen III";"36,7";"Ja";"erststimme"
+"30";"CDU";NA;"Déus";"Guido";"1968";"m";"Mitglied des Landtages, Bundesbeamter, Dipl.-Finanzwirt";"Bonn";"33";"54";"45-54 J.";"Guido Déus";"Bonn I";"35,9";"Ja";"erststimme"
+"55";"CDU";"Dr.";"Bergmann";"Günther";"1965";"m";"Selbständiger Unternehmensberater";"Kalkar";"34";"57";"55-64 J.";"Günther Bergmann";"Kleve II";"44,4";"Ja";"erststimme"
+"98";"CDU";NA;"Thiel";"Christiane";"1971";"w";"Reiseleiterin";"Lemgo";"35";"51";"45-54 J.";"Christiane Thiel";NA;NA;"Nein";NA
+"64";"CDU";NA;"Hendriks";"Heiko";"1966";"m";"Unternehmensberater";"Mülheim an der Ruhr";"36";"56";"55-64 J.";"Heiko Hendriks";NA;NA;"Nein";NA
+"28";"CDU";NA;"Gebauer";"Katharina";"1987";"w";"Mitglied des Landtages";"Troisdorf";"37";"35";"35-44 J.";"Katharina Gebauer";"Rhein-Sieg-Kreis IV";"42,7";"Ja";"erststimme"
+"36";"CDU";NA;"Nettekoven";"Jens-Peter";"1978";"m";"Mitglied des Landtages, Soldat";"Remscheid";"38";"44";"35-44 J.";"Jens-Peter Nettekoven";"Remscheid – Oberbergischer Kreis III";"38,5";"Ja";"erststimme"
+"7";"CDU";NA;"Golland";"Gregor";"1974";"m";"Dipl.-Kaufmann, Mitglied des Landtages";"Brühl";"39";"48";"45-54 J.";"Gregor Golland";"Rhein-Erft-Kreis III";"37,1";"Ja";"erststimme"
+"126";"CDU";NA;"Kamieth";"Jens";"1969";"m";"Rechtsanwalt, Mitglied des Landtages";"Siegen";"40";"53";"45-54 J.";"Jens Kamieth";"Siegen-Wittgenstein I";"39,3";"Ja";"erststimme"
+"84";"CDU";NA;"Küppers";"Teresa";"1978";"w";"Dipl.-Sozialpädagogin";"Münster";"41";"44";"35-44 J.";"Teresa Küppers";NA;NA;"Nein";NA
+"8";"CDU";NA;"Voussem";"Klaus";"1970";"m";"Mitglied des Landtages, Rechtsanwalt";"Euskirchen";"42";"52";"45-54 J.";"Klaus Voussem";"Euskirchen I";"41,5";"Ja";"erststimme"
+"91";"CDU";NA;"Bobka";"Christian";"1968";"m";"Polizist";"Kirchlengern";"43";"54";"45-54 J.";"Christian Bobka";NA;NA;"Nein";NA
+"69";"CDU";NA;"Bergmaier";"Marita";"1966";"w";"Dipl.-Verwaltungswirtin";"Recklinghausen";"44";"56";"55-64 J.";"Marita Bergmaier";NA;NA;"Nein";NA
+"87";"CDU";NA;"Höner";"Markus";"1975";"m";"Staatlich geprüfter Landwirt";"Beckum";"45";"47";"45-54 J.";"Markus Höner";NA;NA;"Nein";NA
+"97";"CDU";NA;"Hansen";"Klaus";"1968";"m";"Gärtnermeister";"Lage";"46";"54";"45-54 J.";"Klaus Hansen";NA;NA;"Nein";NA
+"37";"CDU";NA;"Schlottmann";"Claudia";"1962";"w";"Mitglied des Landtages, Betriebswirtin";"Hilden";"47";"60";"55-64 J.";"Claudia Schlottmann";"Mettmann I";"42,9";"Ja";"erststimme"
+"103";"CDU";NA;"Rehbein";"Dennis";"1989";"m";"Bankkaufmann";"Hagen";"48";"33";"25-34 J.";"Dennis Rehbein";NA;NA;"Nein";NA
+"46";"CDU";NA;"Troles";"Heike";"1969";"w";"Mitglied des Landtages, Bilanzbuchhalterin";"Grevenbroich";"49";"53";"45-54 J.";"Heike Troles";"Rhein-Kreis Neuss II";"42,2";"Ja";"erststimme"
+"51";"CDU";NA;"Klenner";"Jochen";"1978";"m";"Redakteur, Mitglied des Landtages";"Mönchengladbach";"50";"44";"35-44 J.";"Jochen Klenner";"Mönchengladbach II";"44,0";"Ja";"erststimme"
+"110";"CDU";NA;"Mähler";"Markus";"1990";"m";"Lehrer";"Herne";"51";"32";"25-34 J.";"Markus Mähler";NA;NA;"Nein";NA
+"120";"CDU";NA;"Blöming";"Jörg";"1972";"m";"Dipl.-Verwaltungswirt";"Erwitte";"52";"50";"45-54 J.";"Jörg Blöming";"Soest II";"39,6";"Ja";"erststimme"
+"94";"CDU";"Dr.";"Frentrup genannt Stolte";"Mechthild";"1974";"w";"Dipl.-Agraringenieurin (FH), Unternehmensberaterin";"Steinhagen";"53";"48";"45-54 J.";"Mechthild Frentrup genannt Stolte";NA;NA;"Nein";NA
+"85";"CDU";"Dr.";"Allendorf";"Julian";"1990";"m";"Betriebswirt";"Nottuln";"54";"32";"25-34 J.";"Julian Allendorf";NA;NA;"Nein";NA
+"57";"CDU";NA;"Stehr";"Simone-Tatjana";"1970";"w";"Leitende Direktorin";"Oberhausen";"55";"52";"45-54 J.";"Simone-Tatjana Stehr";NA;NA;"Nein";NA
+"45";"CDU";"Dr.";"Geerlings";"Jörg";"1972";"m";"Mitglied des Landtages, Rechtsanwalt";"Neuss";"56";"50";"45-54 J.";"Jörg Geerlings";"Rhein-Kreis Neuss I";"40,2";"Ja";"erststimme"
+"35";"CDU";NA;"Haug";"Sebastian";"1974";"m";"Rechtsanwalt";"Solingen";"57";"48";"45-54 J.";"Sebastian Haug";NA;NA;"Nein";NA
+"108";"CDU";NA;"Haardt";"Christian";"1965";"m";"Rechtsanwalt";"Bochum";"58";"57";"55-64 J.";"Christian Haardt";NA;NA;"Nein";NA
+"34";"CDU";NA;"Vesper-Pottkamp";"Anja";"1976";"w";"Wissenschaftliche Mitarbeiterin";"Wuppertal";"59";"46";"45-54 J.";"Anja Vesper-Pottkamp";NA;NA;"Nein";NA
+"118";"CDU";NA;"Müller";"Frederik";"1992";"m";"Angestellter im Öffentlichen Dienst";"Hamm";"60";"30";"25-34 J.";"Frederik Müller";NA;NA;"Nein";NA
+"1";"CDU";NA;"Brantin";"Holger";"1964";"m";"Vorsitzender Richter am Landgericht";"Aachen";"61";"58";"55-64 J.";"Holger Brantin";NA;NA;"Nein";NA
+"65";"CDU";NA;"Fuchs";"Jessica";"1986";"w";"Steuerjuristin";"Essen";"62";"36";"35-44 J.";"Jessica Fuchs";NA;NA;"Nein";NA
+"10";"CDU";NA;"Schnelle";"Thomas";"1967";"m";"Kriminalhauptkommissar a.D., Mitglied des Landtages";"Hückelhoven";"63";"55";"55-64 J.";"Thomas Schnelle";"Heinsberg II";"44,6";"Ja";"erststimme"
+"20";"CDU";NA;"Scholz";"Rüdiger";"1957";"m";"Lehrer";"Leverkusen";"64";"65";"65-74 J.";"Rüdiger Scholz";"Leverkusen";"36,0";"Ja";"erststimme"
+"106";"CDU";NA;"Kramer";"Sarah";"1992";"w";"Polizeivollzugsbeamtin";"Witten";"65";"30";"25-34 J.";"Sarah Kramer";NA;NA;"Nein";NA
+"90";"CDU";NA;"Kleineberg";"Philip";"1986";"m";"Betriebswirt";"Enger";"66";"36";"35-44 J.";"Philip Kleineberg";NA;NA;"Nein";NA
+"73";"CDU";NA;"Karl";"Markus";"1967";"m";"Dipl.-Bankbetriebswirt (Bankakademie)";"Gelsenkirchen";"67";"55";"55-64 J.";"Markus Karl";NA;NA;"Nein";NA
+"50";"CDU";NA;"Odermatt";"Vanessa";"1990";"w";"Dipl.-Finanzwirtin";"Mönchengladbach";"68";"32";"25-34 J.";"Vanessa Odermatt";NA;NA;"Nein";NA
+"49";"CDU";NA;"Blondin";"Marc";"1972";"m";"Mitglied des Landtages";"Krefeld";"69";"50";"45-54 J.";"Marc Blondin";"Krefeld II";"39,7";"Ja";"erststimme"
+"32";"CDU";NA;"Spiecker";"Rainer";"1961";"m";"Geschäftsführer eines Familienunternehmens";"Wuppertal";"70";"61";"55-64 J.";"Rainer Spiecker";NA;NA;"Ja";"zweitstimme"
+"67";"CDU";NA;"Großimlinghaus";"Eva Martina";"1975";"w";"Steuerberaterin";"Essen";"71";"47";"45-54 J.";"Eva Martina Großimlinghaus";NA;NA;"Nein";NA
+"123";"CDU";NA;"Schwarzkopf";"Ralf";"1968";"m";"Geschäftsführer";"Lüdenscheid";"72";"54";"45-54 J.";"Ralf Schwarzkopf";NA;NA;"Nein";NA
+"60";"CDU";NA;"Zupancic";"Julia";"1981";"w";"Selbständige Dipl.-Ökonomin";"Moers";"73";"41";"35-44 J.";"Julia Zupancic";NA;NA;"Nein";NA
+"93";"CDU";NA;"Brüntrup";"Tom";"1997";"m";"Steuerinspektor";"Bielefeld";"74";"25";"25-34 J.";"Tom Brüntrup";NA;NA;"Nein";NA
+"109";"CDU";NA;"Klapperich";"Stefan";"1999";"m";"Student";"Bochum";"75";"23";"15-24 J.";"Stefan Klapperich";NA;NA;"Nein";NA
+NA;"CDU";NA;"Wellsow";"Viola";"1981";"w";"Sparkassenfachwirtin";"Brakel";"76";"41";"35-44 J.";"Viola Wellsow";NA;NA;"Nein";NA
+"13";"CDU";NA;"Kehrl";"Oliver";"1967";"m";"Geschäftsführer, Mitglied des Landtages";"Köln";"77";"55";"55-64 J.";"Oliver Kehrl";"Köln I";"34,2";"Ja";"erststimme"
+"41";"CDU";NA;"Lehne";"Olaf";"1962";"m";"Rechtsanwalt";"Düsseldorf";"78";"60";"55-64 J.";"Olaf Lehne";"Düsseldorf I";"41,8";"Ja";"erststimme"
+NA;"CDU";NA;"Duhme";"Elke";"1959";"w";"Sparkassenbetriebswirtin";"Telgte";"79";"63";"55-64 J.";"Elke Duhme";NA;NA;"Nein";NA
+"117";"CDU";NA;"Goetz";"Torsten";"1988";"m";"Bereichsleiter";"Bönen";"80";"34";"25-34 J.";"Torsten Goetz";NA;NA;"Nein";NA
+"38";"CDU";"Dr.";"Untrieser";"Christian";"1982";"m";"Mitglied des Landtages, Rechtsanwalt";"Erkrath";"81";"40";"35-44 J.";"Christian Untrieser";"Mettmann II";"39,0";"Ja";"erststimme"
+NA;"CDU";NA;"Schwarte";"Marion";"1955";"w";"Rentnerin";"Attendorn";"82";"67";"65-74 J.";"Marion Schwarte";NA;NA;"Nein";NA
+"112";"CDU";NA;"Kalouti";"Alexander Omar";"1968";"m";"Leiter Presse- und Öffentlichkeitsarbeit";"Dortmund";"83";"54";"45-54 J.";"Alexander Omar Kalouti";NA;NA;"Nein";NA
+"89";"CDU";NA;"Horstmann";"Jonas";"1996";"m";"Kfm. Angestellter";"Porta Westfalica";"84";"26";"25-34 J.";"Jonas Horstmann";NA;NA;"Nein";NA
+NA;"CDU";NA;"Heinen-Dauber";"Petra";"1964";"w";"Rechtsanwältin, Verwaltungsmitarbeiterin";"Mönchengladbach";"85";"58";"55-64 J.";"Petra Heinen-Dauber";NA;NA;"Nein";NA
+"21";"CDU";NA;"Lucke";"Martin";"1988";"m";"Rechtsanwalt";"Bergisch Gladbach";"86";"34";"25-34 J.";"Martin Lucke";NA;NA;"Nein";NA
+"63";"CDU";NA;"Güner";"Deniz";"1979";"m";"Dipl.-Kaufmann (Univ.), Dipl.-Betriebswirt";"Duisburg";"87";"43";"35-44 J.";"Deniz Güner";NA;NA;"Nein";NA
+NA;"CDU";NA;"Braun-Näger";"Birgit";"1973";"w";"Dipl.-Rechtspflegerin";"Mechernich";"88";"49";"45-54 J.";"Birgit Braun-Näger";NA;NA;"Nein";NA
+"4";"CDU";NA;"Scheen-Pauls";"Daniel";"1992";"m";"Projektleiter";"Simmerath";"89";"30";"25-34 J.";"Daniel Scheen-Pauls";NA;NA;"Nein";NA
+"29";"CDU";NA;"Lienesch";"Sascha";"1978";"m";"Marketing-Manager";"Sankt Augustin";"90";"44";"35-44 J.";"Sascha Lienesch";NA;NA;"Nein";NA
+NA;"CDU";NA;"Casper";"Claudia Maria";"1989";"w";"Key Account Managerin";"Bergisch Gladbach";"91";"33";"25-34 J.";"Claudia Maria Casper";NA;NA;"Nein";NA
+"74";"CDU";NA;"Schmitt";"Michael";"1998";"m";"Dipl.-Jurist";"Gelsenkirchen";"92";"24";"15-24 J.";"Michael Schmitt";NA;NA;"Nein";NA
+"42";"CDU";NA;"Schmitz";"Marco";"1979";"m";"Angestellter öffentlicher Dienst";"Düsseldorf";"93";"43";"35-44 J.";"Marco Schmitz";"Düsseldorf II";"35,4";"Ja";"erststimme"
+NA;"CDU";NA;"Büscher";"Veronika Helga";"1966";"w";"Heilpraktikerin (PsychKg)";"Dülmen";"94";"56";"55-64 J.";"Veronika Helga Büscher";NA;NA;"Nein";NA
+"52";"CDU";NA;"Görtz";"Guido";"1968";"m";"Industriekaufmann";"Willich";"95";"54";"45-54 J.";"Guido Görtz";NA;NA;"Nein";NA
+"72";"CDU";"Dr.";"Bök";"Patrick-Benjamin";"1983";"m";"Professor für IT-Architektur und Software-Engeneering, Informatiker";"Datteln";"96";"39";"35-44 J.";"Patrick-Benjamin Bök";NA;NA;"Nein";NA
+NA;"CDU";NA;"Gartz";"Simone";"1973";"w";"Rechtsanwältin";"Viersen";"97";"49";"45-54 J.";"Simone Gartz";NA;NA;"Nein";NA
+"122";"CDU";NA;"Eggers";"Matthias";"1985";"m";"Geschäftsführer";"Menden";"98";"37";"35-44 J.";"Matthias Eggers";NA;NA;"Nein";NA
+"115";"CDU";NA;"Zilian";"Marcal";"1999";"m";"Student";"Holzwickede";"99";"23";"15-24 J.";"Marcal Zilian";NA;NA;"Nein";NA
+NA;"CDU";NA;"Pachal";"Ann-Sophie";"1990";"w";"Kreisinspektoranwärterin";"Ahlen";"100";"32";"25-34 J.";"Ann-Sophie Pachal";NA;NA;"Nein";NA
+"23";"CDU";NA;"Berger";"Christian";"1978";"m";"Industriekaufmann";"Wipperfürth";"101";"44";"35-44 J.";"Christian Berger";NA;NA;"Nein";NA
+NA;"CDU";NA;"Ratajczak";"Daniela";"1982";"w";"Dipl.-Kauffrau";"Bad Honnef";"102";"40";"35-44 J.";"Daniela Ratajczak";NA;NA;"Nein";NA
+"6";"CDU";NA;"Okos";"Thomas";"1988";"m";"Betriebswirt, M. Sc. Business Administration";"Frechen";"103";"34";"25-34 J.";"Thomas Okos";NA;NA;"Nein";NA
+"114";"CDU";NA;"Nienhoff";"Matthias";"1989";"m";"Bankkaufmann";"Dortmund";"104";"33";"25-34 J.";"Matthias Nienhoff";NA;NA;"Nein";NA
+NA;"CDU";NA;"Lahaye-Reiß";"Birgitt";"1960";"w";"Dipl.-Sportlehrerin";"Aachen";"105";"62";"55-64 J.";"Birgitt Lahaye-Reiß";NA;NA;"Nein";NA
+"58";"CDU";"van";"Beek";"Sascha";"1983";"m";"Gesundheits- und Krankenpfleger";"Alpen";"106";"39";"35-44 J.";"Sascha Beek";NA;NA;"Nein";NA
+"104";"CDU";NA;"Ebbert";"Alexander";"1992";"m";"Industriefachwirt";"Breckerfeld";"107";"30";"25-34 J.";"Alexander Ebbert";NA;NA;"Nein";NA
+NA;"CDU";NA;"Wieczorek";"Beatrix";"1964";"w";"Dipl.-Ingenieurin Architektur";"Unna";"108";"58";"55-64 J.";"Beatrix Wieczorek";NA;NA;"Nein";NA
+"40";"CDU";NA;"Sträßer";"Martin";"1959";"m";"Mitglied des Landtages, Jurist";"Wülfrath";"109";"63";"55-64 J.";"Martin Sträßer";"Mettmann IV";"38,5";"Ja";"erststimme"
+"54";"CDU";NA;"Wolters";"Stephan";"1967";"m";"Bankbetriebswirt, Land- und Forstwirt";"Geldern";"110";"55";"55-64 J.";"Stephan Wolters";NA;NA;"Nein";NA
+NA;"CDU";NA;"Brauer";"Kerstin";"1972";"w";"Polizeibeamtin";"Lennestadt";"111";"50";"45-54 J.";"Kerstin Brauer";NA;NA;"Nein";NA
+"9";"CDU";NA;"Krückel";"Bernd";"1964";"m";"Steuerberater, Mitglied des Landtages";"Heinsberg";"112";"58";"55-64 J.";"Bernd Krückel";"Heinsberg I";"49,1";"Ja";"erststimme"
+"66";"CDU";NA;"Ziegler";"Thomas";"1977";"m";"Gewerkschaftssekretär";"Essen";"113";"45";"45-54 J.";"Thomas Ziegler";NA;NA;"Nein";NA
+NA;"CDU";NA;"Dusdal";"Elisabeth";"1978";"w";"Kauffrau";"Marienheide";"114";"44";"35-44 J.";"Elisabeth Dusdal";NA;NA;"Nein";NA
+"44";"CDU";NA;"Blumenrath";"Peter";"1984";"m";"Versorgungsingenieur";"Düsseldorf";"115";"38";"35-44 J.";"Peter Blumenrath";NA;NA;"Nein";NA
+"16";"CDU";NA;"Welter";"Thomas-Josef";"1968";"m";"Immobilienunternehmer";"Köln";"116";"54";"45-54 J.";"Thomas-Josef Welter";NA;NA;"Nein";NA
+NA;"CDU";NA;"Czyz";"Monika Alexandra";"1999";"w";"Studentin";"Bochum";"117";"23";"15-24 J.";"Monika Alexandra Czyz";NA;NA;"Nein";NA
+"107";"CDU";NA;"Schirmer";"Maurice";"1987";"m";"Referent für politische Kommunikation";"Bochum";"118";"35";"35-44 J.";"Maurice Schirmer";NA;NA;"Nein";NA
+"111";"CDU";NA;"Flur";"Andreas";"1982";"m";"Key Account Manager";"Dortmund";"119";"40";"35-44 J.";"Andreas Flur";NA;NA;"Nein";NA
+NA;"CDU";NA;"Stelten";"Anna Maria";"1990";"w";"Dipl.-Rechtspflegerin (FH)";"Selfkant";"120";"32";"25-34 J.";"Anna Maria Stelten";NA;NA;"Nein";NA
+"62";"CDU";NA;"Dase";"Stefan";"1984";"m";"Polizist";"Duisburg";"121";"38";"35-44 J.";"Stefan Dase";NA;NA;"Nein";NA
+"26";"CDU";NA;"Grunwald";"Jonathan";"1983";"m";"Dipl.-Volkswirt, Referatleiter";"Bad Honnef";"122";"39";"35-44 J.";"Jonathan Grunwald";NA;NA;"Nein";NA
+NA;"CDU";NA;"Amazu";"Deborah";"1980";"w";"CTA, Fachkraft für Arbeitssicherheit";"Burbach";"123";"42";"35-44 J.";"Deborah Amazu";NA;NA;"Nein";NA
+"19";"CDU";NA;"Kaven";"Dominik";"1995";"m";"Angestellter";"Köln";"124";"27";"25-34 J.";"Dominik Kaven";NA;NA;"Nein";NA
+"33";"CDU";NA;"Herhausen";"Hans-Jörg";"1964";"m";"Unternehmer";"Wuppertal";"125";"58";"55-64 J.";"Hans-Jörg Herhausen";NA;NA;"Nein";NA
+NA;"CDU";NA;"Johann";"Isabell Miriam";"1978";"w";"Dipl.-Betriebswirtin (FH)";"Odenthal";"126";"44";"35-44 J.";"Isabell Miriam Johann";NA;NA;"Nein";NA
+"70";"CDU";NA;"Langenkamp";"Manfred";"1979";"m";"Rektor";"Marl";"127";"43";"35-44 J.";"Manfred Langenkamp";NA;NA;"Nein";NA
+NA;"CDU";NA;"Wladarz";"Sebastian";"1975";"m";"Akademischer PR-Berater";"Ratingen";"128";"47";"45-54 J.";"Sebastian Wladarz";NA;NA;"Nein";NA
+NA;"CDU";NA;"Aslan";"Leyla";"1962";"w";"Sozialarbeiterin, Kinderpflegerin";"Kreuztal";"129";"60";"55-64 J.";"Leyla Aslan";NA;NA;"Nein";NA
+NA;"CDU";NA;"Krüger";"Stephan";"1976";"m";"Wissenschaftlicher  Assistent";"Köln";"130";"46";"45-54 J.";"Stephan Krüger";NA;NA;"Nein";NA
+NA;"CDU";NA;"Schuhmann-Weßollek";"Helga Gisela";"1963";"w";"Dipl.-Kauffrau, Juristin";"Recklinghausen";"131";"59";"55-64 J.";"Helga Gisela Schuhmann-Weßollek";NA;NA;"Nein";NA
+NA;"CDU";NA;"Amelung";"Kathrin";"1981";"w";"Kfm. Angestellte";"Engelskirchen";"132";"41";"35-44 J.";"Kathrin Amelung";NA;NA;"Nein";NA
+NA;"CDU";NA;"Rilke-Haerst";"Veronika Katharina";"1952";"w";"Steuerberaterin";"Rösrath";"133";"70";"65-74 J.";"Veronika Katharina Rilke-Haerst";NA;NA;"Nein";NA
+NA;"CDU";"Dr.";"Aßmann";"Barbara";"1966";"w";"Dipl.-Chemikerin";"Langenfeld";"134";"56";"55-64 J.";"Barbara Aßmann";NA;NA;"Nein";NA
+"14";"DIE LINKE";"Dr.";"Butterwegge";"Carolin";"1974";"w";"Lehrkraft";"Köln";"1";"48";"45-54 J.";"Carolin Butterwegge";NA;NA;"Nein";NA
+"67";"DIE LINKE";NA;"El-Khatib";"Jules";"1991";"m";"Soziologe";"Essen";"2";"31";"25-34 J.";"Jules El-Khatib";NA;NA;"Nein";NA
+"39";"DIE LINKE";NA;"Eumann";"Nina";"1965";"w";"Steurfachwirtin";"Mülheim an der Ruhr";"3";"57";"55-64 J.";"Nina Eumann";NA;NA;"Nein";NA
+"5";"DIE LINKE";NA;"Decruppe";"Hans";"1952";"m";"Rechtsanwalt";"Bergheim";"4";"70";"65-74 J.";"Hans Decruppe";NA;NA;"Nein";NA
+NA;"DIE LINKE";NA;"Gabrysch";"Nicolin";"1976";"w";"Dipl.-Volkswirtin";"Köln";"5";"46";"45-54 J.";"Nicolin Gabrysch";NA;NA;"Nein";NA
+"43";"DIE LINKE";NA;"Koerbel-Landwehr";"Martin";"1959";"m";"Verwaltungsangestellter";"Mönchengladbach";"6";"63";"55-64 J.";"Martin Koerbel-Landwehr";NA;NA;"Nein";NA
+"116";"DIE LINKE";NA;"Kämpfe";"Rebekka";"1987";"w";"Studentin";"Wernde";"7";"35";"35-44 J.";"Rebekka Kämpfe";NA;NA;"Nein";NA
+"18";"DIE LINKE";NA;"Gerigk";"Kalle";"1959";"m";"Angestellter";"Köln";"8";"63";"55-64 J.";"Kalle Gerigk";NA;NA;"Nein";NA
+"68";"DIE LINKE";NA;"Swillus-Knöchel";"Cornelia";"1963";"w";"Tumordokumentarin";"Essen";"9";"59";"55-64 J.";"Cornelia Swillus-Knöchel";NA;NA;"Nein";NA
+"72";"DIE LINKE";NA;"Matentzoglou";"Fotis";"1986";"m";"Angestellter";"Castrop-Rauxel";"10";"36";"35-44 J.";"Fotis Matentzoglou";NA;NA;"Nein";NA
+"110";"DIE LINKE";NA;"Köllner";"Wiebke";"1995";"w";"freiberufliche Pflegedozentin";"Bochum";"11";"27";"25-34 J.";"Wiebke Köllner";NA;NA;"Nein";NA
+"84";"DIE LINKE";NA;"Thoden";"Ulrich";"1973";"m";"Lehrer";"Münster";"12";"49";"45-54 J.";"Ulrich Thoden";NA;NA;"Nein";NA
+"1";"DIE LINKE";NA;"Baltic";"Sunaja";"1998";"w";"Studentin";"Aachen";"13";"24";"15-24 J.";"Sunaja Baltic";NA;NA;"Nein";NA
+"80";"DIE LINKE";NA;"Kock";"Felix";"1992";"m";"Krankenpfleger";"Greven";"14";"30";"25-34 J.";"Felix Kock";NA;NA;"Nein";NA
+"71";"DIE LINKE";NA;"Ellermann";"Lisa";"2002";"w";"Studentin";"Dorsten";"15";"20";"15-24 J.";"Lisa Ellermann";NA;NA;"Nein";NA
+"77";"DIE LINKE";NA;"Feldhaus";"Nils";"2000";"m";"Auszubildender";"Gronau/OT Epe";"16";"22";"15-24 J.";"Nils Feldhaus";NA;NA;"Nein";NA
+"82";"DIE LINKE";NA;"Kölker";"Jennifer";"1985";"w";"Selbstständiger Fotografin/Künstlerin";"Recke";"17";"37";"35-44 J.";"Jennifer Kölker";NA;NA;"Nein";NA
+"20";"DIE LINKE";NA;"Voigt";"Sönke";"1998";"m";"Student";"Köln";"18";"24";"15-24 J.";"Sönke Voigt";NA;NA;"Nein";NA
+"63";"DIE LINKE";NA;"Peters";"Anabella";"1993";"w";"Angestellte";"Duisburg";"19";"29";"25-34 J.";"Anabella Peters";NA;NA;"Nein";NA
+"36";"DIE LINKE";NA;"Lange";"Peter";"1965";"m";"Angestellter";"Remscheid";"20";"57";"55-64 J.";"Peter Lange";NA;NA;"Nein";NA
+"117";"DIE LINKE";NA;"Wohlgemuth";"Katja";"1956";"w";"Sonderpädagogin";"Bergkamen";"21";"66";"65-74 J.";"Katja Wohlgemuth";NA;NA;"Nein";NA
+"24";"DIE LINKE";NA;"Köstering";"Jan";"1997";"m";"Student";"Nümbrecht";"22";"25";"25-34 J.";"Jan Köstering";NA;NA;"Nein";NA
+"13";"DIE LINKE";NA;"Fellinger";"Sofia";"2002";"w";"Studentin";"Köln";"23";"20";"15-24 J.";"Sofia Fellinger";NA;NA;"Nein";NA
+"57";"DIE LINKE";NA;"Rösen";"Christian";"1985";"m";"Student";"Dinslaken";"24";"37";"35-44 J.";"Christian Rösen";NA;NA;"Nein";NA
+"40";"DIE LINKE";NA;"Onori";"Birgit";"1967";"w";"Krankenschwester";"Velbert";"25";"55";"55-64 J.";"Birgit Onori";NA;NA;"Nein";NA
+"34";"DIE LINKE";NA;"Sörensen-Siebel";"Till";"1996";"m";"Student";"Wuppertal";"26";"26";"25-34 J.";"Till Sörensen-Siebel";NA;NA;"Nein";NA
+"42";"DIE LINKE";NA;"Bartelmus-Scholich";"Edith";"1956";"w";"Rentnerin";"Krefeld";"27";"66";"65-74 J.";"Edith Bartelmus-Scholich";NA;NA;"Nein";NA
+"61";"DIE LINKE";NA;"Brachvogel";"Matthias";"1991";"m";"Softwareentwickler";"Duisburg";"28";"31";"25-34 J.";"Matthias Brachvogel";NA;NA;"Nein";NA
+"58";"DIE LINKE";NA;"Bechert";"Manuela";"1981";"w";"Autorin/Journalistin";"Rheinberg";"29";"41";"35-44 J.";"Manuela Bechert";NA;NA;"Nein";NA
+"76";"DIE LINKE";NA;"Büning";"Frank";"1966";"m";"wissen. Mitarbeiter";"Bocholt";"30";"56";"55-64 J.";"Frank Büning";NA;NA;"Nein";NA
+"31";"FDP";"Dr.";"Stamp";"Joachim";"1970";"m";"Landesminister";"Bonn";"1";"52";"45-54 J.";"Joachim Stamp";NA;NA;"Ja";"zweitstimme"
+"16";"FDP";NA;"Gebauer";"Yvonne";"1966";"w";"Mitglied des Landtages, Landesministerin";"Köln";"2";"56";"55-64 J.";"Yvonne Gebauer";NA;NA;"Ja";"zweitstimme"
+"120";"FDP";NA;"Rasche";"Christof";"1962";"m";"Vorsitzender der FDP-Landtagsfraktion, Bankkaufmann";"Erwitte";"3";"60";"55-64 J.";"Christof Rasche";NA;NA;"Ja";"zweitstimme"
+"26";"FDP";"Prof. Dr.";"Pinkwart";"Andreas";"1960";"m";"Landesminister, Hochschullehrer";"Alfter";"4";"62";"55-64 J.";"Andreas Pinkwart";NA;NA;"Nein";NA
+"123";"FDP";NA;"Freimuth";"Angela";"1966";"w";"Landtagsvizepräsidentin, Rechtsanwältin";"Düsseldorf";"5";"56";"55-64 J.";"Angela Freimuth";NA;NA;"Ja";"zweitstimme"
+"68";"FDP";NA;"Witzel";"Ralf";"1972";"m";"Dipl.-Kaufmann";"Düsseldorf";"6";"50";"45-54 J.";"Ralf Witzel";NA;NA;"Ja";"zweitstimme"
+"32";"FDP";NA;"Hafke";"Marcel";"1982";"m";"Mitglied des Landtages";"Wuppertal";"7";"40";"35-44 J.";"Marcel Hafke";NA;NA;"Ja";"zweitstimme"
+"101";"FDP";NA;"Lürbke";"Marc";"1977";"m";"Bankkaufmann, Mitglied des Landtages";"Paderborn";"8";"45";"45-54 J.";"Marc Lürbke";NA;NA;"Ja";"zweitstimme"
+"78";"FDP";NA;"Höne";"Henning";"1987";"m";"Industriekaufmann, M. Sc. Betriebswirtschaft";"Coesfeld";"9";"35";"35-44 J.";"Henning Höne";NA;NA;"Ja";"zweitstimme"
+"53";"FDP";NA;"Brockes";"Dietmar";"1970";"m";"Kaufmann, Mitglied des Landtages";"Brüggen";"10";"52";"45-54 J.";"Dietmar Brockes";NA;NA;"Ja";"zweitstimme"
+"3";"FDP";"Dr.";"Pfeil";"Werner";"1966";"m";"Rechtsanwalt";"Aachen";"11";"56";"55-64 J.";"Werner Pfeil";NA;NA;"Ja";"zweitstimme"
+"38";"FDP";NA;"Wedel";"Dirk";"1974";"m";"Staatssekretär";"Mettmann";"12";"48";"45-54 J.";"Dirk Wedel";NA;NA;"Nein";NA
+"115";"FDP";NA;"Schneider";"Susanne";"1967";"w";"Krankenschwester,Pharmareferentin";"Schwerte";"13";"55";"55-64 J.";"Susanne Schneider";NA;NA;"Ja";"zweitstimme"
+"30";"FDP";NA;"Müller-Rech";"Franziska";"1985";"w";"Dipl.-Kauffrau (FH), Versicherungskauffrau";"Bonn";"14";"37";"35-44 J.";"Franziska Müller-Rech";NA;NA;"Ja";"zweitstimme"
+"110";"FDP";NA;"Nückel";"Thomas";"1962";"m";"Journalist";"Herne";"15";"60";"55-64 J.";"Thomas Nückel";NA;NA;"Ja";"zweitstimme"
+"39";"FDP";NA;"Steffen";"Alexander";"1993";"m";"Politikwissenschaftler";"Ratingen";"16";"29";"25-34 J.";"Alexander Steffen";NA;NA;"Nein";NA
+"87";"FDP";NA;"Diekhoff";"Markus";"1978";"m";"Mitglied des Landtages";"Drensteinfurt";"17";"44";"35-44 J.";"Markus Diekhoff";NA;NA;"Ja";"zweitstimme"
+"51";"FDP";NA;"Terhaag";"Andreas";"1968";"m";"Mitglied des Landtages";"Mönchengladbach";"18";"54";"45-54 J.";"Andreas Terhaag";NA;NA;"Ja";"zweitstimme"
+"41";"FDP";NA;"Matheisen";"Rainer";"1980";"m";"Kaufmann";"Düsseldorf";"19";"42";"35-44 J.";"Rainer Matheisen";NA;NA;"Ja";"zweitstimme"
+"97";"FDP";NA;"Hannen";"Martina";"1970";"w";"Mitglied des Landtages, Dozentin";"Lage";"20";"52";"45-54 J.";"Martina Hannen";NA;NA;"Ja";"zweitstimme"
+"13";"FDP";NA;"Deutsch";"Lorenz";"1969";"m";"Mitglied des Landtages";"Köln";"21";"53";"45-54 J.";"Lorenz Deutsch";NA;NA;"Ja";"zweitstimme"
+"9";"FDP";NA;"Lenzen";"Stefan";"1981";"m";"Mitglied des Landtages, Dipl.-Kaufmann (FH)";"Heinsberg";"22";"41";"35-44 J.";"Stefan Lenzen";NA;NA;"Ja";"zweitstimme"
+"64";"FDP";NA;"Mangen";"Christian";"1972";"m";"Rechtsanwalt";"Mülheim an der Ruhr";"23";"50";"45-54 J.";"Christian Mangen";NA;NA;"Ja";"zweitstimme"
+"88";"FDP";NA;"Beihl";"Daniela";"1984";"w";"Politik- und Kommunikationswissenschaftlerin";"Espelkamp";"24";"38";"35-44 J.";"Daniela Beihl";NA;NA;"Ja";"zweitstimme"
+"55";"FDP";NA;"Haupt";"Stephan";"1970";"m";"Bautechniker";"Bedburg-Hau";"25";"52";"45-54 J.";"Stephan Haupt";NA;NA;"Ja";"zweitstimme"
+"27";"FDP";NA;"Freynick";"Jörn";"1982";"m";"Mitglied des Landtages";"Bornheim";"26";"40";"35-44 J.";"Jörn Freynick";NA;NA;"Ja";"zweitstimme"
+"118";"FDP";NA;"Reuter";"Ulrich";"1964";"m";"Verlagskaufmann, Mitglied des Landtages";"Hamm";"27";"58";"55-64 J.";"Ulrich Reuter";NA;NA;"Ja";"zweitstimme"
+"126";"FDP";NA;"Weigel";"Andreas";"1991";"m";"Wirtschaftsinformatiker";"Wilnsdorf";"28";"31";"25-34 J.";"Andreas Weigel";NA;NA;"Nein";NA
+"1";"FDP";NA;"Cormann";"Claudia";"1963";"w";"TV Redakteurin, Reporterin";"Aachen";"29";"59";"55-64 J.";"Claudia Cormann";NA;NA;"Ja";"zweitstimme"
+"83";"FDP";NA;"Kemler";"Maximilian";"1989";"m";"Geschäftsführer";"Münster";"30";"33";"25-34 J.";"Maximilian Kemler";NA;NA;"Nein";NA
+"46";"FDP";NA;"Schumacher";"Markus";"1984";"m";"Dipl.-Kaufmann, Oberregierungsrat";"Grevenbroich";"31";"38";"35-44 J.";"Markus Schumacher";NA;NA;"Nein";NA
+"20";"FDP";NA;"Franke";"Petra";"1983";"w";"Referentin";"Leverkusen";"32";"39";"35-44 J.";"Petra Franke";NA;NA;"Nein";NA
+"49";"FDP";NA;"Dick";"Daniel";"1980";"m";"Politikwissenschaftler";"Krefeld";"33";"42";"35-44 J.";"Daniel Dick";NA;NA;"Nein";NA
+"56";"FDP";NA;"Hoff";"Marc-Oliver";"1970";"m";"Politischer Referent";"Oberhausen";"34";"52";"45-54 J.";"Marc-Oliver Hoff";NA;NA;"Nein";NA
+"93";"FDP";NA;"Detlefsen";"Kai";"1973";"m";"Polizeibeamter";"Bielefeld";"35";"49";"45-54 J.";"Kai Detlefsen";NA;NA;"Nein";NA
+"105";"FDP";NA;"Westermann";"Jenny";"1987";"w";"Betriebswirtin";"Wetter (Ruhr)";"36";"35";"35-44 J.";"Jenny Westermann";NA;NA;"Nein";NA
+"113";"FDP";NA;"Buxmann";"Xenia";"1991";"w";"Dozentin für Deutsch als Fremdsprache";"Dortmund";"37";"31";"25-34 J.";"Xenia Buxmann";NA;NA;"Nein";NA
+"23";"FDP";NA;"Pizzato";"Annette";"1968";"w";"Kfm. Angestellte";"Radevormwald";"38";"54";"45-54 J.";"Annette Pizzato";NA;NA;"Nein";NA
+"35";"FDP";NA;"Brattig";"Nina";"1966";"w";"Selbstständig";"Solingen";"39";"56";"55-64 J.";"Nina Brattig";NA;NA;"Nein";NA
+"102";"FDP";NA;"Hörr";"Friedrich-Wilhelm";"1958";"m";"Selbstständiger Großhandelskaufmann";"Nieheim";"40";"64";"55-64 J.";"Friedrich-Wilhelm Hörr";NA;NA;"Nein";NA
+"81";"FDP";NA;"Harmsen";"Beate";"1969";"w";"Kfm. Angestellte";"Emsdetten";"41";"53";"45-54 J.";"Beate Harmsen";NA;NA;"Nein";NA
+"60";"FDP";NA;"Borges";"Constantin";"1995";"m";"Bankkaufmann";"Moers";"42";"27";"25-34 J.";"Constantin Borges";NA;NA;"Nein";NA
+"8";"FDP";NA;"Schorn";"Frederik";"1991";"m";"Angestellter im öffentlichen Dienst";"Weilerswist";"43";"31";"25-34 J.";"Frederik Schorn";NA;NA;"Nein";NA
+"125";"FDP";"Dr.";"Köhne";"Jobst";"1963";"m";"Dipl.-Physiker";"Meschede";"44";"59";"55-64 J.";"Jobst Köhne";NA;NA;"Nein";NA
+"42";"FDP";"Dr.";"Rachner";"Christine";"1968";"w";"Ärztin";"Düsseldorf";"45";"54";"45-54 J.";"Christine Rachner";NA;NA;"Nein";NA
+"69";"FDP";"Dr.";"Leson";"Christian";"1974";"m";"Dipl.-Biochemiker";"Oer-Erkenschwick";"46";"48";"45-54 J.";"Christian Leson";NA;NA;"Nein";NA
+"96";"FDP";NA;"Seidel";"Berit";"1991";"w";"Volljuristin";"Rheda-Wiedenbrück";"47";"31";"25-34 J.";"Berit Seidel";NA;NA;"Nein";NA
+"21";"FDP";"Dr.";"Engel";"Alexander-Simon";"1992";"m";"Zahnarzt";"Bergisch Gladbach";"48";"30";"25-34 J.";"Alexander-Simon Engel";NA;NA;"Nein";NA
+"103";"FDP";NA;"Hegenberg";"Peter";"1964";"m";"Zahnarzt";"Hagen";"49";"58";"55-64 J.";"Peter Hegenberg";NA;NA;"Nein";NA
+"79";"FDP";NA;"Schäfer";"Sabine";"1975";"w";"Lehrerin";"Lüdinghausen";"50";"47";"45-54 J.";"Sabine Schäfer";NA;NA;"Nein";NA
+"61";"FDP";NA;"Schulze Lohoff";"Kira";"1995";"w";"Juristin";"Duisburg";"51";"27";"25-34 J.";"Kira Schulze Lohoff";NA;NA;"Nein";NA
+"36";"FDP";NA;"Clever";"Torben";"1987";"m";"Pädagoge";"Remscheid";"52";"35";"35-44 J.";"Torben Clever";NA;NA;"Nein";NA
+"112";"FDP";NA;"Mehrer";"Nils";"2001";"m";"Student";"Dortmund";"53";"21";"15-24 J.";"Nils Mehrer";NA;NA;"Nein";NA
+"66";"FDP";NA;"Müller";"Heiko";"1961";"m";"Polizeibeamter";"Essen";"54";"61";"55-64 J.";"Heiko Müller";NA;NA;"Nein";NA
+"128";"FDP";NA;"Stamm";"Colin";"2001";"m";"Student";"Münster";"55";"21";"15-24 J.";"Colin Stamm";NA;NA;"Nein";NA
+"15";"FDP";NA;"Westphal";"Maria";"1984";"w";"Oberstudienrätin";"Köln";"56";"38";"35-44 J.";"Maria Westphal";NA;NA;"Nein";NA
+"107";"FDP";NA;"Beck";"Léon";"1995";"m";"Referent Social Media, Student";"Bochum";"57";"27";"25-34 J.";"Léon Beck";NA;NA;"Nein";NA
+"48";"FDP";NA;"Stelzhammer";"Laura";"1993";"w";"Juristin";"Düsseldorf";"58";"29";"25-34 J.";"Laura Stelzhammer";NA;NA;"Nein";NA
+"44";"FDP";NA;"Litzius";"Laura";"1994";"w";"Gesundheits- und Krankenpflege";"Düsseldorf";"59";"28";"25-34 J.";"Laura Litzius";NA;NA;"Nein";NA
+"2";"FDP";NA;"Cierniak";"Philip";"1996";"m";"Student";"Aachen";"60";"26";"25-34 J.";"Philip Cierniak";NA;NA;"Nein";NA
+"7";"FDP";NA;"Molitor";"Gabriele";"1962";"w";"PR-Journalistin";"Erftstadt";"61";"60";"55-64 J.";"Gabriele Molitor";NA;NA;"Nein";NA
+"104";"FDP";NA;"Böhler";"Daniel";"2000";"m";"Student der Politikwissenschaft";"Ennepetal";"62";"22";"15-24 J.";"Daniel Böhler";NA;NA;"Nein";NA
+"47";"FDP";NA;"Kell";"Simon";"1992";"m";"IT-Projektmanager";"Jüchen";"63";"30";"25-34 J.";"Simon Kell";NA;NA;"Nein";NA
+"28";"FDP";NA;"Heisters";"Diana";"1977";"w";"Fachkrankenschwester für Anästhesie";"Niederkassel";"64";"45";"45-54 J.";"Diana Heisters";NA;NA;"Nein";NA
+"109";"FDP";NA;"Christofor";"Robert";"2001";"m";"Student";"Bochum";"65";"21";"15-24 J.";"Robert Christofor";NA;NA;"Nein";NA
+"12";"FDP";NA;"Griskewitz";"Jan";"1997";"m";"Selbständiger Mediengestalter";"Schleiden";"66";"25";"25-34 J.";"Jan Griskewitz";NA;NA;"Nein";NA
+"18";"FDP";NA;"Urmetzer";"Marc";"1991";"m";"Glaser";"Köln";"67";"31";"25-34 J.";"Marc Urmetzer";NA;NA;"Nein";NA
+"92";"FDP";NA;"Knauf";"Leo";"2001";"m";"Student";"Bielefeld";"68";"21";"15-24 J.";"Leo Knauf";NA;NA;"Nein";NA
+"14";"FDP";"Dr.";"Ritter";"Eva-Maria";"1971";"w";"Praxismanagement und Kommunikation";"Köln";"69";"51";"45-54 J.";"Eva-Maria Ritter";NA;NA;"Nein";NA
+"43";"FDP";NA;"Masberg-Eikelau";"Daniela";"1974";"w";"Rechtsanwältin";"Düsseldorf";"70";"48";"45-54 J.";"Daniela Masberg-Eikelau";NA;NA;"Nein";NA
+"111";"FDP";NA;"Närdemann";"Melina";"1999";"w";"Studentin";"Dortmund";"71";"23";"15-24 J.";"Melina Närdemann";NA;NA;"Nein";NA
+"19";"FDP";NA;"Uckrow";"Klaus";"1961";"m";"Journalist";"Köln";"72";"61";"55-64 J.";"Klaus Uckrow";NA;NA;"Nein";NA
+"85";"FDP";NA;"Belau";"Linda";"1993";"w";"Lehramtsanwärterin";"Münster";"73";"29";"25-34 J.";"Linda Belau";NA;NA;"Nein";NA
+"6";"FDP";"Dr.";"Pohlmann";"Christian";"1982";"m";"Politikwissenschaftler";"Kerpen";"74";"40";"35-44 J.";"Christian Pohlmann";NA;NA;"Nein";NA
+"62";"FDP";NA;"Benentreu";"Sven";"1993";"m";"Abgeordnetenmitarbeiter";"Duisburg";"75";"29";"25-34 J.";"Sven Benentreu";NA;NA;"Nein";NA
+"5";"FDP";NA;"Zarazua";"Nicolas";"2002";"m";"Student";"Kerpen";"76";"20";"15-24 J.";"Nicolas Zarazua";NA;NA;"Nein";NA
+"17";"FDP";NA;"Ozminski";"Martin";"2000";"m";"Student";"Köln";"77";"22";"15-24 J.";"Martin Ozminski";NA;NA;"Nein";NA
+"100";"FDP";NA;"Zillmann";"Anke";"1968";"w";"Selbständig";"Paderborn";"78";"54";"45-54 J.";"Anke Zillmann";NA;NA;"Nein";NA
+"63";"FDP";NA;"Erle";"Dennis";"1989";"m";"Kraftwerks-Mitarbeiter";"Duisburg";"79";"33";"25-34 J.";"Dennis Erle";NA;NA;"Nein";NA
+"70";"FDP";NA;"Dorka";"Jörg";"1963";"m";"Chemiefacharbeiter";"Marl";"80";"59";"55-64 J.";"Jörg Dorka";NA;NA;"Nein";NA
+"58";"FDP";NA;"Cerutti";"Franca";"1976";"w";"Psychologische Psychotherapeutin";"Rheinberg";"81";"46";"45-54 J.";"Franca Cerutti";NA;NA;"Nein";NA
+"72";"FDP";NA;"Golda";"Robert";"1992";"m";"Selbstständig";"Datteln";"82";"30";"25-34 J.";"Robert Golda";NA;NA;"Nein";NA
+"119";"FDP";NA;"Hiltenkamp";"Mayela";"1976";"w";"Referentin für betriebl. Aus- u. Weiterbildung";"Werl";"83";"46";"45-54 J.";"Mayela Hiltenkamp";NA;NA;"Nein";NA
+"29";"FDP";NA;"Schütze";"Karl-Heinz";"1980";"m";"Informatiker";"Sankt Augustin";"84";"42";"35-44 J.";"Karl-Heinz Schütze";NA;NA;"Nein";NA
+"25";"FDP";NA;"Peters";"Waldemar";"1978";"m";"Selbstständig";"Windeck";"85";"44";"35-44 J.";"Waldemar Peters";NA;NA;"Nein";NA
+"95";"FDP";NA;"Loermann";"Daniel";"1985";"m";"Zahnarzt";"Harsewinkel-Marienfeld";"86";"37";"35-44 J.";"Daniel Loermann";NA;NA;"Nein";NA
+"71";"FDP";NA;"Ludwig";"Lutz";"1969";"m";"Bildungsreferent";"Dorsten";"87";"53";"45-54 J.";"Lutz Ludwig";NA;NA;"Nein";NA
+"106";"FDP";NA;"Tange";"Enric";"1999";"m";"Student, Studentische Hilfskraft";"Herdecke";"88";"23";"15-24 J.";"Enric Tange";NA;NA;"Nein";NA
+"74";"FDP";NA;"Scharfenstein";"Isabell";"1991";"w";"Grundschullehrerin";"Gelsenkirchen";"89";"31";"25-34 J.";"Isabell Scharfenstein";NA;NA;"Nein";NA
+"22";"FDP";NA;"Frommenkord";"Marco";"1981";"m";"Unternehmer";"Wermelskirchen";"90";"41";"35-44 J.";"Marco Frommenkord";NA;NA;"Nein";NA
+"24";"FDP";NA;"Trautmann";"Dominik";"1982";"m";"Berufssoldat, Dipl.-Ing (FH)";"Nümbrecht";"91";"40";"35-44 J.";"Dominik Trautmann";NA;NA;"Nein";NA
+"50";"FDP";NA;"Winkens";"Daniel";"1990";"m";"Büroleiter, Wissenschaftlicher Mitarbeiter";"Mönchengladbach";"92";"32";"25-34 J.";"Daniel Winkens";NA;NA;"Nein";NA
+"73";"FDP";NA;"Hundt";"Ralf";"1964";"m";"Selbständig";"Gelsenkirchen";"93";"58";"55-64 J.";"Ralf Hundt";NA;NA;"Nein";NA
+"98";"FDP";NA;"Allersmeier";"Nils";"1995";"m";"Geprüfter Wirtschaftsfachwirt";"Bad Salzuflen";"94";"27";"25-34 J.";"Nils Allersmeier";NA;NA;"Nein";NA
+"75";"FDP";NA;"Mersch";"Andreas";"1977";"m";"Geschäftsführer";"Bottrop";"95";"45";"45-54 J.";"Andreas Mersch";NA;NA;"Nein";NA
+"116";"FDP";NA;"Rohrbach";"Pascal";"1993";"m";"Leiter eines Abgeordnetenbüros";"Lünen";"96";"29";"25-34 J.";"Pascal Rohrbach";NA;NA;"Nein";NA
+"10";"FDP";NA;"Pakusa";"Tino";"1979";"m";"Staatlich geprüfter Betriebswirt";"Hückelhoven";"97";"43";"35-44 J.";"Tino Pakusa";NA;NA;"Nein";NA
+"37";"FDP";"Dr.";"Bange";"Mirko";"1983";"m";"Richter";"Langenfeld";"98";"39";"35-44 J.";"Mirko Bange";NA;NA;"Nein";NA
+"84";"FDP";NA;"Gerhardy";"Martin";"1965";"m";"Wissenschaftlicher Mitarbeiter, Jurist";"Münster";"99";"57";"55-64 J.";"Martin Gerhardy";NA;NA;"Nein";NA
+"52";"FDP";"Dr.";"a Campo";"Frank";"1959";"m";"Mathematiker";"Viersen";"100";"63";"55-64 J.";"Frank a Campo";NA;NA;"Nein";NA
+"65";"FDP";NA;"Gräber";"Klaus";"1966";"m";"Selbständiger Immobilienkaufmann";"Essen";"101";"56";"55-64 J.";"Klaus Gräber";NA;NA;"Nein";NA
+"86";"FDP";NA;"Schindler";"Ron";"1979";"m";"Angestellter";"Oelde";"102";"43";"35-44 J.";"Ron Schindler";NA;NA;"Nein";NA
+"40";"FDP";NA;"Sterz";"Thomas";"1967";"m";"Filialleiter, Bankkaufmann";"Mettmann";"103";"55";"55-64 J.";"Thomas Sterz";NA;NA;"Nein";NA
+"89";"FDP";"Prof. Dr. Dr.";"König";"Matthias";"1972";"m";"Professor";"Minden";"104";"50";"45-54 J.";"Matthias König";NA;NA;"Nein";NA
+"67";"FDP";NA;"Heinrich";"Detlef";"1963";"m";"Landesbeamter";"Essen";"105";"59";"55-64 J.";"Detlef Heinrich";NA;NA;"Nein";NA
+"76";"FDP";NA;"Hoves";"Kim-Sophie";"1995";"w";"Industriekauffrau, Gepr.Wirtschaftsfachwirtin";"Borken";"106";"27";"25-34 J.";"Kim-Sophie Hoves";NA;NA;"Nein";NA
+"122";"FDP";NA;"Oberkampf";"Frank";"1975";"m";"Hörakustikmeister";"Menden (Sauerland)";"107";"47";"45-54 J.";"Frank Oberkampf";NA;NA;"Nein";NA
+"11";"FDP";NA;"Muckrasch";"Patrick";"1989";"m";"Staatlich geprüfter Techniker, Elektrotechnik";"Aldenhoven";"108";"33";"25-34 J.";"Patrick Muckrasch";NA;NA;"Nein";NA
+"45";"FDP";NA;"Schommers";"Thomas";"1972";"m";"Unternehmensberater, Hochschuldozent";"Neuss";"109";"50";"45-54 J.";"Thomas Schommers";NA;NA;"Nein";NA
+"121";"FDP";NA;"Lilienbeck";"Alexander";"1989";"m";"Rechtsanwalt";"Werdohl";"110";"33";"25-34 J.";"Alexander Lilienbeck";NA;NA;"Nein";NA
+"117";"FDP";NA;"Knuhr";"Sebastian";"1995";"m";"Student (Rechtswissenschaften)";"Bergkamen";"111";"27";"25-34 J.";"Sebastian Knuhr";NA;NA;"Nein";NA
+"91";"FDP";NA;"Schäffer";"Sven";"1988";"m";"Kommissionierer";"Bünde";"112";"34";"25-34 J.";"Sven Schäffer";NA;NA;"Nein";NA
+"99";"FDP";"Dr.";"Thyzel";"Elmar";"1975";"m";"Selbständiger Unternehmensberater";"Detmold";"113";"47";"45-54 J.";"Elmar Thyzel";NA;NA;"Nein";NA
+"127";"FDP";NA;"Weiand";"Carsten";"1970";"m";"Konstrukteur im Stahlbau";"Erndtebrück";"114";"52";"45-54 J.";"Carsten Weiand";NA;NA;"Nein";NA
+"80";"FDP";NA;"Schmitt";"Alexander";"1998";"m";"Immobilienkaufmann";"Greven";"115";"24";"15-24 J.";"Alexander Schmitt";NA;NA;"Nein";NA
+"124";"FDP";NA;"Wiethoff";"Hubertus";"1968";"m";"Lagerist";"Eslohe";"116";"54";"45-54 J.";"Hubertus Wiethoff";NA;NA;"Nein";NA
+"4";"FDP";NA;"Victor";"Kurt";"1961";"m";"Angestellter IT";"Monschau";"117";"61";"55-64 J.";"Kurt Victor";NA;NA;"Nein";NA
+"82";"FDP";NA;"Nieporte";"Dennis";"1982";"m";"Unternehmer";"Westerkappeln";"118";"40";"35-44 J.";"Dennis Nieporte";NA;NA;"Nein";NA
+"41";"GRÜNE";NA;"Neubaur";"Mona";"1977";"w";"Dipl.-Pädagogin, Geschäftsführerin";"Düsseldorf";"1";"45";"45-54 J.";"Mona Neubaur";NA;NA;"Nein";NA
+"83";"GRÜNE";NA;"Paul";"Josefine";"1982";"w";"Mitglied des Landtages";"Münster";"2";"40";"35-44 J.";"Josefine Paul";NA;NA;"Ja";"zweitstimme"
+"106";"GRÜNE";NA;"Schäffer";"Verena";"1986";"w";"Mitglied des Landtages";"Witten";"3";"36";"35-44 J.";"Verena Schäffer";NA;NA;"Ja";"zweitstimme"
+"15";"GRÜNE";NA;"Klocke";"Arndt";"1971";"m";"Referent";"Köln";"4";"51";"45-54 J.";"Arndt Klocke";NA;NA;"Ja";"zweitstimme"
+"18";"GRÜNE";NA;"Aymaz";"Berivan";"1972";"w";"Übersetzerin";"Köln";"5";"50";"45-54 J.";"Berivan Aymaz";NA;NA;"Ja";"zweitstimme"
+"80";"GRÜNE";NA;"Rüße";"Norwich";"1966";"m";"Biolandwirt";"Steinfurt";"6";"56";"55-64 J.";"Norwich Rüße";NA;NA;"Ja";"zweitstimme"
+"95";"GRÜNE";NA;"Brems";"Wibke";"1981";"w";"Mitglied des Landtages";"Gütersloh";"7";"41";"35-44 J.";"Wibke Brems";NA;NA;"Ja";"zweitstimme"
+"68";"GRÜNE";NA;"Mostofizadeh";"Mehrdad";"1969";"m";"Parlamentarischer Geschäftsführer, Wissenschaftlicher Mitarbeiter";"Essen";"8";"53";"45-54 J.";"Mehrdad Mostofizadeh";NA;NA;"Ja";"zweitstimme"
+"50";"GRÜNE";NA;"Zingsheim-Zobel";"Lena";"1993";"w";"Sonderpädagogin";"Mönchengladbach";"9";"29";"25-34 J.";"Lena Zingsheim-Zobel";NA;NA;"Nein";NA
+"43";"GRÜNE";NA;"Engstfeld";"Stefan";"1970";"m";"Mitglied des Landtages";"Düsseldorf";"10";"52";"45-54 J.";"Stefan Engstfeld";NA;NA;"Ja";"zweitstimme"
+"31";"GRÜNE";"Dr.";"Höller";"Julia";"1982";"w";"Regierungsrätin";"Bonn";"11";"40";"35-44 J.";"Julia Höller";NA;NA;"Nein";NA
+"111";"GRÜNE";NA;"Röls";"Michael";"1997";"m";"Student der Raumplanung";"Dortmund";"12";"25";"25-34 J.";"Michael Röls";NA;NA;"Nein";NA
+"6";"GRÜNE";NA;"Grothus";"Antje";"1964";"w";"Ernährungswissenschaftlerin";"Kerpen";"13";"58";"55-64 J.";"Antje Grothus";NA;NA;"Nein";NA
+"100";"GRÜNE";NA;"Creuzmann";"Norika";"1966";"w";"Dipl.-Sozialpädagogin";"Bad Lippspringe";"14";"56";"55-64 J.";"Norika Creuzmann";NA;NA;"Nein";NA
+"61";"GRÜNE";NA;"Wenzel";"Julia";"1990";"w";"Grafikdesignerin";"Duisburg";"15";"32";"25-34 J.";"Julia Wenzel";NA;NA;"Nein";NA
+"29";"GRÜNE";NA;"Metz";"Martin";"1983";"m";"Angestellter";"Sankt Augustin";"16";"39";"35-44 J.";"Martin Metz";NA;NA;"Nein";NA
+"120";"GRÜNE";NA;"Hanses";"Dagmar";"1975";"w";"Erzieherin";"Warstein";"17";"47";"45-54 J.";"Dagmar Hanses";NA;NA;"Nein";NA
+"55";"GRÜNE";"Dr.";"Wille";"Volkhard";"1967";"m";"Dipl. Biologe";"Kleve";"18";"55";"55-64 J.";"Volkhard Wille";NA;NA;"Nein";NA
+"66";"GRÜNE";NA;"Eğlence";"Gönül";"1979";"w";"Regionalleiterin einer Bildungsorganisation";"Essen";"19";"43";"35-44 J.";"Gönül Eğlence";NA;NA;"Nein";NA
+"84";"GRÜNE";"Dr.";"Korte";"Robin";"1988";"m";"Lebensmittelchemiker";"Münster";"20";"34";"25-34 J.";"Robin Korte";NA;NA;"Nein";NA
+"92";"GRÜNE";NA;"Osei";"Christina";"1966";"w";"Account-Managerin";"Bielefeld";"21";"56";"55-64 J.";"Christina Osei";NA;NA;"Nein";NA
+"14";"GRÜNE";NA;"Jablonski";"Frank";"1974";"m";"Büroleiter, Referent";"Köln";"22";"48";"45-54 J.";"Frank Jablonski";NA;NA;"Nein";NA
+"48";"GRÜNE";NA;"Thoms";"Meral";"1971";"w";"Soziologin (Referentin Landesverwaltung)";"Tönisvorst";"23";"51";"45-54 J.";"Meral Thoms";NA;NA;"Nein";NA
+"30";"GRÜNE";NA;"Achtermeyer";"Tim";"1993";"m";"Marketing Associate";"Bonn";"24";"29";"25-34 J.";"Tim Achtermeyer";NA;NA;"Nein";NA
+"3";"GRÜNE";NA;"Postma";"Laura";"1993";"w";"Psychologin";"Herzogenrath";"25";"29";"25-34 J.";"Laura Postma";NA;NA;"Nein";NA
+"69";"GRÜNE";NA;"Matzoll";"Jan";"1985";"m";"Geschäftsführer";"Recklinghausen";"26";"37";"35-44 J.";"Jan Matzoll";NA;NA;"Nein";NA
+"74";"GRÜNE";NA;"Bostancieri";"Ilayda";"1995";"w";"Familienhelferin";"Gelsenkirchen";"27";"27";"25-34 J.";"Ilayda Bostancieri";NA;NA;"Nein";NA
+"128";"GRÜNE";"Dr.";"Kaiser";"Gregor";"1975";"m";"Land-/Forstwirt & Sozialwissenschaftler";"Lennestadt";"28";"47";"45-54 J.";"Gregor Kaiser";NA;NA;"Nein";NA
+"86";"GRÜNE";NA;"Tarner";"Hedwig";"1960";"w";"Dipl.- Geographin";"Warendorf";"29";"62";"55-64 J.";"Hedwig Tarner";NA;NA;"Nein";NA
+"47";"GRÜNE";NA;"Rock";"Simon";"1988";"m";"Volkswirt, Projektmanager";"Neuss";"30";"34";"25-34 J.";"Simon Rock";NA;NA;"Nein";NA
+"38";"GRÜNE";NA;"Besche-Krastl";"Ina";"1986";"w";"Wissenschaftliche Mitarbeiterin";"Mettmann";"31";"36";"35-44 J.";"Ina Besche-Krastl";NA;NA;"Nein";NA
+"88";"GRÜNE";NA;"Rauer";"Benjamin";"1983";"m";"Sozialarbeiter";"Hüllhorst";"32";"39";"35-44 J.";"Benjamin Rauer";NA;NA;"Nein";NA
+NA;"GRÜNE";"von";"Marenholtz";"Anja";"1971";"w";"Landesschatzmeisterin GRÜNE NRW";"Pulheim";"33";"51";"45-54 J.";"Anja Marenholtz";NA;NA;"Nein";NA
+"24";"GRÜNE";NA;"Zimmermann";"Marc";"1972";"m";"Wildnispädagoge";"Gummersbach";"34";"50";"45-54 J.";"Marc Zimmermann";NA;NA;"Nein";NA
+"97";"GRÜNE";NA;"Eisentraut";"Julia";"1993";"w";"Softwareentwicklerin";"Oerlinghausen";"35";"29";"25-34 J.";"Julia Eisentraut";NA;NA;"Nein";NA
+"79";"GRÜNE";NA;"Sonne";"Dennis";"1984";"m";"Finanzwirt";"Lüdinghausen";"36";"38";"35-44 J.";"Dennis Sonne";NA;NA;"Nein";NA
+"112";"GRÜNE";NA;"Lögering";"Katrin";"1990";"w";"Geschäftsführerin";"Dortmund";"37";"32";"25-34 J.";"Katrin Lögering";NA;NA;"Nein";NA
+"90";"GRÜNE";NA;"Reschinsky";"Marvin";"1992";"m";"Gewerkschaftssekretär";"Köln";"38";"30";"25-34 J.";"Marvin Reschinsky";NA;NA;"Nein";NA
+"20";"GRÜNE";NA;"David";"Santharupiny";"1988";"w";"Wissenschaftliche Mitarbeiterin";"Leverkusen";"39";"34";"25-34 J.";"Santharupiny David";NA;NA;"Nein";NA
+"60";"GRÜNE";"Dipl. Ing.";"Wagener";"Thomas";"1974";"m";"Ingenieur";"Neukirchen-Vluyn";"40";"48";"45-54 J.";"Thomas Wagener";NA;NA;"Nein";NA
+"107";"GRÜNE";"di";"Bari";"Anna";"2000";"w";"Studentin";"Bochum";"41";"22";"15-24 J.";"Anna Bari";NA;NA;"Nein";NA
+"4";"GRÜNE";NA;"Noack";"Philipp";"1993";"m";"Volkswirt";"Aachen";"42";"29";"25-34 J.";"Philipp Noack";NA;NA;"Nein";NA
+"126";"GRÜNE";NA;"Köninger";"Manuela";"1978";"w";"Hochschullehrkraft";"Neunkirchen";"43";"44";"35-44 J.";"Manuela Köninger";NA;NA;"Nein";NA
+"98";"GRÜNE";"Dr.";"Pohl";"Burkhard";"1968";"m";"Gymnasiallehrer";"Lemgo";"44";"54";"45-54 J.";"Burkhard Pohl";NA;NA;"Nein";NA
+"34";"GRÜNE";NA;"Fuchs";"Eva Miriam";"1980";"w";"Senior Manager & Prokuristin";"Wuppertal";"45";"42";"35-44 J.";"Eva Miriam Fuchs";NA;NA;"Nein";NA
+"63";"GRÜNE";NA;"Keser";"Melih";"1986";"m";"Kaufmann für Versicherungen und Finanzen";"Duisburg";"46";"36";"35-44 J.";"Melih Keser";NA;NA;"Nein";NA
+"21";"GRÜNE";NA;"Lamberti";"Andrea";"1975";"w";"Sachbearbeiterin";"Rösrath";"47";"47";"45-54 J.";"Andrea Lamberti";NA;NA;"Nein";NA
+"36";"GRÜNE";NA;"Schichel";"David";"1981";"m";"Wissenschaftlicher Mitarbeiter";"Remscheid";"48";"41";"35-44 J.";"David Schichel";NA;NA;"Nein";NA
+"12";"GRÜNE";NA;"Elsner";"Isabel";"1996";"w";"Studentin";"Langerwehe";"49";"26";"25-34 J.";"Isabel Elsner";NA;NA;"Nein";NA
+"8";"GRÜNE";"Dr.";"Keßeler";"Thomas";"1967";"m";"Angestellter";"Euskirchen";"50";"55";"55-64 J.";"Thomas Keßeler";NA;NA;"Nein";NA
+"78";"GRÜNE";NA;"Raack";"Mareike";"1992";"w";"Politikwissenschaftlerin";"Coesfeld";"51";"30";"25-34 J.";"Mareike Raack";NA;NA;"Nein";NA
+"42";"GRÜNE";NA;"Mielczarek";"Lukas";"2000";"m";"Student";"Düsseldorf";"52";"22";"15-24 J.";"Lukas Mielczarek";NA;NA;"Nein";NA
+"81";"GRÜNE";NA;"Dömer";"Sandra";"1983";"w";"Heilpädagogin";"Nordwalde";"53";"39";"35-44 J.";"Sandra Dömer";NA;NA;"Nein";NA
+"110";"GRÜNE";NA;"May";"Fabian";"1995";"m";"Lehrer";"Herne";"54";"27";"25-34 J.";"Fabian May";NA;NA;"Nein";NA
+"102";"GRÜNE";NA;"Lücking";"Uta";"1971";"w";"Lehrerin";"Nieheim";"55";"51";"45-54 J.";"Uta Lücking";NA;NA;"Nein";NA
+"22";"GRÜNE";NA;"Langenbucher";"Jürgen";"1965";"m";"Dipl.- Sozialpädagoge";"Leichlingen";"56";"57";"55-64 J.";"Jürgen Langenbucher";NA;NA;"Nein";NA
+"9";"GRÜNE";"Dr.";"Grübener";"Sabrina";"1982";"w";"Wissenschaftliche Mitarbeiterin";"Heinsberg";"57";"40";"35-44 J.";"Sabrina Grübener";NA;NA;"Nein";NA
+"87";"GRÜNE";NA;"Bas";"Ali";"1976";"m";"Lehrer";"Ahlen";"58";"46";"45-54 J.";"Ali Bas";NA;NA;"Nein";NA
+"124";"GRÜNE";NA;"Sönnecken";"Helle";"1986";"w";"Vertriebsassistentin";"Sundern";"59";"36";"35-44 J.";"Helle Sönnecken";NA;NA;"Nein";NA
+"26";"GRÜNE";"Dr.";"Gür-Seker";"Derya";"1981";"w";"Wissenschaftliche Mitarbeiterin";"Düsseldorf";"60";"41";"35-44 J.";"Derya Gür-Seker";NA;NA;"Nein";NA
+"67";"GRÜNE";NA;"Sponheuer";"Inga Marie";"1983";"w";"Kulturvermittlerin- und managerin";"Essen";"61";"39";"35-44 J.";"Inga Marie Sponheuer";NA;NA;"Nein";NA
+"52";"GRÜNE";NA;"Muschiol";"Paul";"1970";"m";"Bankkaufmann";"Willich";"62";"52";"45-54 J.";"Paul Muschiol";NA;NA;"Nein";NA
+"94";"GRÜNE";NA;"Mamerow";"Romy";"1967";"w";"Leiterin Marketing/PR";"Bielefeld";"63";"55";"55-64 J.";"Romy Mamerow";NA;NA;"Nein";NA
+"101";"GRÜNE";NA;"Möhl";"Ulrich";"1975";"m";"Dipl.-Sozialarbeiter";"Paderborn";"64";"47";"45-54 J.";"Ulrich Möhl";NA;NA;"Nein";NA
+NA;"GRÜNE";NA;"Pflogsch";"Teresa";"1998";"w";"Studentin";"Siegen";"65";"24";"15-24 J.";"Teresa Pflogsch";NA;NA;"Nein";NA
+"103";"GRÜNE";NA;"Gerull";"Alexandra";"1972";"w";"Dozentin Erwachsenenbildung";"Hagen";"66";"50";"45-54 J.";"Alexandra Gerull";NA;NA;"Nein";NA
+"54";"GRÜNE";NA;"Backhaus";"Paula";"1981";"w";"Computer-Animateurin";"Uedem";"67";"41";"35-44 J.";"Paula Backhaus";NA;NA;"Nein";NA
+"114";"GRÜNE";NA;"Brunner";"Jenny";"1990";"w";"Referentin für Öffentlichkeitsarbeit";"Dortmund";"68";"32";"25-34 J.";"Jenny Brunner";NA;NA;"Nein";NA
+"85";"GRÜNE";NA;"Deppermann";"Dorothea";"1983";"w";"Beamtin";"Münster";"69";"39";"35-44 J.";"Dorothea Deppermann";NA;NA;"Nein";NA
+"118";"GRÜNE";NA;"Soumaoro";"Nelli Foumba";"1990";"m";"Wirtschafts- und Politikberater";"Hamm";"70";"32";"25-34 J.";"Nelli Foumba Soumaoro";NA;NA;"Nein";NA
+"37";"GRÜNE";NA;"Serag";"Siedi";"1984";"w";"Außenhandelskauffrau";"Langenfeld";"71";"38";"35-44 J.";"Siedi Serag";NA;NA;"Nein";NA
+"62";"GRÜNE";NA;"Galuszka";"Kevin";"1989";"m";"Gesundheits- und Krankenpfleger";"Duisburg";"72";"33";"25-34 J.";"Kevin Galuszka";NA;NA;"Nein";NA
+"44";"GRÜNE";NA;"El Makrini";"Yousra";"1993";"w";"Apothekerin";"Düsseldorf";"73";"29";"25-34 J.";"Yousra El Makrini";NA;NA;"Nein";NA
+"46";"GRÜNE";NA;"Schimanski";"Dirk";"1971";"m";"Polizeivollzugsbeamter";"Grevenbroich";"74";"51";"45-54 J.";"Dirk Schimanski";NA;NA;"Nein";NA
+"71";"GRÜNE";NA;"Wischnewski";"Maya";"1999";"w";"Studentin";"Recklinghausen";"75";"23";"15-24 J.";"Maya Wischnewski";NA;NA;"Nein";NA
+"108";"GRÜNE";"Dr.-Ing.";"Oberberg";"Moritz";"1990";"m";"Elektroingenieur";"Bochum";"76";"32";"25-34 J.";"Moritz Oberberg";NA;NA;"Nein";NA
+"13";"GRÜNE";NA;"Woestmann";"Eileen";"1993";"w";"Sozialpädagogin";"Köln";"77";"29";"25-34 J.";"Eileen Woestmann";NA;NA;"Nein";NA
+"113";"GRÜNE";NA;"Dsicheu Djine";"Jacques Armel";"1986";"m";"Elektroingenieur";"Dortmund";"78";"36";"35-44 J.";"Jacques Armel Dsicheu Djine";NA;NA;"Nein";NA
+"82";"GRÜNE";NA;"Wellmeier";"Silke";"1977";"w";"Keramikerin";"Tecklenburg";"79";"45";"45-54 J.";"Silke Wellmeier";NA;NA;"Nein";NA
+"19";"GRÜNE";NA;"Schlömer";"Leon";"1997";"m";"Student der Rechtswissenschaften";"Köln";"80";"25";"25-34 J.";"Leon Schlömer";NA;NA;"Nein";NA
+"1";"GRÜNE";NA;"Vogelheim";"Astrid";"1970";"w";"Bauingenieurin";"Aachen";"81";"52";"45-54 J.";"Astrid Vogelheim";NA;NA;"Nein";NA
+NA;"GRÜNE";NA;"Tucker";"Dean";"1988";"m";"Fliesenleger";"Münster";"82";"34";"25-34 J.";"Dean Tucker";NA;NA;"Nein";NA
+"16";"GRÜNE";NA;"Scholz";"Friederike";"1973";"w";"Juristin";"Köln";"83";"49";"45-54 J.";"Friederike Scholz";NA;NA;"Nein";NA
+"57";"GRÜNE";NA;"Graf";"Niklas";"1990";"m";"Berater";"Dinslaken";"84";"32";"25-34 J.";"Niklas Graf";NA;NA;"Nein";NA
+"104";"GRÜNE";NA;"Backhoff";"Petra";"1969";"w";"Sozialarbeiterin";"Ennepetal";"85";"53";"45-54 J.";"Petra Backhoff";NA;NA;"Nein";NA
+NA;"GRÜNE";NA;"Nagel";"Thomas";"1983";"m";"Richter";"Leverkusen";"86";"39";"35-44 J.";"Thomas Nagel";NA;NA;"Nein";NA
+NA;"GRÜNE";NA;"Neumann";"Heidi";"1964";"w";"Erzieherin";"Burscheid";"87";"58";"55-64 J.";"Heidi Neumann";NA;NA;"Nein";NA
+NA;"GRÜNE";"Dr.";"Rutte";"Daniel";"1986";"m";"Geowissenschaftler";"Bonn";"88";"36";"35-44 J.";"Daniel Rutte";NA;NA;"Nein";NA
+"91";"GRÜNE";NA;"Haack";"Andrea";"1967";"w";"Kauffrau";"Rödinghausen";"89";"55";"55-64 J.";"Andrea Haack";NA;NA;"Nein";NA
+NA;"GRÜNE";NA;"Beu";"Rolf";"1957";"m";"Mobilitätsberater";"Bonn";"90";"65";"65-74 J.";"Rolf Beu";NA;NA;"Nein";NA
+"65";"SPD";NA;"Kutschaty";"Thomas";"1968";"m";"Rechtsanwalt - zurzeit Mitglied des Landtages";"Essen";"1";"54";"45-54 J.";"Thomas Kutschaty";"Essen I – Mülheim II";"45,4";"Ja";"erststimme"
+"61";"SPD";NA;"Philipp";"Sarah";"1983";"w";"Projektmanagerin";"Duisburg";"2";"39";"35-44 J.";"Sarah Philipp";"Duisburg I";"40,1";"Ja";"erststimme"
+"79";"SPD";NA;"Stinka";"André";"1965";"m";"Mitglied des Landtages";"Dülmen";"3";"57";"55-64 J.";"André Stinka";NA;NA;"Ja";"zweitstimme"
+"122";"SPD";NA;"Blask";"Inge";"1959";"w";"Mitglied des Landtages";"Hemer";"4";"63";"55-64 J.";"Inge Blask";NA;NA;"Ja";"zweitstimme"
+"15";"SPD";NA;"Ott";"Jochen";"1974";"m";"Oberstudienrat a.D.";"Köln";"5";"48";"45-54 J.";"Jochen Ott";NA;NA;"Ja";"zweitstimme"
+"97";"SPD";NA;"Stock";"Ellen";"1966";"w";"Bekleidungstechnikerin/Schnittmacherin, Mitglied des Landtages";"Lage";"6";"56";"55-64 J.";"Ellen Stock";"Lippe I";"35,6";"Ja";"erststimme"
+"36";"SPD";NA;"Wolf";"Sven";"1976";"m";"Rechtsanwalt - zurzeit Mitglied des Landtages";"Remscheid";"7";"46";"45-54 J.";"Sven Wolf";NA;NA;"Ja";"zweitstimme"
+"21";"SPD";NA;"Durdu";"Tülay";"1974";"w";"Betriebswirtin";"Rösrath";"8";"48";"45-54 J.";"Tülay Durdu";NA;NA;"Nein";NA
+"123";"SPD";NA;"Dudas";"Gordan";"1971";"m";"Mitglied des Landtages";"Lüdenscheid";"9";"51";"45-54 J.";"Gordan Dudas";"Märkischer Kreis III";"38,6";"Ja";"erststimme"
+"76";"SPD";NA;"Andrieshen";"Nina";"1980";"w";"Erzieherin";"Bocholt";"10";"42";"35-44 J.";"Nina Andrieshen";NA;NA;"Ja";"zweitstimme"
+"118";"SPD";NA;"Moor";"Justus";"1987";"m";"Pädagoge";"Hamm";"11";"35";"35-44 J.";"Justus Moor";NA;NA;"Nein";NA
+"128";"SPD";NA;"Stamm";"Christin-Marie";"1991";"w";"Bachelor of Laws";"Olpe";"12";"31";"25-34 J.";"Christin-Marie Stamm";NA;NA;"Nein";NA
+NA;"SPD";NA;"Cordes";"Frederick";"1986";"m";"Mitglied des Landtages";"Oberhausen";"13";"36";"35-44 J.";"Frederick Cordes";NA;NA;"Ja";"zweitstimme"
+"39";"SPD";NA;"Müller-Witt";"Elisabeth";"1953";"w";"Dipl.-Volkswirtin";"Ratingen";"14";"69";"65-74 J.";"Elisabeth Müller-Witt";NA;NA;"Ja";"zweitstimme"
+"4";"SPD";NA;"Kämmerling";"Stefan";"1976";"m";"Bankkaufmann, Mitglied des Landtages";"Eschweiler";"15";"46";"45-54 J.";"Stefan Kämmerling";"Aachen IV";"38,6";"Ja";"erststimme"
+"71";"SPD";NA;"Meinhardt";"Sandy";"1981";"w";"Integrationskraft";"Dorsten";"16";"41";"35-44 J.";"Sandy Meinhardt";NA;NA;"Nein";NA
+"82";"SPD";NA;"Sundermann";"Frank";"1965";"m";"Gartenbauingenieur";"Westerkappeln";"17";"57";"55-64 J.";"Frank Sundermann";"Steinfurt III";"40,7";"Ja";"erststimme"
+"9";"SPD";NA;"Reh";"Andrea";"1974";"w";"Schulleiterin";"Gangelt";"18";"48";"45-54 J.";"Andrea Reh";NA;NA;"Nein";NA
+"41";"SPD";NA;"Weske";"Markus Herbert";"1968";"m";"Mitglied des Landtages";"Düsseldorf";"19";"54";"45-54 J.";"Markus Weske";NA;NA;"Ja";"zweitstimme"
+"83";"SPD";NA;"Benadio";"Bibiane";"1977";"w";"Pflegedienstleiterin";"Münster";"20";"45";"45-54 J.";"Bibiane Benadio";NA;NA;"Nein";NA
+"90";"SPD";NA;"Dahm";"Christian";"1963";"m";"Polizeibeamter";"Vlotho";"21";"59";"55-64 J.";"Christian Dahm";"Herford I – Minden-Lübbecke III";"39,4";"Ja";"erststimme"
+"48";"SPD";NA;"Spanier-Oppermann";"Ina";"1962";"w";"Mitglied des Landtages";"Krefeld";"22";"60";"55-64 J.";"Ina Spanier-Oppermann";NA;NA;"Ja";"zweitstimme"
+"126";"SPD";NA;"Molzberger";"Bernardo Adhemar";"1971";"m";"Examinierter Krankenpfleger";"Siegen";"23";"51";"45-54 J.";"Bernardo Adhemar Molzberger";NA;NA;"Nein";NA
+"30";"SPD";NA;"Möhlenkamp";"Magdalena";"1986";"w";"Rechtsanwältin";"Bonn";"24";"36";"35-44 J.";"Magdalena Möhlenkamp";NA;NA;"Nein";NA
+"124";"SPD";NA;"Neuhaus";"Frank";"1969";"m";"Obergerichtsvollzieher";"Arnsberg-Bruchhausen";"25";"53";"45-54 J.";"Frank Neuhaus";NA;NA;"Nein";NA
+"84";"SPD";NA;"Beer";"Sandra";"1969";"w";"Wirtschaftspsychologin";"Münster";"26";"53";"45-54 J.";"Sandra Beer";NA;NA;"Nein";NA
+"45";"SPD";NA;"Jansen";"Arno";"1974";"m";"Jurist";"Neuss";"27";"48";"45-54 J.";"Arno Jansen";NA;NA;"Nein";NA
+"102";"SPD";NA;"Wieners";"Nora";"1992";"w";"Sozialwissenschaftslehrerin";"Warburg";"28";"30";"25-34 J.";"Nora Wieners";NA;NA;"Nein";NA
+"8";"SPD";NA;"Waasem";"Thilo";"1982";"m";"Volljurist, Steuerfachangestellter";"Bad Münstereifel";"29";"40";"35-44 J.";"Thilo Waasem";NA;NA;"Nein";NA
+"121";"SPD";NA;"Ihme";"Anja";"1971";"w";"Rektorin im Schuldienst Land NRW";"Iserlohn";"30";"51";"45-54 J.";"Anja Ihme";NA;NA;"Nein";NA
+"103";"SPD";NA;"Jörg";"Wolfgang";"1963";"m";"Mitglied des Landtages";"Hagen";"31";"59";"55-64 J.";"Wolfgang Jörg";"Hagen I";"39,4";"Ja";"erststimme"
+"106";"SPD";"Dr.";"Büteführ";"Nadja";"1966";"w";"Kommunikationswissenschaftlerin";"Herdecke";"32";"56";"55-64 J.";"Nadja Büteführ";"Ennepe-Ruhr-Kreis II";"39,7";"Ja";"erststimme"
+"28";"SPD";NA;"Waldästl";"Denis";"1987";"m";"Bankkaufmann";"Sankt Augustin";"33";"35";"35-44 J.";"Denis Waldästl";NA;NA;"Nein";NA
+"35";"SPD";NA;"Dobbert";"Marina";"1958";"w";"Arbeitsvermittlerin - zurzeit Mitglied des Landtages";"Solingen";"34";"64";"55-64 J.";"Marina Dobbert";NA;NA;"Ja";"zweitstimme"
+"87";"SPD";NA;"Werning";"Frederik";"1990";"m";"Gewerkschaftssekretär";"Ahlen";"35";"32";"25-34 J.";"Frederik Werning";NA;NA;"Nein";NA
+"72";"SPD";NA;"Kapteinat";"Lisa-Kristin";"1989";"w";"Rechtsanwältin, Mitglied des Landtages";"Castrop-Rauxel";"36";"33";"25-34 J.";"Lisa-Kristin Kapteinat";"Recklinghausen V";"43,8";"Ja";"erststimme"
+"54";"SPD";NA;"Aengenvoort";"Lars";"1990";"m";"Sicherheitsingenieur";"Geldern";"37";"32";"25-34 J.";"Lars Aengenvoort";NA;NA;"Nein";NA
+"25";"SPD";NA;"Zorlu";"Sara";"1985";"w";"Unternehmerin";"Eitorf";"38";"37";"35-44 J.";"Sara Zorlu";NA;NA;"Nein";NA
+"99";"SPD";"Dr.";"Maelzer";"Dennis";"1980";"m";"Politikwissenschaftler, Mitglied des Landtages";"Detmold";"39";"42";"35-44 J.";"Dennis Maelzer";"Lippe III";"40,9";"Ja";"erststimme"
+"107";"SPD";NA;"Busche";"Andrea";"1971";"w";"Erzieherin";"Bochum";"40";"51";"45-54 J.";"Andrea Busche";NA;NA;"Nein";NA
+"120";"SPD";NA;"Behrens";"Jens";"1978";"m";"Filialleiter Sparkasse";"Lippstadt";"41";"44";"35-44 J.";"Jens Behrens";NA;NA;"Nein";NA
+"51";"SPD";NA;"Gauselmann";"Josephine";"1994";"w";"Wissenschaftliche Mitarbeiterin";"Mönchengladbach";"42";"28";"25-34 J.";"Josephine Gauselmann";NA;NA;"Nein";NA
+"115";"SPD";NA;"Ganzke";"Hartmut";"1966";"m";"Mitglied des Landtages";"Unna";"43";"56";"55-64 J.";"Hartmut Ganzke";"Unna I";"39,7";"Ja";"erststimme"
+"14";"SPD";NA;"Steinmann";"Lisa";"1966";"w";"Veranstaltungskauffrau";"Köln";"44";"56";"55-64 J.";"Lisa Steinmann";NA;NA;"Nein";NA
+"86";"SPD";NA;"Pomberg";"Ralf";"1973";"m";"Rohmetzmeister";"Beelen";"45";"49";"45-54 J.";"Ralf Pomberg";NA;NA;"Nein";NA
+"105";"SPD";NA;"Stich";"Kirsten";"1968";"w";"Schulsozialarbeiterin";"Wetter";"46";"54";"45-54 J.";"Kirsten Stich";NA;NA;"Nein";NA
+"60";"SPD";NA;"Yetim";"Ibrahim";"1965";"m";"Mitglied des Landtages";"Moers";"47";"57";"55-64 J.";"Ibrahim Yetim";"Wesel IV";"42,2";"Ja";"erststimme"
+"96";"SPD";NA;"Hasler";"Rachel";"1998";"w";"Studentin der Politikwissenschaften";"Verl";"48";"24";"15-24 J.";"Rachel Hasler";NA;NA;"Nein";NA
+"6";"SPD";NA;"Dobbelstein";"Daniel";"1979";"m";"Geschäftsführer";"Kerpen";"49";"43";"35-44 J.";"Daniel Dobbelstein";NA;NA;"Nein";NA
+"73";"SPD";NA;"Siebel";"Christin";"1985";"w";"Gewerkschaftssekretärin";"Gelsenkirchen";"50";"37";"35-44 J.";"Christin Siebel";NA;NA;"Nein";NA
+"119";"SPD";NA;"Heemann";"Till";"1989";"m";"Brandschutzingenieur (M.Sc)";"Soest";"51";"33";"25-34 J.";"Till Heemann";NA;NA;"Nein";NA
+"117";"SPD";NA;"Gosewinkel";"Silvia";"1986";"w";"Logopädin";"Bönen";"52";"36";"35-44 J.";"Silvia Gosewinkel";NA;NA;"Nein";NA
+"23";"SPD";NA;"Peping";"Thorben";"1998";"m";"Student";"Lindlar";"53";"24";"15-24 J.";"Thorben Peping";NA;NA;"Nein";NA
+"53";"SPD";NA;"Jansen";"Tanja";"1973";"w";"Angestellte";"Nettetal";"54";"49";"45-54 J.";"Tanja Jansen";NA;NA;"Nein";NA
+"80";"SPD";NA;"Gomes";"Stevens";"1980";"m";"Industriekaufmann";"Greven";"55";"42";"35-44 J.";"Stevens Gomes";NA;NA;"Nein";NA
+"114";"SPD";NA;"Butschkau";"Anja";"1966";"w";"Dipl.-Sozialarbeiterin";"Dortmund";"56";"56";"55-64 J.";"Anja Butschkau";"Dortmund IV";"38,6";"Ja";"erststimme"
+"58";"SPD";NA;"Schneider";"René";"1976";"m";"Mitglied des Landtages";"Kamp-Linfort";"57";"46";"45-54 J.";"René Schneider";"Wesel II";"38,5";"Ja";"erststimme"
+"11";"SPD";NA;"Schütten";"Ingrid";"1963";"w";"Dipl.-Musikpädagogin";"Niederzier";"58";"59";"55-64 J.";"Ingrid Schütten";NA;NA;"Nein";NA
+"100";"SPD";NA;"Sprink";"Michael";"1983";"m";"Bankfachwirt, Immobilienberater";"Salzkotten";"59";"39";"35-44 J.";"Michael Sprink";NA;NA;"Nein";NA
+"104";"SPD";NA;"Blumenthal";"Ina";"1981";"w";"Journalistin";"Gevelsberg";"60";"41";"35-44 J.";"Ina Blumenthal";NA;NA;"Nein";NA
+"125";"SPD";NA;"Weber";"Hubertus";"1965";"m";"Selbstständig (EDV Schwerpunkt Digitalisierung)";"Brilon";"61";"57";"55-64 J.";"Hubertus Weber";NA;NA;"Nein";NA
+"33";"SPD";NA;"Engin";"Dilek";"1981";"w";"Oberstudienrätin";"Wuppertal";"62";"41";"35-44 J.";"Dilek Engin";NA;NA;"Nein";NA
+"77";"SPD";NA;"Ricking";"Norbert";"1965";"m";"Theologe";"Gronau";"63";"57";"55-64 J.";"Norbert Ricking";NA;NA;"Nein";NA
+"3";"SPD";NA;"Voigt-Küppers";"Eva-Maria";"1958";"w";"Staatlich anerkannte Erzieherin, Mitglied des Landtages";"Würselen";"64";"64";"55-64 J.";"Eva-Maria Voigt-Küppers";"Aachen III";"40,0";"Ja";"erststimme"
+"127";"SPD";NA;"Schneider";"Samir";"1984";"m";"CNC-Programmierer";"Bad Laasphe";"65";"38";"35-44 J.";"Samir Schneider";NA;NA;"Nein";NA
+"69";"SPD";NA;"Kavena";"Anna";"1986";"w";"Dipl.-Sozialpädagogin";"Recklinghausen";"66";"36";"35-44 J.";"Anna Kavena";NA;NA;"Nein";NA
+"32";"SPD";NA;"Bialas";"Andreas";"1968";"m";"Polizist - zurzeit Mitglied des Landtages";"Wuppertal";"67";"54";"45-54 J.";"Andreas Bialas";"Wuppertal II";"34,2";"Ja";"erststimme"
+"92";"SPD";NA;"Kampmann";"Christina";"1980";"w";"Dipl.-Verwaltungswirtin, Mitglied des Landtages";"Bielefeld";"68";"42";"35-44 J.";"Christina Kampmann";"Bielefeld I";"40,1";"Ja";"erststimme"
+"31";"SPD";NA;"Kunze";"Gabriel";"1981";"m";"Angestellter";"Bonn";"69";"41";"35-44 J.";"Gabriel Kunze";NA;NA;"Nein";NA
+"113";"SPD";NA;"Lüders";"Nadja";"1970";"w";"Rechtsanwältin";"Dortmund";"70";"52";"45-54 J.";"Nadja Lüders";"Dortmund III";"43,7";"Ja";"erststimme"
+"81";"SPD";NA;"Bems";"Dominik";"1983";"m";"Abgeordnetenmitarbeiter";"Rheine";"71";"39";"35-44 J.";"Dominik Bems";NA;NA;"Nein";NA
+"43";"SPD";NA;"Maus";"Annika";"1987";"w";"Stadtoberinspektorin";"Düsseldorf";"72";"35";"35-44 J.";"Annika Maus";NA;NA;"Nein";NA
+"85";"SPD";NA;"Kollmann";"Thomas";"1959";"m";"Geschäftsführer";"Münster";"73";"63";"55-64 J.";"Thomas Kollmann";NA;NA;"Nein";NA
+"89";"SPD";NA;"Weng";"Christina";"1961";"w";"Mitglied des Landtages";"Minden";"74";"61";"55-64 J.";"Christina Weng";"Minden-Lübbecke II";"42,7";"Ja";"erststimme"
+"78";"SPD";NA;"Kemper";"Jan";"1980";"m";"Leiter Marketing & Kommunikation";"Heiden";"75";"42";"35-44 J.";"Jan Kemper";NA;NA;"Nein";NA
+"20";"SPD";NA;"Koepke";"Ariane";"1976";"w";"Zahnärztin";"Leverkusen";"76";"46";"45-54 J.";"Ariane Koepke";NA;NA;"Nein";NA
+"34";"SPD";NA;"Neumann";"Josef";"1960";"m";"Geschäftsführer - zurzeit Mitglied des Landtages";"Solingen";"77";"62";"55-64 J.";"Josef Neumann";"Wuppertal III – Solingen II";"36,0";"Ja";"erststimme"
+"68";"SPD";NA;"Schlupkothen";"Judith";"1981";"w";"Bürokauffrau, Studentin";"Essen";"78";"41";"35-44 J.";"Judith Schlupkothen";NA;NA;"Nein";NA
+"17";"SPD";NA;"Joisten";"Christian";"1971";"m";"Leiter Customer Relations & Networking";"Köln";"79";"51";"45-54 J.";"Christian Joisten";NA;NA;"Nein";NA
+"55";"SPD";NA;"Becker";"Christin";"1981";"w";"Fraktionsassistentin";"Bedburg-Hau";"80";"41";"35-44 J.";"Christin Becker";NA;NA;"Nein";NA
+"70";"SPD";NA;"Löcker";"Carsten";"1961";"m";"Mitglied des Landtages";"Herten";"81";"61";"55-64 J.";"Carsten Löcker";"Recklinghausen II";"39,7";"Ja";"erststimme"
+"13";"SPD";NA;"Blümel";"Berit";"1967";"w";"Dipl.-Kauffrau";"Köln";"82";"55";"55-64 J.";"Berit Blümel";NA;NA;"Nein";NA
+"108";"SPD";"Dr.";"Hartmann";"Bastian";"1984";"m";"Sozialwissenschaftler";"Bochum";"83";"38";"35-44 J.";"Bastian Hartmann";NA;NA;"Nein";NA
+"46";"SPD";NA;"Burdag";"Birgit";"1957";"w";"Gesamtschuldirektorin";"Dormagen";"84";"65";"65-74 J.";"Birgit Burdag";NA;NA;"Nein";NA
+"111";"SPD";NA;"Stoltze";"Ralf";"1956";"m";"Cutter";"Dortmund";"85";"66";"65-74 J.";"Ralf Stoltze";NA;NA;"Nein";NA
+"27";"SPD";NA;"Peters";"Anna";"1985";"w";"Online-Marketing-Managerin";"Bornheim";"86";"37";"35-44 J.";"Anna Peters";NA;NA;"Nein";NA
+"116";"SPD";NA;"Schmeltzer";"Rainer";"1961";"m";"Gewerkschaftssekretär";"Lünen";"87";"61";"55-64 J.";"Rainer Schmeltzer";"Unna II";"41,8";"Ja";"erststimme"
+"49";"SPD";NA;"Nowak";"Katharina";"1984";"w";"Dipl.-Theologin";"Krefeld";"88";"38";"35-44 J.";"Katharina Nowak";NA;NA;"Nein";NA
+"93";"SPD";NA;"Akay";"Nesrettin";"1974";"m";"Fahrlehrer";"Bielefeld";"89";"48";"45-54 J.";"Nesrettin Akay";NA;NA;"Nein";NA
+"59";"SPD";NA;"Löwenstein";"Kerstin";"1958";"w";"Dipl.-Forstwirtin";"Hamminkeln";"90";"64";"55-64 J.";"Kerstin Löwenstein";NA;NA;"Nein";NA
+"75";"SPD";NA;"Göddertz";"Thomas";"1960";"m";"Dipl.-Kaufmann";"Bottrop";"91";"62";"55-64 J.";"Thomas Göddertz";"Bottrop";"40,7";"Ja";"erststimme"
+"2";"SPD";NA;"Wallraff";"Renate";"1973";"w";"Dipl.-Sozialpädagogin";"Aachen";"92";"49";"45-54 J.";"Renate Wallraff";NA;NA;"Nein";NA
+"74";"SPD";NA;"Watermeier";"Sebastian";"1984";"m";"Mitglied des Landtages";"Gelsenkirchen";"93";"38";"35-44 J.";"Sebastian Watermeier";"Gelsenkirchen II";"42,6";"Ja";"erststimme"
+"67";"SPD";NA;"Kahle-Hausmann";"Julia";"1971";"w";"Beraterin Organisationsentwicklung";"Essen";"94";"51";"45-54 J.";"Julia Kahle-Hausmann";NA;NA;"Nein";NA
+"109";"SPD";NA;"Yüksel";"Serdar";"1973";"m";"Krankenpfleger";"Bochum";"95";"49";"45-54 J.";"Serdar Yüksel";"Bochum III – Herne II";"41,5";"Ja";"erststimme"
+"16";"SPD";NA;"Teschlade";"Lena";"1988";"w";"Sozialarbeiterin";"Köln";"96";"34";"25-34 J.";"Lena Teschlade";NA;NA;"Nein";NA
+"112";"SPD";NA;"Baran";"Volkan";"1978";"m";"Angestellter";"Dortmund";"97";"44";"35-44 J.";"Volkan Baran";"Dortmund II";"39,1";"Ja";"erststimme"
+"26";"SPD";"Dr.";"Echterhoff-Nikolidakis";"Charlotte";"1985";"w";"Wissenschaftliche Referentin";"Sankt Augustin";"98";"37";"35-44 J.";"Charlotte Echterhoff-Nikolidakis";NA;NA;"Nein";NA
+"88";"SPD";NA;"Schröder";"Andreas";"1968";"m";"Polizeibeamter";"Lübbecke";"99";"54";"45-54 J.";"Andreas Schröder";NA;NA;"Nein";NA
+"10";"SPD";NA;"Simons";"Heike";"1971";"w";"Altenpflegerin";"Wassenberg";"100";"51";"45-54 J.";"Heike Simons";NA;NA;"Nein";NA
+"110";"SPD";NA;"Vogt";"Alexander";"1978";"m";"Journalist, Mitglied des Landtages";"Herne";"101";"44";"35-44 J.";"Alexander Vogt";"Herne I";"46,8";"Ja";"erststimme"
+"19";"SPD";NA;"Kirsch";"Carolin";"1967";"w";"Beamtin Land NRW";"Köln";"102";"55";"55-64 J.";"Carolin Kirsch";NA;NA;"Nein";NA
+"42";"SPD";NA;"Schreiber";"Oliver";"1982";"m";"Regierungsdirektor";"Düsseldorf";"103";"40";"35-44 J.";"Oliver Schreiber";NA;NA;"Nein";NA
+"56";"SPD";NA;"Bongers";"Sonja";"1976";"w";"Rechtsanwältin";"Oberhausen";"104";"46";"45-54 J.";"Sonja Bongers";"Oberhausen I";"41,4";"Ja";"erststimme"
+"52";"SPD";NA;"Maaßen";"Lukas";"1991";"m";"Politikwissenschaftler";"Willich";"105";"31";"25-34 J.";"Lukas Maaßen";NA;NA;"Nein";NA
+"1";"SPD";"Dr.";"van den Hurk";"Jan";"1981";"m";"Ingenieur";"Aachen";"106";"41";"35-44 J.";"Jan van den Hurk";NA;NA;"Nein";NA
+"37";"SPD";NA;"Nasemann";"Marc";"1983";"m";"Koch";"Langenfeld";"107";"39";"35-44 J.";"Marc Nasemann";NA;NA;"Nein";NA
+"29";"SPD";NA;"Schmidt";"Oliver";"1972";"m";"Sparkassenbetriebswirt";"Siegburg";"108";"50";"45-54 J.";"Oliver Schmidt";NA;NA;"Nein";NA
+"101";"SPD";NA;"Voigtländer";"Roger";"1963";"m";"Angestellter/Niederlassungsleiter";"Paderborn";"109";"59";"55-64 J.";"Roger Voigtländer";NA;NA;"Nein";NA
+"50";"SPD";NA;"Roth";"Michael";"1988";"m";"Rechtsanwalt";"Mönchengladbach";"110";"34";"25-34 J.";"Michael Roth";NA;NA;"Nein";NA
+"12";"SPD";NA;"Dichant";"Maximilian";"1992";"m";"Projektleiter";"Düren";"111";"30";"25-34 J.";"Maximilian Dichant";NA;NA;"Nein";NA
+"38";"SPD";NA;"Stascheit";"Matthias";"1982";"m";"Polizeibeamter";"Mettmann";"112";"40";"35-44 J.";"Matthias Stascheit";NA;NA;"Nein";NA
+"24";"SPD";NA;"Schneider";"Tobias";"1982";"m";"Heilerziehungspfleger";"Morsbach";"113";"40";"35-44 J.";"Tobias Schneider";NA;NA;"Nein";NA
+"44";"SPD";NA;"Bohrmann";"Jürgen";"1960";"m";"Kraftwerksmeister";"Düsseldorf";"114";"62";"55-64 J.";"Jürgen Bohrmann";NA;NA;"Nein";NA
+"7";"SPD";NA;"Odabasi";"Halil";"1979";"m";"Beamter";"Wesseling";"115";"43";"35-44 J.";"Halil Odabasi";NA;NA;"Nein";NA
+"40";"SPD";NA;"Söyler";"Cüneyt";"1987";"m";"wissenschaftlicher Mitarbeiter";"Velbert";"116";"35";"35-44 J.";"Cüneyt Söyler";NA;NA;"Nein";NA
+"5";"SPD";NA;"Coumanns";"Bernd";"1975";"m";"Angestellter";"Bedburg";"117";"47";"45-54 J.";"Bernd Coumanns";NA;NA;"Nein";NA
+"47";"SPD";NA;"Knuppertz";"Marcel";"1992";"m";"Lehrer";"Korschenbroich";"118";"30";"25-34 J.";"Marcel Knuppertz";NA;NA;"Nein";NA
+"95";"SPD";NA;"Schneidt";"Stefan";"2000";"m";"Student der Politik- & Rechtswissenschaften";"Gütersloh";"119";"22";"15-24 J.";"Stefan Schneidt";NA;NA;"Nein";NA
+"18";"SPD";NA;"Schuster";"Florian";"1993";"m";"Volkswirt";"Köln";"120";"29";"25-34 J.";"Florian Schuster";NA;NA;"Nein";NA
+"64";"SPD";NA;"Bakum";"Rodion";"1990";"m";"Arzt";"Mülheim an der Ruhr";"121";"32";"25-34 J.";"Rodion Bakum";NA;NA;"Nein";NA
+"98";"SPD";NA;"Baer";"Alexander";"1975";"m";"Sparkassenbetriebswirt";"Lemgo";"122";"47";"45-54 J.";"Alexander Baer";NA;NA;"Nein";NA
+"91";"SPD";NA;"Obrok";"Christian";"1977";"m";"Wissenschaftlicher Mitarbeiter, Diplo-Pädagoge";"Bünde";"123";"45";"45-54 J.";"Christian Obrok";NA;NA;"Nein";NA
+"66";"SPD";NA;"Müller";"Frank";"1977";"m";"Mitglied des Landtages";"Essen";"124";"45";"45-54 J.";"Frank Müller";"Essen II";"39,9";"Ja";"erststimme"
+"22";"SPD";NA;"Lemmer";"Sebastian";"1981";"m";"Gastronom";"Leichlingen";"125";"41";"35-44 J.";"Sebastian Lemmer";NA;NA;"Nein";NA
+"94";"SPD";NA;"Klute";"Thorsten";"1974";"m";"Volljurist, Vorstand";"Versmold";"126";"48";"45-54 J.";"Thorsten Klute";NA;NA;"Nein";NA
+"57";"SPD";NA;"Zimkeit";"Stefan";"1964";"m";"Mitglied des Landtages";"Oberhausen";"127";"58";"55-64 J.";"Stefan Zimkeit";"Oberhausen II – Wesel I";"41,7";"Ja";"erststimme"
+"62";"SPD";NA;"Falszewski";"Benedikt";"1982";"m";"Sachbearbeiter";"Duisburg";"128";"40";"35-44 J.";"Benedikt Falszewski";NA;NA;"Nein";NA
+"63";"SPD";NA;"Börner";"Frank";"1966";"m";"Kfm. Angestellter";"Duisburg";"129";"56";"55-64 J.";"Frank Börner";"Duisburg IV – Wesel V";"41,6";"Ja";"erststimme"
+"2";"DIE LINKE";NA;"Gvozden";"Igor";"1992";"m";"Elektroingenieur";"Aachen";NA;"30";"25-34 J.";"Igor Gvozden";NA;NA;"Nein";NA
+"2";"GRÜNE";NA;"Nießen";"Henning";"1994";"m";"Student";"Aachen";NA;"28";"25-34 J.";"Henning Nießen";NA;NA;"Nein";NA
+"3";"AfD";NA;"Upadek";"Elisabeth";"1958";"w";"Rentnerin";"Eschweiler";NA;"64";"55-64 J.";"Elisabeth Upadek";NA;NA;"Nein";NA
+"3";"DIE LINKE";NA;"Müller";"Florian";"1998";"m";"Student";"Herzogenrath";NA;"24";"15-24 J.";"Florian Müller";NA;NA;"Nein";NA
+"4";"AfD";NA;"Winterich";"Michael";"1977";"m";"Selbstständig";"Eschweiler";NA;"45";"45-54 J.";"Michael Winterich";NA;NA;"Nein";NA
+"4";"DIE LINKE";NA;"Dunker";"Darius";"1970";"m";"Sachbearbeiter";"Aachen";NA;"52";"45-54 J.";"Darius Dunker";NA;NA;"Nein";NA
+"5";"AfD";NA;"Pesch";"Franz";"1961";"m";"Selbstständiger Kaufmann";"Pulheim";NA;"61";"55-64 J.";"Franz Pesch";NA;NA;"Nein";NA
+"5";"GRÜNE";NA;"Özdemir";"Ahmet";"1975";"m";"Lehrbeauftragter";"Kerpen";NA;"47";"45-54 J.";"Ahmet Özdemir";NA;NA;"Nein";NA
+"6";"AfD";NA;"Gonska";"Peter";"1977";"m";"Stadtarbeiter";"Hürth";NA;"45";"45-54 J.";"Peter Gonska";NA;NA;"Nein";NA
+"6";"DIE LINKE";NA;"Singer";"Peter";"1955";"m";"grad. Verwaltungswirt";"Frechen";NA;"67";"65-74 J.";"Peter Singer";NA;NA;"Nein";NA
+"7";"AfD";NA;"Raatz";"Norbert";"1965";"m";"Selbstständiger Kaufmann";"Hürth";NA;"57";"55-64 J.";"Norbert Raatz";NA;NA;"Nein";NA
+"7";"DIE LINKE";NA;"Papel";"Simon";"1980";"m";"IT-Projektleiter";"Wesseling";NA;"42";"35-44 J.";"Simon Papel";NA;NA;"Nein";NA
+"7";"GRÜNE";NA;"Spicale";"Simone";"1968";"w";"Selbstständig";"Brühl";NA;"54";"45-54 J.";"Simone Spicale";NA;NA;"Nein";NA
+"8";"AfD";NA;"Poll";"Frank";"1973";"m";"Kaufmann";"Kall";NA;"49";"45-54 J.";"Frank Poll";NA;NA;"Nein";NA
+"8";"DIE LINKE";NA;"Bell";"Thomas";"1966";"m";"Beamter";"Bad Münstereifel";NA;"56";"55-64 J.";"Thomas Bell";NA;NA;"Nein";NA
+"9";"AfD";NA;"Tabakman";"Igor";"1973";"m";"Industriekaufmann";"Heinsberg";NA;"49";"45-54 J.";"Igor Tabakman";NA;NA;"Nein";NA
+"9";"DIE LINKE";NA;"Winkowski";"Max";"1998";"m";"Student";"Übach-Palenberg";NA;"24";"15-24 J.";"Max Winkowski";NA;NA;"Nein";NA
+"10";"AfD";NA;"Spenrath";"Jürgen";"1956";"m";"Kfm. Angestellter";"Erkelenz";NA;"66";"65-74 J.";"Jürgen Spenrath";NA;NA;"Nein";NA
+"10";"DIE LINKE";NA;"Staeck";"Manuel";"1975";"m";"Elektriker";"Hückelhoven";NA;"47";"45-54 J.";"Manuel Staeck";NA;NA;"Nein";NA
+"10";"GRÜNE";NA;"Mank";"Paul";"1989";"m";"Sozialarbeiter";"Wassenberg";NA;"33";"25-34 J.";"Paul Mank";NA;NA;"Nein";NA
+"11";"AfD";NA;"Essler";"Bernd";"1949";"m";"Unternehmensberater";"Düren";NA;"73";"65-74 J.";"Bernd Essler";NA;NA;"Nein";NA
+"11";"DIE LINKE";NA;"Mörsch";"Mihaela";"1960";"w";"Dipl.-Ingenieurin";"Aldenhoven";NA;"62";"55-64 J.";"Mihaela Mörsch";NA;NA;"Nein";NA
+"11";"GRÜNE";NA;"Ollech";"Oliver";"1966";"m";"Dipl.-Informatiker";"Jülich";NA;"56";"55-64 J.";"Oliver Ollech";NA;NA;"Nein";NA
+"12";"CDU";"Dr.";"Nolten";"Ralf";"1964";"m";"Dr. Agronomiae, Mitglied des Landtages";"Kreuzau";NA;"58";"55-64 J.";"Ralf Nolten";"Düren II – Euskirchen II";"44,0";"Ja";"erststimme"
+"12";"DIE LINKE";NA;"Wallbaum";"Kai";"1964";"m";"Student";"Düren";NA;"58";"55-64 J.";"Kai Wallbaum";NA;NA;"Nein";NA
+"13";"AfD";NA;"Leitterstorf";"Luca";"1996";"m";"Unternehmer";"Köln";NA;"26";"25-34 J.";"Luca Leitterstorf";NA;NA;"Nein";NA
+"14";"AfD";NA;"Ferdinand";"Heribert";"1964";"m";"Selbstständiger Unternehmer";"Köln";NA;"58";"55-64 J.";"Heribert Ferdinand";NA;NA;"Nein";NA
+"14";"CDU";NA;"Petelkau";"Bernd";"1965";"m";"Mitglied des Landtages";"Köln";NA;"57";"55-64 J.";"Bernd Petelkau";"Köln II";"37,0";"Ja";"erststimme"
+"15";"AfD";NA;"Cremer";"Christer";"1982";"m";"Wissenschaftlicher Mitarbeiter";"Köln";NA;"40";"35-44 J.";"Christer Cremer";NA;NA;"Nein";NA
+"15";"DIE LINKE";NA;"Köhler Pinzón";"Christian";"2000";"m";"Studierender";"Köln";NA;"22";"15-24 J.";"Christian Köhler Pinzón";NA;NA;"Nein";NA
+"16";"DIE LINKE";NA;"Schwerd";"Daniel";"1966";"m";"Selbstständig";"Köln";NA;"56";"55-64 J.";"Daniel Schwerd";NA;NA;"Nein";NA
+"17";"AfD";NA;"Türe";"Ahmet";"1966";"m";"Selbstständig";"Köln";NA;"56";"55-64 J.";"Ahmet Türe";NA;NA;"Nein";NA
+"17";"DIE LINKE";NA;"Eisfeld";"Madeleine";"1965";"w";"Staatlich geprüfte Sozialsekretärin";"Köln";NA;"57";"55-64 J.";"Madeleine Eisfeld";NA;NA;"Nein";NA
+"17";"GRÜNE";NA;"Schuth";"Marvin";"1988";"m";"Dualer Student Klinische Pflege";"Köln";NA;"34";"25-34 J.";"Marvin Schuth";NA;NA;"Nein";NA
+"18";"AfD";NA;"Boyens";"Stephan";"1962";"m";"Unternehmensentwickler";"Köln";NA;"60";"55-64 J.";"Stephan Boyens";NA;NA;"Nein";NA
+"19";"DIE LINKE";NA;"Gümüs";"Attila";"1977";"m";"Tontechniker";"Köln";NA;"45";"45-54 J.";"Attila Gümüs";NA;NA;"Nein";NA
+"21";"AfD";NA;"Feller";"Jörg";"1960";"m";"Diplomvolkswirt";"Rösrath";NA;"62";"55-64 J.";"Jörg Feller";NA;NA;"Nein";NA
+"21";"DIE LINKE";NA;"Santillán";"Tomás M.";"1964";"m";"Selbstständig";"Bergisch Gladbach";NA;"58";"55-64 J.";"Tomás M. Santillán";NA;NA;"Nein";NA
+"22";"DIE LINKE";NA;"Galow";"Mike";"1976";"m";"Bürokaufmann";"Wermelskirchen";NA;"46";"45-54 J.";"Mike Galow";NA;NA;"Nein";NA
+"23";"DIE LINKE";NA;"Wegner";"Marko";"1967";"m";"Kaufmann";"Wiehl";NA;"55";"55-64 J.";"Marko Wegner";NA;NA;"Nein";NA
+"23";"GRÜNE";NA;"Söhnchen";"Uwe";"1958";"m";"Krankenpfleger";"Engelskirchen";NA;"64";"55-64 J.";"Uwe Söhnchen";NA;NA;"Nein";NA
+"24";"AfD";NA;"Valentin";"Susanne";"1951";"w";"Sozialversicherungsangestellte i.R.";"Gummersbach";NA;"71";"65-74 J.";"Susanne Valentin";NA;NA;"Nein";NA
+"25";"AfD";NA;"von den Bergen";"Ralf";"1962";"m";"Selbständiger Projektingenieur";"Troisdorf";NA;"60";"55-64 J.";"Ralf von den Bergen";NA;NA;"Nein";NA
+"25";"CDU";NA;"Franken";"Björn";"1979";"m";"Leitender Angestellter (Prokurist), Mitglied des Landtags";"Ruppichteroth";NA;"43";"35-44 J.";"Björn Franken";"Rhein-Sieg-Kreis I";"43,9";"Ja";"erststimme"
+"25";"DIE LINKE";NA;"Serwaty";"Judith";"1983";"w";"Sozial-Pädagogin";"Ruppichteroth";NA;"39";"35-44 J.";"Judith Serwaty";NA;NA;"Nein";NA
+"25";"GRÜNE";NA;"Zacharias";"Holger";"1969";"m";"Glaser";"Ruppichteroth";NA;"53";"45-54 J.";"Holger Zacharias";NA;NA;"Nein";NA
+"26";"AfD";NA;"Overath";"Anno";"1973";"m";"Selbständiger Kaufmann";"Troisdorf";NA;"49";"45-54 J.";"Anno Overath";NA;NA;"Nein";NA
+"26";"DIE LINKE";NA;"Reichardt";"Bastian";"1985";"m";"Autor";"Königswinter";NA;"37";"35-44 J.";"Bastian Reichardt";NA;NA;"Nein";NA
+"27";"AfD";NA;"Heintze";"Armin";"1966";"m";"Rentner";"Rheinbach";NA;"56";"55-64 J.";"Armin Heintze";NA;NA;"Nein";NA
+"27";"CDU";NA;"Krauß";"Oliver";"1969";"m";"Rechtsanwalt, Mitglied des Landtags";"Alfter";NA;"53";"45-54 J.";"Oliver Krauß";"Rhein-Sieg-Kreis III";"44,8";"Ja";"erststimme"
+"27";"DIE LINKE";NA;"Lafazanis";"Iris";"1964";"w";"Gebäudereinigerin";"Weilerswist";NA;"58";"55-64 J.";"Iris Lafazanis";NA;NA;"Nein";NA
+"27";"GRÜNE";"Dr.";"Kuhn";"Arnd";"1957";"m";"Wissenschaftler";"Bornheim";NA;"65";"65-74 J.";"Arnd Kuhn";NA;NA;"Nein";NA
+"28";"AfD";NA;"Moses";"Gert";"1970";"m";"Angestellter";"Windeck";NA;"52";"45-54 J.";"Gert Moses";NA;NA;"Nein";NA
+"28";"DIE LINKE";NA;"Shaikh";"Kashif";"1974";"m";"Verwaltungsfachangestellter";"Troisdorf";NA;"48";"45-54 J.";"Kashif Shaikh";NA;NA;"Nein";NA
+"28";"GRÜNE";NA;"Huwer";"Thomas";"1983";"m";"Filialleiter im Einzelhandel";"Troisdorf";NA;"39";"35-44 J.";"Thomas Huwer";NA;NA;"Nein";NA
+"29";"AfD";NA;"Mylonas";"Marios";"1962";"m";"Rechtsanwalt";"Hennef";NA;"60";"55-64 J.";"Marios Mylonas";NA;NA;"Nein";NA
+"29";"DIE LINKE";NA;"Döhring";"Martina";"1962";"w";"Dipl.-Biologin";"Siegburg";NA;"60";"55-64 J.";"Martina Döhring";NA;NA;"Nein";NA
+"30";"AfD";"Prof. Dr.";"Neuhoff";"Hans";"1959";"m";"Professor an einer Kunsthochschule";"Düsseldorf";NA;"63";"55-64 J.";"Hans Neuhoff";NA;NA;"Nein";NA
+"30";"DIE LINKE";"von";"Raußendorf";"Hanno";"1962";"m";"Jurist";"Bonn";NA;"60";"55-64 J.";"Hanno Raußendorf";NA;NA;"Nein";NA
+"31";"AfD";NA;"Ulbrich";"Sascha";"1972";"m";"Angestellter";"Düsseldorf";NA;"50";"45-54 J.";"Sascha Ulbrich";NA;NA;"Nein";NA
+"31";"CDU";"Dr.";"Katzidis";"Christos";"1969";"m";"Polizeioberrat a.D., Mitglied des Landtages";"Bonn";NA;"53";"45-54 J.";"Christos Georg Katzidis";"Bonn II";"39,1";"Ja";"erststimme"
+"31";"DIE LINKE";NA;"Schenkel";"Julia";"1992";"w";"Angestellte";"Bonn";NA;"30";"25-34 J.";"Julia Schenkel";NA;NA;"Nein";NA
+"32";"DIE LINKE";NA;"Köse";"Emel";"1990";"w";"Doktorantin";"Wuppertal";NA;"32";"25-34 J.";"Emel Köse";NA;NA;"Nein";NA
+"32";"GRÜNE";NA;"Zawierucha";"Andreas";"1963";"m";"Werkstattlehrer";"Wuppertal";NA;"59";"55-64 J.";"Andreas Zawierucha";NA;NA;"Nein";NA
+"33";"AfD";NA;"Liedtke-Bentlage";"Martin";"1962";"m";"Angestellter";"Wuppertal";NA;"60";"55-64 J.";"Martin Liedtke-Bentlage";NA;NA;"Nein";NA
+"33";"DIE LINKE";NA;"Merkel";"Kai";"1984";"m";"Politologe";"Wuppertal";NA;"38";"35-44 J.";"Kai Merkel";NA;NA;"Nein";NA
+"33";"FDP";NA;"Trachte";"Alexandra";"1979";"w";"Bürokauffrau";"Wuppertal";NA;"43";"35-44 J.";"Alexandra Trachte";NA;NA;"Nein";NA
+"33";"GRÜNE";NA;"Schulz";"Marc";"1978";"m";"Angestellter";"Wuppertal";NA;"44";"35-44 J.";"Marc Schulz";NA;NA;"Nein";NA
+"34";"AfD";NA;"Feist";"Otto";"1954";"m";"Rentner";"Wuppertal";NA;"68";"65-74 J.";"Otto Feist";NA;NA;"Nein";NA
+"34";"FDP";NA;"Bremes";"Jessica";"2000";"w";"Verwaltungswirtin";"Solingen";NA;"22";"15-24 J.";"Jessica Bremes";NA;NA;"Nein";NA
+"35";"AfD";NA;"Kühne";"Frederick";"1972";"m";"Staatlich geprüfter. Bautechniker, Maurer";"Solingen";NA;"50";"45-54 J.";"Frederick Kühne";NA;NA;"Nein";NA
+"35";"GRÜNE";NA;"Vaeckenstedt";"Silvia Ingrid";"1970";"w";"Angestellte";"Solingen";NA;"52";"45-54 J.";"Silvia Ingrid Vaeckenstedt";NA;NA;"Nein";NA
+"36";"AfD";NA;"Marre";"Nicolai";"1994";"m";"IT-Systemelektroniker";"Wipperfürth";NA;"28";"25-34 J.";"Nicolai Marre";NA;NA;"Nein";NA
+"37";"AfD";NA;"Heinz";"Patrick";"1994";"m";"Student";"Langenfeld";NA;"28";"25-34 J.";"Patrick Heinz";NA;NA;"Nein";NA
+"37";"DIE LINKE";NA;"Sencan";"Mehmet";"1964";"m";"Kaufmann";"Langenfeld";NA;"58";"55-64 J.";"Mehmet Sencan";NA;NA;"Nein";NA
+"38";"AfD";NA;"Nixdorf";"Andreas";"1969";"m";"Busfahrer";"Mettmann";NA;"53";"45-54 J.";"Andreas Nixdorf";NA;NA;"Nein";NA
+"38";"DIE LINKE";NA;"Meisen";"Natalie";"1992";"w";"Referendarin";"Düsseldorf";NA;"30";"25-34 J.";"Natalie Meisen";NA;NA;"Nein";NA
+"39";"AfD";NA;"Ulrich";"Bernd";"1950";"m";"Rentner";"Ratingen";NA;"72";"65-74 J.";"Bernd Ulrich";NA;NA;"Nein";NA
+"39";"GRÜNE";NA;"Meier";"Ute";"1969";"w";"Online-Redakteurin";"Ratingen";NA;"53";"45-54 J.";"Ute Meier";NA;NA;"Nein";NA
+"40";"AfD";NA;"Ehrentraut";"Josef";"1957";"m";"Rentner";"Velbert";NA;"65";"65-74 J.";"Josef Ehrentraut";NA;NA;"Nein";NA
+"40";"GRÜNE";"Dr.";"Kanschat";"Esther";"1966";"w";"Chemikerin";"Velbert";NA;"56";"55-64 J.";"Esther Kanschat";NA;NA;"Nein";NA
+"41";"AfD";NA;"Vogt";"Marco Paul";"1977";"m";"Angestellter";"Düsseldorf";NA;"45";"45-54 J.";"Marco Paul Vogt";NA;NA;"Nein";NA
+"41";"DIE LINKE";NA;"Nowitzki";"Marcel Dieter";"1983";"m";"Betreuungspädagoge";"Düsseldorf";NA;"39";"35-44 J.";"Marcel Dieter Nowitzki";NA;NA;"Nein";NA
+"42";"AfD";NA;"Schmitz";"Maximilian";"1996";"m";"Student";"Düsseldorf";NA;"26";"25-34 J.";"Maximilian Schmitz";NA;NA;"Nein";NA
+"43";"AfD";NA;"Jörres";"Wolf-Rüdiger";"1967";"m";"Angestellter";"Düsseldorf";NA;"55";"55-64 J.";"Wolf-Rüdiger Jörres";NA;NA;"Nein";NA
+"44";"AfD";NA;"Salinger";"Elmar";"1975";"m";"Angestellter";"Düsseldorf";NA;"47";"45-54 J.";"Elmar Salinger";NA;NA;"Nein";NA
+"44";"DIE LINKE";NA;"Marmulla";"Julia Susanne";"1988";"w";"selbständige Tourismusberaterin";"Düsseldorf";NA;"34";"25-34 J.";"Julia Susanne Marmulla";NA;NA;"Nein";NA
+"45";"AfD";NA;"Rausch";"Christof";"1965";"m";"Versicherungsmakler";"Kaarst";NA;"57";"55-64 J.";"Christof Rausch";NA;NA;"Nein";NA
+"45";"DIE LINKE";NA;"vom Dorff";"Falk";"1987";"m";"Student";"Neuss";NA;"35";"35-44 J.";"Falk vom Dorff";NA;NA;"Nein";NA
+"45";"GRÜNE";NA;"Benary";"Susanne Elisabeth";"1964";"w";"Dipl.-Sozialarbeiterin";"Neuss";NA;"58";"55-64 J.";"Susanne Elisabeth Benary";NA;NA;"Nein";NA
+"46";"AfD";NA;"Hrdy";"Stefan";"1956";"m";"Vorstandsfahrer";"Rommerskirchen";NA;"66";"65-74 J.";"Stefan Hrdy";NA;NA;"Nein";NA
+"46";"DIE LINKE";NA;"Rogel-Obermann";"Walter";"1953";"m";"Rentner";"Grevenbroich";NA;"69";"65-74 J.";"Walter Rogel-Obermann";NA;NA;"Nein";NA
+"47";"DIE LINKE";NA;"Zimmermann";"Monika";"1950";"w";"Rentnerin";"Kaarst";NA;"72";"65-74 J.";"Monika Zimmermann";NA;NA;"Nein";NA
+"48";"DIE LINKE";NA;"Bayram";"Teyfik";"1969";"m";"Berufskraftfahrer";"Krefeld";NA;"53";"45-54 J.";"Teyfik Bayram";NA;NA;"Nein";NA
+"49";"AfD";NA;"Mayer-Steudte";"Thomas";"1957";"m";"Wissenschaftlicher Referent";"Krefeld";NA;"65";"65-74 J.";"Thomas Mayer-Steudte";NA;NA;"Nein";NA
+"49";"DIE LINKE";NA;"Hagemes";"Stephan";"1975";"m";"Sozialarbeiter";"Krefeld";NA;"47";"45-54 J.";"Stephan Hagemes";NA;NA;"Nein";NA
+"49";"GRÜNE";NA;"Zander";"Benjamin";"1973";"m";"Selbständiger IT Berater";"Krefeld";NA;"49";"45-54 J.";"Benjamin Zander";NA;NA;"Nein";NA
+"50";"DIE LINKE";NA;"Merkens";"Sebastian";"1980";"m";"Erzieher";"Mönchengladbach";NA;"42";"35-44 J.";"Sebastian Merkens";NA;NA;"Nein";NA
+"51";"DIE LINKE";NA;"Schultz";"Torben";"1971";"m";"Systemadministrator";"Mönchengladbach";NA;"51";"45-54 J.";"Torben Schultz";NA;NA;"Nein";NA
+"51";"GRÜNE";NA;"Wirtz";"Martin";"1983";"m";"Heilerziehungspfleger";"Mönchengladbach";NA;"39";"35-44 J.";"Martin Wirtz";NA;NA;"Nein";NA
+"52";"AfD";NA;"Fiebig";"Elvira";"1959";"w";"Kommissioniererin";"Viersen";NA;"63";"55-64 J.";"Elvira Fiebig";NA;NA;"Nein";NA
+"52";"DIE LINKE";NA;"Röder";"Andreas";"1978";"m";"Verwaltungsfachangestellter";"Viersen";NA;"44";"35-44 J.";"Andreas Röder";NA;NA;"Nein";NA
+"53";"AfD";NA;"Müller";"Peter";"1961";"m";"Kaufmann";"Kempen";NA;"61";"55-64 J.";"Peter Müller";NA;NA;"Nein";NA
+"53";"DIE LINKE";NA;"van Helden";"Jana";"1997";"w";"Studentin";"Viersen";NA;"25";"25-34 J.";"Jana van Helden";NA;NA;"Nein";NA
+"53";"GRÜNE";NA;"Britsch";"Manuel";"1985";"m";"Referent für digitale Prozesse";"Nettetal";NA;"37";"35-44 J.";"Manuel Britsch";NA;NA;"Nein";NA
+"54";"AfD";NA;"Elbers";"Sven";"1979";"m";"Anwendungsentwickler";"Geldern";NA;"43";"35-44 J.";"Sven Elbers";NA;NA;"Nein";NA
+"54";"DIE LINKE";NA;"Hayduk";"Norbert";"1958";"m";"Supervisor";"Geldern";NA;"64";"55-64 J.";"Norbert Hayduk";NA;NA;"Nein";NA
+"54";"FDP";NA;"van Stephoudt";"Lucas";"1994";"m";"Wirtschaftsförderer";"Geldern";NA;"28";"25-34 J.";"Lucas van Stephoudt";NA;NA;"Nein";NA
+"55";"DIE LINKE";NA;"Hesseling";"Sabine";"1970";"w";"Kfm. Angestellte";"Emmerich am Rhein";NA;"52";"45-54 J.";"Sabine Hesseling";NA;NA;"Nein";NA
+"56";"AfD";NA;"Kempkes";"Wolfgang";"1966";"m";"Betriebswirt";"Oberhausen";NA;"56";"55-64 J.";"Wolfgang Kempkes";NA;NA;"Nein";NA
+"56";"DIE LINKE";NA;"Koch";"Lühr";"1950";"m";"Rentner";"Oberhausen";NA;"72";"65-74 J.";"Lühr Koch";NA;NA;"Nein";NA
+"56";"GRÜNE";NA;"Axt";"Norbert";"1958";"m";"Lehrer";"Oberhausen";NA;"64";"55-64 J.";"Norbert Axt";NA;NA;"Nein";NA
+"57";"AfD";NA;"Wilhelm";"Olaf";"1971";"m";"Lehrer";"Dinslaken";NA;"51";"45-54 J.";"Olaf Wilhelm";NA;NA;"Nein";NA
+"57";"FDP";NA;"Piechatzek";"Bettina";"1978";"w";"Datenschutzbeauftragte";"Dinslaken";NA;"44";"35-44 J.";"Bettina Piechatzek";NA;NA;"Nein";NA
+"58";"AfD";NA;"van Meegeren";"Daniela";"1980";"w";"Angestellte";"Rheinberg";NA;"42";"35-44 J.";"Daniela van Meegeren";NA;NA;"Nein";NA
+"58";"GRÜNE";NA;"Awater";"Niels";"2000";"m";"Student";"Rheinberg";NA;"22";"15-24 J.";"Niels Awater";NA;NA;"Nein";NA
+"59";"AfD";NA;"Raumann";"Holger";"1969";"m";"Selbst. Versicherungskaufmann";"Moers";NA;"53";"45-54 J.";"Holger Raumann";NA;NA;"Nein";NA
+"59";"DIE LINKE";NA;"Schulz";"Hilmar";"1983";"m";"Veranstaltungskaufmann";"Wesel";NA;"39";"35-44 J.";"Hilmar Schulz";NA;NA;"Nein";NA
+"59";"FDP";NA;"Kleinsteinberg";"Nadine";"1990";"w";"Steuerberaterin";"Schermbeck";NA;"32";"25-34 J.";"Nadine Kleinsteinberg";NA;NA;"Nein";NA
+"59";"GRÜNE";NA;"Langenbrink";"Elke Christiane";"1965";"w";"Angestellte";"Schermbeck";NA;"57";"55-64 J.";"Elke Christiane Langenbrink";NA;NA;"Nein";NA
+"60";"AfD";"Dr.";"Rieger";"Renatus";"1958";"m";"Dipl.-Kaufmann";"Moers";NA;"64";"55-64 J.";"Renatus Rieger";NA;NA;"Nein";NA
+"60";"DIE LINKE";NA;"Özer";"Hasan";"1984";"m";"Chemikant";"Moers";NA;"38";"35-44 J.";"Hasan Özer";NA;NA;"Nein";NA
+"61";"AfD";NA;"Dennisen";"Nicola";"1994";"w";"Examinierte Gesundheits- und Krankenpflegerin";"Duisburg";NA;"28";"25-34 J.";"Nicola Dennisen";NA;NA;"Nein";NA
+"62";"DIE LINKE";NA;"Klee";"Helen";"1995";"w";"Studentin";"Duisburg";NA;"27";"25-34 J.";"Helen Klee";NA;NA;"Nein";NA
+"63";"AfD";NA;"Dehnen";"Sabine";"1980";"w";"Angestellte";"Duisburg";NA;"42";"35-44 J.";"Sabine Dehnen";NA;NA;"Nein";NA
+"64";"AfD";"Dr.";"Lessau";"Wolfgang Siegfried";"1939";"m";"Facharzt für Radiologie";"Mülheim an der Ruhr";NA;"83";"75 J. und älter";"Wolfgang Siegfried Lessau";NA;NA;"Nein";NA
+"64";"DIE LINKE";NA;"Scheffler";"Marc";"1996";"m";"Auszubildender";"Mülheim an der Ruhr";NA;"26";"25-34 J.";"Marc Scheffler";NA;NA;"Nein";NA
+"64";"GRÜNE";NA;"Rose";"Kathrin Rosa";"1980";"w";"Persönliche Referentin Mitglied des Landtages";"Mülheim an der Ruhr";NA;"42";"35-44 J.";"Kathrin Rosa Rose";NA;NA;"Nein";NA
+"65";"AfD";NA;"Reil";"Guido";"1970";"m";"Steiger";"Essen";NA;"52";"45-54 J.";"Guido Reil";NA;NA;"Nein";NA
+"65";"DIE LINKE";NA;"Giesecke";"Gabriele";"1954";"w";"Rentnerin";"Essen";NA;"68";"65-74 J.";"Gabriele Giesecke";NA;NA;"Nein";NA
+"65";"GRÜNE";NA;"Spitzer-Pachel";"Markus";"1971";"m";"Kfm. Angestellter";"Essen";NA;"51";"45-54 J.";"Markus Spitzer-Pachel";NA;NA;"Nein";NA
+"66";"AfD";NA;"Schmitz";"Jens";"1967";"m";"Feuerwehrbeamter";"Essen";NA;"55";"55-64 J.";"Jens Schmitz";NA;NA;"Nein";NA
+"66";"DIE LINKE";NA;"Suthor";"Hendrik";"1997";"m";"Wissenschaftlicher Mitarbeiter";"Essen";NA;"25";"25-34 J.";"Hendrik Suthor";NA;NA;"Nein";NA
+"67";"AfD";NA;"Brecklinghaus";"Stefanie";"1961";"w";"Dipl.-Kauffrau";"Essen";NA;"61";"55-64 J.";"Stefanie Brecklinghaus";NA;NA;"Nein";NA
+"68";"AfD";NA;"Graf";"Gabriele";"1957";"w";"Anwalt- und Notarfachkraft";"Essen";NA;"65";"65-74 J.";"Gabriele Graf";NA;NA;"Nein";NA
+"69";"AfD";NA;"Schützek";"Marcus";"1973";"m";"Angestellter";"Gladbeck";NA;"49";"45-54 J.";"Marcus Schützek";NA;NA;"Nein";NA
+"69";"DIE LINKE";NA;"Kohn";"Rolf";"1956";"m";"Rentner";"Recklinghausen";NA;"66";"65-74 J.";"Rolf Kohn";NA;NA;"Nein";NA
+"70";"AfD";NA;"Fuldner-Kirchner";"Andrea";"1963";"w";"Angestellte";"Marl";NA;"59";"55-64 J.";"Andrea Fuldner-Kirchner";NA;NA;"Nein";NA
+"70";"DIE LINKE";NA;"Kuster";"Hauke";"1984";"m";"Gewerkschaftssekretär";"Marl";NA;"38";"35-44 J.";"Hauke Kuster";NA;NA;"Nein";NA
+"70";"GRÜNE";NA;"Hilbrand";"Florian-Massimo";"1990";"m";"Soldat";"Marl";NA;"32";"25-34 J.";"Florian-Massimo Hilbrand";NA;NA;"Nein";NA
+"72";"AfD";NA;"Hofstätter";"Hans-Jürgen";"1953";"m";"Rentner";"Haltern am See";NA;"69";"65-74 J.";"Hans-Jürgen Hofstätter";NA;NA;"Nein";NA
+"72";"GRÜNE";NA;"Großer";"Maximilian";"1993";"m";"Student";"Datteln";NA;"29";"25-34 J.";"Maximilian Großer";NA;NA;"Nein";NA
+"73";"AfD";NA;"Rikowski";"Friedhelm";"1956";"m";"Verwaltungsbeamter a. D.";"Gelsenkirchen";NA;"66";"65-74 J.";"Friedhelm Rikowski";NA;NA;"Nein";NA
+"73";"DIE LINKE";NA;"Euler";"Philipp";"1983";"m";"Sachverständiger für Brandschutz";"Gladbeck";NA;"39";"35-44 J.";"Philipp Euler";NA;NA;"Nein";NA
+"73";"GRÜNE";NA;"Witzel";"Niklas";"1997";"m";"Erzieher in Ausbildung";"Gelsenkirchen";NA;"25";"25-34 J.";"Niklas Witzel";NA;NA;"Nein";NA
+"74";"DIE LINKE";NA;"Selter";"Jonas";"1994";"m";"Student";"Gelsenkirchen";NA;"28";"25-34 J.";"Jonas Selter";NA;NA;"Nein";NA
+"75";"AfD";NA;"Bauer";"Detlef";"1960";"m";"Kraftfahrer";"Bottrop";NA;"62";"55-64 J.";"Detlef Bauer";NA;NA;"Nein";NA
+"75";"DIE LINKE";NA;"Blocks";"Günter";"1958";"m";"Verwaltungsangestellter";"Oberhausen";NA;"64";"55-64 J.";"Günter Blocks";NA;NA;"Nein";NA
+"75";"GRÜNE";NA;"Gutsche";"Joachim";"1964";"m";"Musiker";"Bottrop";NA;"58";"55-64 J.";"Joachim Gutsche";NA;NA;"Nein";NA
+"76";"GRÜNE";NA;"Rülfing";"Heinrich Josef";"1966";"m";"Landwirt";"Rhede";NA;"56";"55-64 J.";"Heinrich Josef Rülfing";NA;NA;"Nein";NA
+"77";"CDU";NA;"Wermer";"Heike";"1988";"w";"Mitglied des Landtags";"Heek";NA;"34";"25-34 J.";"Heike Wermer";"Borken II";"56,3";"Ja";"erststimme"
+"77";"FDP";NA;"Kernebeck";"Sergej";"1990";"m";"Finanzbeamter";"Gronau";NA;"32";"25-34 J.";"Sergej Kernebeck";NA;NA;"Nein";NA
+"77";"GRÜNE";NA;"Steiner";"Jens";"1975";"m";"Kommunikationsberater";"Heek";NA;"47";"45-54 J.";"Jens Steiner";NA;NA;"Nein";NA
+"78";"AfD";NA;"Mack";"Patrick";"1986";"m";"Student";"Gronau";NA;"36";"35-44 J.";"Patrick Mack";NA;NA;"Nein";NA
+"78";"CDU";NA;"Korth";"Wilhelm";"1967";"m";"Mitglied des Landtags";"Coesfeld";NA;"55";"55-64 J.";"Wilhelm Korth";"Coesfeld I – Borken III";"51,9";"Ja";"erststimme"
+"78";"DIE LINKE";NA;"Butteweg";"Jonathan";"2003";"m";"Mitarbeiter im Baumarkt";"Raesfeld";NA;"19";"15-24 J.";"Jonathan Butteweg";NA;NA;"Nein";NA
+"79";"AfD";NA;"Hageneier";"Ralf";"1961";"m";"Busfahrer";"Havixbeck";NA;"61";"55-64 J.";"Ralf Hageneier";NA;NA;"Nein";NA
+"79";"CDU";NA;"Panske";"Dietmar";"1967";"m";"Mitglied des Landtags";"Ascheberg";NA;"55";"55-64 J.";"Dietmar Panske";"Coesfeld II";"49,6";"Ja";"erststimme"
+"79";"DIE LINKE";NA;"Stegemann";"Klaus";"1960";"m";"Arbeiter";"Dülmen";NA;"62";"55-64 J.";"Klaus Stegemann";NA;NA;"Nein";NA
+"80";"AfD";NA;"Pröbsting";"Michael";"1951";"m";"Rentner";"Greven";NA;"71";"65-74 J.";"Michael Pröbsting";NA;NA;"Nein";NA
+"80";"CDU";NA;"Schulze Föcking";"Christina";"1976";"w";"Staatlich geprüfte Landwirtin, Mitglied des Landtags NRW";"Steinfurt";NA;"46";"45-54 J.";"Christina Schulze Föcking";"Steinfurt I";"53,3";"Ja";"erststimme"
+"81";"AfD";NA;"Elixmann";"Florian";"1987";"m";"Wissenschaftlicher Mitarbeiter/ Referent";"Rheine";NA;"35";"35-44 J.";"Florian Elixmann";NA;NA;"Nein";NA
+"81";"CDU";NA;"Stullich";"Andrea";"1965";"w";"Journalistin, Mitglied des Landtags NRW";"Rheine";NA;"57";"55-64 J.";"Andrea Stullich";"Steinfurt II";"46,4";"Ja";"erststimme"
+"81";"DIE LINKE";NA;"Freund";"Marvin";"1990";"m";"Anlagenmechaniker für Sanitär-, Heizungs- und Klimatechnik";"Recke";NA;"32";"25-34 J.";"Marvin Freund";NA;NA;"Nein";NA
+"82";"AfD";NA;"Woltering";"Mike";"1977";"m";"Soldat";"Neuenkirchen";NA;"45";"45-54 J.";"Mike Woltering";NA;NA;"Nein";NA
+"83";"AfD";NA;"Birke";"Helmut Gerhard";"1954";"m";"Dipl. Informatiker (TU)";"Münster";NA;"68";"65-74 J.";"Helmut Gerhard Birke";NA;NA;"Nein";NA
+"83";"DIE LINKE";NA;"Geuking";"Katharina";"1987";"w";"Rechtliche Betreuerin";"Münster";NA;"35";"35-44 J.";"Katharina Geuking";NA;NA;"Nein";NA
+"84";"AfD";NA;"Mol";"Richard Frederek";"1968";"m";"Privatier";"Münster";NA;"54";"45-54 J.";"Richard Frederek Mol";NA;NA;"Nein";NA
+"85";"AfD";NA;"Pöhling";"Ralf";"1971";"m";"Sicherheitskraft";"Münster";NA;"51";"45-54 J.";"Ralf Pöhling";NA;NA;"Nein";NA
+"85";"DIE LINKE";NA;"Strack";"Joshua Samuel";"1998";"m";"Student";"Remscheid";NA;"24";"15-24 J.";"Joshua Samuel Strack";NA;NA;"Nein";NA
+"86";"AfD";NA;"Kuttig";"Joachim";"1966";"m";"Dreher";"Ennigerloh";NA;"56";"55-64 J.";"Joachim Kuttig";NA;NA;"Nein";NA
+"86";"CDU";NA;"Hagemeier";"Daniel";"1970";"m";"Betriebswirt im Gesundheitswesen";"Oelde";NA;"52";"45-54 J.";"Daniel Hagemeier";"Warendorf I";"48,1";"Ja";"erststimme"
+"86";"DIE LINKE";NA;"Siewert";"Mark";"2004";"m";"Schüler";"Warendorf";NA;"18";"15-24 J.";"Mark Siewert";NA;NA;"Nein";NA
+"87";"DIE LINKE";NA;"Schulte";"Karl Stephan";"1963";"m";"Buchhalter";"Ahlen";NA;"59";"55-64 J.";"Karl Stephan Schulte";NA;NA;"Nein";NA
+"88";"AfD";NA;"Groh";"Matthias";"1965";"m";"Kaufmann";"Bad Oeynhausen";NA;"57";"55-64 J.";"Matthias Groh";NA;NA;"Nein";NA
+"89";"GRÜNE";NA;"Sasse";"Jana";"1994";"w";"Kauffrau für Büromanagement";"Porta Westfalica";NA;"28";"25-34 J.";"Jana Sasse";NA;NA;"Nein";NA
+"90";"AfD";NA;"Sprenger";"Roland";"1949";"m";"Pensionär";"Herford";NA;"73";"65-74 J.";"Roland Sprenger";NA;NA;"Nein";NA
+"90";"DIE LINKE";NA;"Sturm";"Alexander";"1989";"m";"Student";"Bielefeld";NA;"33";"25-34 J.";"Alexander Sturm";NA;NA;"Nein";NA
+"90";"FDP";NA;"Joswig";"Céline";"1997";"w";"Studentin";"Enger";NA;"25";"25-34 J.";"Céline Joswig";NA;NA;"Nein";NA
+"91";"DIE LINKE";NA;"Günay";"Seyhmus";"1977";"m";"Gas- und Wasserinstallateur";"Löhne";NA;"45";"45-54 J.";"Seyhmus Günay";NA;NA;"Nein";NA
+"92";"AfD";"Dr.";"Sander";"Florian";"1984";"m";"Fraktionsreferent";"Bielefeld";NA;"38";"35-44 J.";"Florian Sander";NA;NA;"Nein";NA
+"92";"DIE LINKE";"Dr.";"Ocak";"Onur";"1987";"m";"Volljurist";"Bielefeld";NA;"35";"35-44 J.";"Onur Ocak";NA;NA;"Nein";NA
+"93";"AfD";NA;"Kneller";"Maximilian";"1993";"m";"Angestellter";"Bielefeld";NA;"29";"25-34 J.";"Maximilian Kneller";NA;NA;"Nein";NA
+"93";"DIE LINKE";NA;"Straetmanns";"Florian";"1958";"m";"Lehrer";"Bielefeld";NA;"64";"55-64 J.";"Florian Straetmanns";NA;NA;"Nein";NA
+"93";"GRÜNE";NA;"Kartal";"Cim";"1977";"m";"Projektmanager";"Bielefeld";NA;"45";"45-54 J.";"Cim Kartal";NA;NA;"Nein";NA
+"94";"AfD";NA;"Gröppel";"Maic";"1962";"m";"Trockenbauer";"Bielefeld";NA;"60";"55-64 J.";"Maic Gröppel";NA;NA;"Nein";NA
+"94";"DIE LINKE";NA;"Taeubig";"Meike";"1989";"w";"Sachbearbeiterin";"Bielefeld";NA;"33";"25-34 J.";"Meike Taeubig";NA;NA;"Nein";NA
+"94";"FDP";NA;"Schneidereit";"Martina";"1966";"w";"Hotel- und Touristikfachfrau";"Bielefeld";NA;"56";"55-64 J.";"Martina Schneidereit";NA;NA;"Nein";NA
+"95";"DIE LINKE";NA;"Dowhan";"Franz";"1953";"m";"Rentner";"Gütersloh";NA;"69";"65-74 J.";"Franz Dowhan";NA;NA;"Nein";NA
+"96";"AfD";NA;"Brinkrolf";"Johannes";"1964";"m";"Wirtschaftsinformatiker";"Rheda-Wiedenbrück";NA;"58";"55-64 J.";"Johannes Brinkrolf";NA;NA;"Nein";NA
+"96";"CDU";NA;"Kuper";"André";"1960";"m";"Landtagspräsident, Mitglied des Landtages";"Rietberg";NA;"62";"55-64 J.";"André Kuper";"Gütersloh III";"55,3";"Ja";"erststimme"
+"96";"DIE LINKE";NA;"Schwermann";"Marcus";"1975";"m";"Jurist";"Rheda-Wiedenbrück";NA;"47";"45-54 J.";"Marcus Schwermann";NA;NA;"Nein";NA
+"96";"GRÜNE";NA;"Mester";"Bernd";"1968";"m";"Fachkrankenpfleger für Anästhesie und Intensivmedizin";"Rheda-Wiedenbrück";NA;"54";"45-54 J.";"Bernd Mester";NA;NA;"Nein";NA
+"97";"AfD";NA;"Reinknecht";"Sabine";"1959";"w";"Selbstständige Friseurmeisterin";"Bad Salzuflen";NA;"63";"55-64 J.";"Sabine Reinknecht";NA;NA;"Nein";NA
+"97";"DIE LINKE";NA;"Senz-Ndiaye";"Dorothea";"1951";"w";"Rentnerin";"Bad Salzuflen";NA;"71";"65-74 J.";"Dorothea Senz-Ndiaye";NA;NA;"Nein";NA
+"98";"DIE LINKE";NA;"Kinder";"Nikolai";"1993";"m";"Erzieher";"Vlotho";NA;"29";"25-34 J.";"Nikolai Kinder";NA;NA;"Nein";NA
+"99";"AfD";NA;"Hübner";"Viktor";"1977";"m";"Fachwirt für Finanzberatung";"Detmold";NA;"45";"45-54 J.";"Viktor Hübner";NA;NA;"Nein";NA
+"99";"CDU";NA;"Zertik";"Heinrich";"1957";"m";"Schlosser";"Schieder-Schwalenberg";NA;"65";"65-74 J.";"Heinrich Zertik";NA;NA;"Nein";NA
+"99";"DIE LINKE";NA;"Brinkmann";"Walter";"1955";"m";"Rentner";"Detmold";NA;"67";"65-74 J.";"Walter Brinkmann";NA;NA;"Nein";NA
+"99";"GRÜNE";NA;"Broeker";"Timo";"1976";"m";"Ingenieur";"Blomberg";NA;"46";"45-54 J.";"Timo Broeker";NA;NA;"Nein";NA
+"100";"AfD";NA;"Hermneuwöhner";"Julian";"1990";"m";"IT-Berater";"Büren";NA;"32";"25-34 J.";"Julian Hermneuwöhner";NA;NA;"Nein";NA
+"100";"CDU";NA;"Hoppe-Biermeyer";"Bernhard";"1961";"m";"Selbstständiger Unternehmer";"Delbrück";NA;"61";"55-64 J.";"Bernhard Hoppe-Biermeyer";"Paderborn I";"56,3";"Ja";"erststimme"
+"100";"DIE LINKE";NA;"Yesil";"Mehmet Ali";"1994";"m";"Student";"Bad Lippspringe";NA;"28";"25-34 J.";"Mehmet Ali Yesil";NA;NA;"Nein";NA
+"101";"AfD";NA;"Weber";"Marvin";"1992";"m";"Student";"Paderborn";NA;"30";"25-34 J.";"Marvin Weber";NA;NA;"Nein";NA
+"101";"CDU";NA;"Sieveke";"Daniel";"1976";"m";"Sparkassenbetriebswirt, Mitglied des Landtages";"Paderborn";NA;"46";"45-54 J.";"Daniel Sieveke";"Paderborn II";"44,5";"Ja";"erststimme"
+"101";"DIE LINKE";NA;"Drewer";"Holger";"1993";"m";"Student";"Paderborn";NA;"29";"25-34 J.";"Holger Drewer";NA;NA;"Nein";NA
+"102";"AfD";NA;"Lange";"Klaus";"1961";"m";"Kraftfahrer";"Bad Driburg";NA;"61";"55-64 J.";"Klaus Lange";NA;NA;"Nein";NA
+"102";"CDU";NA;"Goeken";"Matthias";"1964";"m";"Mitglied des Landtages";"Bad Driburg";NA;"58";"55-64 J.";"Matthias Goeken";"Höxter";"50,8";"Ja";"erststimme"
+"103";"AfD";NA;"Geitz";"Andreas";"1964";"m";"Kaufmann";"Hagen";NA;"58";"55-64 J.";"Andreas Geitz";NA;NA;"Nein";NA
+"103";"DIE LINKE";NA;"Hasenberg";"Marvin";"1995";"m";"Fachkraft für Veranstaltungstechnik";"Hagen";NA;"27";"25-34 J.";"Marvin Hasenberg";NA;NA;"Nein";NA
+"104";"AfD";NA;"Korte";"Carl-Dietrich";"1960";"m";"Lehrer";"Ennepetal";NA;"62";"55-64 J.";"Carl-Dietrich Korte";NA;NA;"Nein";NA
+"104";"DIE LINKE";NA;"Sondermeyer";"Ralf";"1961";"m";"Büroangestellter";"Hagen";NA;"61";"55-64 J.";"Ralf Sondermeyer";NA;NA;"Nein";NA
+"105";"AfD";NA;"Paffrath";"André";"1983";"m";"Gefahrgutbeauftragter";"Schwelm";NA;"39";"35-44 J.";"André Paffrath";NA;NA;"Nein";NA
+"105";"DIE LINKE";NA;"Halbe";"Pauline";"1997";"w";"Studierende";"Schwelm";NA;"25";"25-34 J.";"Pauline Halbe";NA;NA;"Nein";NA
+"105";"GRÜNE";NA;"Karsten";"Alexander";"1972";"m";"Dipl.-Finanzwirt";"Sprockhövel";NA;"50";"45-54 J.";"Alexander Karsten";NA;NA;"Nein";NA
+"106";"AfD";NA;"Valton";"Jean";"1981";"m";"Pflegefachkraft";"Ennepetal";NA;"41";"35-44 J.";"Jean Valton";NA;NA;"Nein";NA
+"106";"DIE LINKE";NA;"Weiß";"Ursula";"1960";"w";"Sozialwissenschaftlerin";"Witten";NA;"62";"55-64 J.";"Ursula Weiß";NA;NA;"Nein";NA
+"107";"AfD";NA;"Fischer";"Udo";"1954";"m";"Dipl.-Wirtschaftsingenieur";"Essen";NA;"68";"65-74 J.";"Udo Fischer";NA;NA;"Nein";NA
+"107";"DIE LINKE";NA;"Ratajczak";"Sven-Eric";"1972";"m";"Servicetechniker";"Bochum";NA;"50";"45-54 J.";"Sven-Eric Ratajczak";NA;NA;"Nein";NA
+"108";"AfD";NA;"Zarei";"Abolfazl";"1968";"m";"Qualitätsmanager";"Bochum";NA;"54";"45-54 J.";"Abolfazl Zarei";NA;NA;"Nein";NA
+"108";"DIE LINKE";NA;"Koolen";"Bernhard";"1955";"m";"Schulleiter i.R.";"Bochum";NA;"67";"65-74 J.";"Bernhard Koolen";NA;NA;"Nein";NA
+"108";"FDP";NA;"Yerlikaya";"Jennifer";"1971";"w";"Oberstudienrätin";"Bochum";NA;"51";"45-54 J.";"Jennifer Yerlikaya";NA;NA;"Nein";NA
+"109";"DIE LINKE";NA;"Rüdiger";"Kristina";"1971";"w";"Sozialwissenschaftlerin";"Bochum";NA;"51";"45-54 J.";"Kristina Rüdiger";NA;NA;"Nein";NA
+"109";"GRÜNE";NA;"Bischoff";"Hans";"1993";"m";"Berufsfeuerwehrmann/Rettungssanitäter";"Bochum";NA;"29";"25-34 J.";"Hans Bischoff";NA;NA;"Nein";NA
+"111";"AfD";NA;"Bohnhof";"Peter";"1962";"m";"Rechtsanwalt";"Dortmund";NA;"60";"55-64 J.";"Peter Bohnhof";NA;NA;"Nein";NA
+"111";"DIE LINKE";NA;"Götz";"Kevin";"1994";"m";"Auszubildender";"Dortmund";NA;"28";"25-34 J.";"Kevin Götz";NA;NA;"Nein";NA
+"112";"AfD";NA;"Seitz";"Wolfgang";"1966";"m";"Geschäftsführer";"Dortmund";NA;"56";"55-64 J.";"Wolfgang Seitz";NA;NA;"Nein";NA
+"112";"DIE LINKE";NA;"Lemke";"Sonja";"1991";"w";"Physikerin";"Dortmund";NA;"31";"25-34 J.";"Sonja Lemke";NA;NA;"Nein";NA
+"113";"AfD";NA;"Thomas";"Dirk";"1970";"m";"Angestellter";"Dortmund";NA;"52";"45-54 J.";"Dirk Thomas";NA;NA;"Nein";NA
+"113";"DIE LINKE";NA;"Esch";"Andreas";"1961";"m";"Staatlich geprüfter Maschinenbautechniker";"Dortmund";NA;"61";"55-64 J.";"Andreas Esch";NA;NA;"Nein";NA
+"114";"AfD";NA;"Wagner";"Walter";"1960";"m";"Unternehmensberater";"Dortmund";NA;"62";"55-64 J.";"Walter Wagner";NA;NA;"Nein";NA
+"114";"DIE LINKE";NA;"Lammers";"Adelgunde";"1959";"w";"Hausfrau";"Dortmund";NA;"63";"55-64 J.";"Adelgunde Lammers";NA;NA;"Nein";NA
+"114";"FDP";NA;"Isselhorst";"Jens";"1993";"m";"Procurement Manager";"Dortmund";NA;"29";"25-34 J.";"Jens Isselhorst";NA;NA;"Nein";NA
+"115";"AfD";NA;"Chmielecki";"Jürgen";"1965";"m";"Sozialtherapeut";"Unna";NA;"57";"55-64 J.";"Jürgen Chmielecki";NA;NA;"Nein";NA
+"115";"DIE LINKE";NA;"Willnat";"Anke";"1976";"w";"Selbstständige Musikerin";"Schwerte";NA;"46";"45-54 J.";"Anke Willnat";NA;NA;"Nein";NA
+"115";"GRÜNE";NA;"Hierweck";"Hans";"1984";"m";"Projektreferent";"Dortmund";NA;"38";"35-44 J.";"Hans Hierweck";NA;NA;"Nein";NA
+"116";"AfD";NA;"Hagelstein";"Friederike";"1996";"w";"Studentin";"Lünen";NA;"26";"25-34 J.";"Friederike Hagelstein";NA;NA;"Nein";NA
+"116";"GRÜNE";"Dr.";"Heil";"Gerrit";"1976";"m";"Unternehmer";"Bönen";NA;"46";"45-54 J.";"Gerrit Heil";NA;NA;"Nein";NA
+"117";"AfD";NA;"Lehmann";"Ulrich";"1970";"m";"Architekt";"Kamen";NA;"52";"45-54 J.";"Ulrich Lehmann";NA;NA;"Nein";NA
+"117";"GRÜNE";NA;"Ziel";"Maximilian";"1990";"m";"Rechtsanwalt";"Schwerte";NA;"32";"25-34 J.";"Maximilian Ziel";NA;NA;"Nein";NA
+"118";"AfD";NA;"Jung";"Pierre";"1976";"m";"Berufskraftfahrer";"Düsseldorf";NA;"46";"45-54 J.";"Pierre Jung";NA;NA;"Nein";NA
+"118";"DIE LINKE";NA;"Kleinemeier";"Sven";"1981";"m";"Angestellter";"Hamm";NA;"41";"35-44 J.";"Sven Kleinemeier";NA;NA;"Nein";NA
+"119";"AfD";"Dr.";"Jacobi";"Wilfried";"1943";"m";"Dipl.-Chemiker";"Bad Sassendorf";NA;"79";"75 J. und älter";"Wilfried Jacobi";NA;NA;"Nein";NA
+"119";"DIE LINKE";NA;"Linnhoff";"Roland";"1969";"m";"Postbeamter a. D.";"Soest";NA;"53";"45-54 J.";"Roland Linnhoff";NA;NA;"Nein";NA
+"119";"GRÜNE";NA;"Klug";"Jürgen";"1966";"m";"Erzieher, freier Journalist";"Soest";NA;"56";"55-64 J.";"Jürgen Klug";NA;NA;"Nein";NA
+"120";"DIE LINKE";NA;"Mühlfeld";"Nikola";"1959";"w";"Erzieherin";"Lippstadt";NA;"63";"55-64 J.";"Nikola Mühlfeld";NA;NA;"Nein";NA
+"121";"AfD";NA;"Laatsch";"Klaus";"1977";"m";"Elektroinstallateur";"Iserlohn";NA;"45";"45-54 J.";"Klaus Laatsch";NA;NA;"Nein";NA
+"121";"DIE LINKE";NA;"Wolff";"Nancy";"1985";"w";"Speditionskauffrau";"Iserlohn";NA;"37";"35-44 J.";"Nancy Wolff";NA;NA;"Nein";NA
+"121";"GRÜNE";NA;"Haberle";"John";"1970";"m";"Dipl.-Sozialwissenschaftler";"Iserlohn";NA;"52";"45-54 J.";"John Haberle";NA;NA;"Nein";NA
+"122";"AfD";NA;"Karagiannidis";"Charalambos";"1967";"m";"Fachkraft für Schutz und Sicherheit";"Menden";NA;"55";"55-64 J.";"Charalambos Karagiannidis";NA;NA;"Nein";NA
+"122";"DIE LINKE";NA;"Förster";"Udo";"1966";"m";"Kaufmann im Außendienst";"Menden";NA;"56";"55-64 J.";"Udo Förster";NA;NA;"Nein";NA
+"122";"GRÜNE";NA;"Olbrich";"Sylvia";"1977";"w";"Pflegemutter";"Iserlohn";NA;"45";"45-54 J.";"Sylvia Olbrich";NA;NA;"Nein";NA
+"123";"AfD";NA;"Karpinsky";"Horst";"1966";"m";"Industriekaufmann";"Plettenberg";NA;"56";"55-64 J.";"Horst Karpinsky";NA;NA;"Nein";NA
+"123";"DIE LINKE";NA;"Ersching";"Otto";"1965";"m";"Werkzeugkonstrukteur";"Lüdenscheid";NA;"57";"55-64 J.";"Otto Ersching";NA;NA;"Nein";NA
+"123";"GRÜNE";NA;"Decker";"Julia";"1981";"w";"Physiotherapeutin";"Lüdenscheid";NA;"41";"35-44 J.";"Julia Decker";NA;NA;"Nein";NA
+"124";"CDU";NA;"Kaiser";"Klaus";"1957";"m";"Mitglied des Landtages";"Arnsberg";NA;"65";"65-74 J.";"Klaus Kaiser";"Hochsauerlandkreis I";"48,7";"Ja";"erststimme"
+"124";"DIE LINKE";NA;"Gössling";"Karl-Ludwig";"1957";"m";"Pensionär";"Bestwig";NA;"65";"65-74 J.";"Karl-Ludwig Gössling";NA;NA;"Nein";NA
+"125";"AfD";NA;"Hartwig";"Nils";"1992";"m";"Student";"Holzwickede";NA;"30";"25-34 J.";"Nils Hartwig";NA;NA;"Nein";NA
+"125";"CDU";NA;"Kerkhoff";"Matthias";"1979";"m";"Mitglied des Landtages";"Olsberg";NA;"43";"35-44 J.";"Matthias Kerkhoff";"Hochsauerlandkreis II";"56,5";"Ja";"erststimme"
+"125";"DIE LINKE";NA;"Prange";"Reinhard";"1947";"m";"Rentner";"Brilon";NA;"75";"75 J. und älter";"Reinhard Prange";NA;NA;"Nein";NA
+"125";"GRÜNE";NA;"Grunwald";"Bastian";"1989";"m";"Schulbegleiter";"Brilon";NA;"33";"25-34 J.";"Bastian Grunwald";NA;NA;"Nein";NA
+"126";"AfD";NA;"Zoz";"Henning";"1964";"m";"Unternehmer";"Freudenberg";NA;"58";"55-64 J.";"Henning Zoz";NA;NA;"Nein";NA
+"126";"DIE LINKE";NA;"Stadler";"Mark Philip";"1986";"m";"Projektmitarbeiter";"Netphen";NA;"36";"35-44 J.";"Mark Philip Stadler";NA;NA;"Nein";NA
+"127";"DIE LINKE";NA;"Wiegel";"Roland";"1997";"m";"Studium des Wirtschaftsingenieurwesens";"Siegen";NA;"25";"25-34 J.";"Roland Wiegel";NA;NA;"Nein";NA
+"127";"GRÜNE";NA;"Remmel";"Johannes";"1962";"m";"Politiker";"Siegen";NA;"60";"55-64 J.";"Johannes Remmel";NA;NA;"Ja";"zweitstimme"
+"128";"AfD";NA;"Stephan";"Ursula Regine";"1952";"w";"Realschullehrerin";"Hilchenbach";NA;"70";"65-74 J.";"Ursula Regine Stephan";NA;NA;"Nein";NA
+"128";"CDU";NA;"Ritter";"Jochen";"1966";"m";"Dipl.-Verwaltungswirt (FH), Dipl.-Wirtschaftsingenieur (FH)";"Olpe";NA;"56";"55-64 J.";"Jochen Ritter";"Olpe";"54,7";"Ja";"erststimme"
+"128";"DIE LINKE";NA;"Bock";"Thomas";"1984";"m";"Student der Sozialen Arbeit";"Attendorn";NA;"38";"35-44 J.";"Thomas Bock";NA;NA;"Nein";NA

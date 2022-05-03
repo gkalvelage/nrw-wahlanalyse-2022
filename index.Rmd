@@ -67,6 +67,7 @@ Die Parlamente spiegeln in unterschiedlicher Hinsicht nicht die Bevölkerung wid
 Für den Bundestag schlüsselt die [Bundeszentrale für politische Bildung](https://www.bpb.de/kurz-knapp/zahlen-und-fakten/bundestagswahlen/341095/gewaehlte-abgeordnete/) verschiedene Merkmale auf.
 </aside>  
 
+
 Wir wissen prinzipiell auch, dass z.B. Jüngere und Ältere unterrepräsentiert sind. Aber wie deutlich ist der Unterschied zwischen den (potenziellen) Abgeordneten und der Bevölkerung -- konkret bei der NRW-Landtagswahl 2022? Und wie sind die Chancen der Jüngeren, in die Parlamente einzuziehen?  
 
 <aside>
@@ -127,17 +128,7 @@ Die Bevölkerung im mittleren Alter zwischen 25 und 64 Jahren ist unter den Kand
 
 ### Die Linke spiegelt die Bevölkerung am besten, FDP und Grüne sind am jüngsten und die AfD am ältesten
 
-Betrachtet man das Alter nach Partei, stechen unterschiedliche Profile hervor (Figure \@ref(fig:alter-partei)).^[Die Reihenfolge der Parteien entspricht der Reihenfolge auf dem Stimmzettel. Sie leitet sich aus der Zweitstimmenverteilung bei der letzten Wahl ab.] Auch wenn nach wie vor Kandidat:innen im mittleren Alter überrepräsentiert sind, gibt es z.B. keine Altersgruppe, die *in jeder Partei* überrepräsentiert ist.
-
-Mit Ausnahme der Ältesten spiegelt Die Linke am besten die Bevölkerung. CDU und SPD haben ihre Schwerpunkte zwischen 35 und 64 Jahren. Die SPD ist etwas jünger (größte Gruppe: 35- bis 44-Jährige); die CDU ist etwas älter (größte Gruppe: 45-54-Jährige).  
-
-Bei FDP und Grünen verteilen sich die Kandidat:innen am gleichmäßigsten zwischen 25 und 64 Jahren. In beiden Parteien sind Ältere dafür stark unterrepräsentiert. Besonders deutlich wird dies bei der FDP, die den zweitgrößten Anteil an Unter-25-Jährigen hat, dafür aber niemanden über 64 Jahren aufgestellt hat.
-
-<aside>
-Die Parteien haben etwa gleich viele Kandidat:innen: Mit 153 Kandidat:innen hat die CDU am meisten; die übrigen Parteien stellen zwischen 122 (AfD) und 135 (Grüne) Kandidat:innen.
-</aside>
-
-Anders ist dies bei der AfD, bei der die Gruppe der 65- bis 74-Jährigen sogar überrepräsentiert ist. Über ein Drittel der AfD-Kandidat:innen ist zudem zwischen 55 und 64 Jahren alt. Dafür sind Kandidat:innen bis unter 45 Jahren insgesamt unterrepräsentiert. Als einzige Partei hat die AfD niemanden unter 25 Jahren aufgestellt.
+Betrachtet man das Alter nach Partei, stechen unterschiedliche Profile hervor (Figure \@ref(fig:alter-partei)).^[Die Reihenfolge der Parteien entspricht der Reihenfolge auf dem Stimmzettel. Sie leitet sich aus der Zweitstimmenverteilung bei der letzten Wahl ab.] Auch wenn nach wie vor Kandidat:innen im mittleren Alter überrepräsentiert sind, gibt es z.B. keine Altersgruppe, die *in jeder Partei* überrepräsentiert ist.  
 
 ```{r alter-partei, fig.cap="Das Alter der Kandidat:innen nach Partei", layout="l-body-outset", preview=TRUE}
 
@@ -181,6 +172,16 @@ ggplot(mapping = aes(x = alter_kat, y = anteil)) +
         panel.grid.minor.x = element_blank())
 ```
 
+Mit Ausnahme der Ältesten spiegelt Die Linke am besten die Bevölkerung. CDU und SPD haben ihre Schwerpunkte zwischen 35 und 64 Jahren. Die SPD ist etwas jünger (größte Gruppe: 35- bis 44-Jährige); die CDU ist etwas älter (größte Gruppe: 45-54-Jährige).  
+
+Bei FDP und Grünen verteilen sich die Kandidat:innen am gleichmäßigsten zwischen 25 und 64 Jahren. In beiden Parteien sind Ältere dafür stark unterrepräsentiert. Besonders deutlich wird dies bei der FDP, die den zweitgrößten Anteil an Unter-25-Jährigen hat, dafür aber niemanden über 64 Jahren aufgestellt hat.
+
+<aside>
+Die Parteien haben etwa gleich viele Kandidat:innen: Mit 153 Kandidat:innen hat die CDU am meisten; die übrigen Parteien stellen zwischen 122 (AfD) und 135 (Grüne) Kandidat:innen.
+</aside>
+
+Anders ist dies bei der AfD, bei der die Gruppe der 65- bis 74-Jährigen sogar überrepräsentiert ist. Über ein Drittel der AfD-Kandidat:innen ist zudem zwischen 55 und 64 Jahren alt. Dafür sind Kandidat:innen bis unter 45 Jahren insgesamt unterrepräsentiert. Als einzige Partei hat die AfD niemanden unter 25 Jahren aufgestellt.
+
 ### Nicht in jeder Partei haben Jüngere auch eine Chance -- bei wem könnte der Listenplatz reichen?
 
 Nur weil eine Partei junge Kandidat:innen aufstellt, bedeutet das noch nicht, dass diese auch eine realistische Chance haben, in den Landtag einzuziehen.  
@@ -198,23 +199,7 @@ Ich treffe daher vereinfachende Annahmen^[Am stärksten vereinfache ich bei der 
 1. **aussichtsreiche** Kandidat:innen, die (zumindest) realistisch einziehen können
 2. Kandidat:innen, die nach Umfragen und letzten Wahlergebnissen **fast chancenlos** sind  
 
-**CDU** und **SPD** schließe ich aus. Ein schlechter Listenplatz geht bei beiden Parteien nicht automatisch mit einer geringen Chance auf ein Mandat einher, weil beide Parteien viele Direktmandate gewinnen.^[Dies zeigt sich z.B. daran, dass die SPD-Direktwahlgewinner:innen aus 2017, die 2022 erneut antreten, im Mittel nur Listenplatz `r kandi_landtag %>% filter(partei == "SPD" & stimme == "erststimme") %>% summarize(median(listenplatz, na.rm = TRUE)) %>% unlist()` besitzen (CDU: `r kandi_landtag %>% filter(partei == "CDU" & stimme == "erststimme") %>% summarize(median(listenplatz, na.rm = TRUE)) %>% unlist()`). Die CDU hat zudem `r nrow(filter(kandi_landtag, partei == "CDU" & is.na(listenplatz) & stimme == "erststimme"))` Kandidat:innen, die zuletzt ein Direktmandat gewannen, in 2022 aber keinen Listenplatz haben.] Es gibt außerdem keinen klaren Zusammenhang zwischen Listenplatz und Alter (Figure \@ref(fig:alter-cduspd) rechts).
-
-<aside>
-```{r alter-cduspd, fig.cap="CDU / SPD", fig.width=2, fig.height=1.5}
-kandi_landtag %>%
-  filter(partei %in% c("CDU", "SPD") & !is.na(listenplatz)) %>%
-  ggplot(aes(x = alter, y = listenplatz, color = partei)) +
-  geom_jitter(size = 1, alpha = .7, shape = 3) +
-  geom_smooth(method = "lm", se = FALSE, formula = "y ~ x") +
-  scale_color_manual(values = partei_col, guide = "none") +
-  scale_y_reverse(breaks = c(1, 50, 100)) +
-  scale_x_continuous(breaks = c(25, 45, 65)) +
-  labs(x = "Alter", y = "Liste") +
-  facet_wrap(~partei) +
-  theme(text = element_text(size = 8))
-```
-</aside>
+**CDU** und **SPD** schließe ich aus. Ein schlechter Listenplatz geht bei beiden Parteien nicht automatisch mit einer geringen Chance auf ein Mandat einher, weil beide Parteien viele Direktmandate gewinnen.^[Dies zeigt sich z.B. daran, dass die SPD-Direktwahlgewinner:innen aus 2017, die 2022 erneut antreten, im Mittel nur Listenplatz `r kandi_landtag %>% filter(partei == "SPD" & stimme == "erststimme") %>% summarize(median(listenplatz, na.rm = TRUE)) %>% unlist()` besitzen (CDU: `r kandi_landtag %>% filter(partei == "CDU" & stimme == "erststimme") %>% summarize(median(listenplatz, na.rm = TRUE)) %>% unlist()`). Die CDU hat zudem `r nrow(filter(kandi_landtag, partei == "CDU" & is.na(listenplatz) & stimme == "erststimme"))` Kandidat:innen, die zuletzt ein Direktmandat gewannen, in 2022 aber keinen Listenplatz haben.] Es gibt außerdem keinen klaren Zusammenhang zwischen Listenplatz und Alter.  
 
 Es bleiben vier Parteien: **FDP, AfD, Grüne und Die Linke**. Ich nehme an, dass bei diesen Parteien die Landeslisten entscheiden. Kandidat:innen, die keinen Listenplatz haben (also nur zur Direktwahl antreten), sind somit "fast chancenlos". Vor allem für die AfD und Die Linke reduziert dies die Zahl der Kandidat:innen drastisch auf nur 23 (AfD) bzw. 30 (Die Linke).^[Von jeweils über 120 Kandidat:innen sind nur diese Kandidat:innen [offiziell für die jeweilige Landesliste zugelassen.](https://www.im.nrw/system/files/media/document/file/ltw22_lwa_zuglandeslisten.pdf)] FDP (118) und Grüne (90) haben mehr Listenkandidat:innen. In den letzten beiden Landtagen blieben beide Parteien aber immer unter 30 Sitzen.^[Die FDP hatte im letzten Landtag (ab 2017) 28 Sitze mit einem Zweitstimmenanteil von 12,6%. Die Grünen hatten im vorletzten Landtag (ab 2012) 29 Sitze bei einem Zweitstimmenanteil von 11,3%.]
 

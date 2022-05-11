@@ -8,6 +8,7 @@ output:
     toc: false
 repository_url: https://github.com/gkalvelage/nrw-wahlanalyse-2022
 base_url: https://gkalvelage.github.io/nrw-wahlanalyse-2022
+preview: https://gkalvelage.github.io/nrw-wahlanalyse-2022/index_files/figure-html5/alter-partei-1.png
 creative_commons: CC BY
 twitter:
   creator: "@g_kalvelage"
@@ -121,7 +122,7 @@ Die Bevölkerung im mittleren Alter zwischen 25 und 64 Jahren ist unter den Kand
 
 Betrachtet man das Alter nach Partei, stechen unterschiedliche Profile hervor (Figure \@ref(fig:alter-partei)).^[Die Reihenfolge der Parteien entspricht der Reihenfolge auf dem Stimmzettel. Sie leitet sich aus der Zweitstimmenverteilung bei der letzten Wahl ab.] Auch wenn nach wie vor Kandidat:innen im mittleren Alter überrepräsentiert sind, gibt es z.B. keine Altersgruppe, die *in jeder Partei* überrepräsentiert ist.^[Die Parteien haben etwa gleich viele Kandidat:innen: Mit 153 Kandidat:innen hat die CDU am meisten; die übrigen Parteien stellen zwischen 122 (AfD) und 135 (Grüne) Kandidat:innen.]  
 
-```{r alter-partei, fig.cap="Das Alter der Kandidat:innen nach Partei", layout="l-body-outset", preview=TRUE}
+```{r alter-partei, fig.cap="Das Alter der Kandidat:innen nach Partei", layout="l-body-outset"}
 
 kandi_alter_partei <- kandi_landtag %>%
   group_by(partei, alter_kat) %>%

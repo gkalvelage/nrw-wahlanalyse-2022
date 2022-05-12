@@ -46,17 +46,17 @@ theme_update(text = element_text(family = "sans", color = "black"),
 quelle <- "Alle Infos und mehr unter:\nhttps://gkalvelage.github.io/nrw-wahlanalyse-2022"
 ```
 
-## Wie sieht das Personalangebot der Parteien aus?
+## Das Wichtigste in Kürze
 
 Am 15. Mai 2022 sind Landtagswahlen in Nordrhein-Westfalen. Der WDR hat in seinem [Diversitäts-Check](https://www1.wdr.de/nachrichten/landespolitik/landtagswahl-2022/landtagswahl-kandidaten-diversitaet-100.html) bereits grob das Profil der Kandidatinnen und Kandidaten der Parteien für die Landtagswahl ausgewertet.
 
 Diese Analyse erweitere ich für die sechs großen Parteien und finde, dass ...
 
-- die Jüngsten (bis 25 J.) und die Ältesten (ab 65 J.) stark unterrepräsentiert sind.  
-- die sechs großen Parteien sehr unterschiedliche Altersprofile haben.  
-- sich diese Altersprofile teils ändern, betrachtet man nur aussichtsreiche Kandidat:innen  
+- die Jüngsten (bis 25 J.) und die Ältesten (ab 65 J.) stark unterrepräsentiert sind ([hier](#mehr-als-ein-durchschnitt-die-kandidatinnen-nach-altersgruppen)).  
+- die Parteien sehr unterschiedliche Altersprofile haben ([hier](#die-linke-spiegelt-die-bevölkerung-am-besten-fdp-und-grüne-sind-am-jüngsten-und-die-afd-am-ältesten)).  
+- sich diese Profile verändern, betrachtet man nur aussichtsreiche Kandidat:innen ([hier](#nicht-in-jeder-partei-haben-jüngere-auch-eine-chance-bei-wem-könnte-der-listenplatz-reichen)).  
 
-Unten gibt es alle Details!  
+Unten gibt es alle Details! **Lesezeit: 5 Min.**  
 
 Du hast noch andere Ideen? Melde dich bei mir [\@g_kalvelage](https://twitter.com/g_kalvelage).  
 

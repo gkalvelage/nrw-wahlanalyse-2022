@@ -1,14 +1,14 @@
 ---
-title: "Das Alter der Kandidat:innen"
+title: "Das Alter der Abgeordneten"
 description: |
-  Wie gut repräsentieren die sechs großen Parteien die Bevölkerung? Und welche Chancen haben jüngere Kandidat:innen?
+  Wie gut repräsentieren die sechs großen Parteien die Bevölkerung? Haben sich auch jüngere Kandidierende durchgesetzt?
 site: distill::distill_website
 output:
   distill::distill_article:
     toc: false
 repository_url: https://github.com/gkalvelage/nrw-wahlanalyse-2022
 base_url: https://gkalvelage.github.io/nrw-wahlanalyse-2022
-preview: https://gkalvelage.github.io/nrw-wahlanalyse-2022/index_files/figure-html5/alter-partei-1.png
+preview: https://gkalvelage.github.io/nrw-wahlanalyse-2022/index_files/figure-html5/alter-wahlergebnis-1.png
 creative_commons: CC BY
 twitter:
   creator: "@g_kalvelage"
@@ -21,12 +21,14 @@ knitr::opts_chunk$set(echo = FALSE)
 library("here")
 library("tidyverse")
 library("formattable")
+library("ggalluvial")
 
 # lade vorbereitete Daten (siehe "prep_data.R")
 kandi_landtag <- readRDS(here("results", "nrw_landtag_2022_kandidierende.rds"))
 
 # lade vorbereitete Daten (siehe "prep_data.R")
-bev_alter <- readRDS(here("results", "nrw_bevoelkerung_alter.rds"))
+bev_alter <- readRDS(here("results", "nrw_bevoelkerung_alter_u18.rds"))
+bev_alter_ab18 <- readRDS(here("results", "nrw_bevoelkerung_alter_ab18.rds"))
 
 # definiere Partei-Farben
 partei_col <- c("CDU" = "#000000", "SPD" = "#e2001a", "FDP" = "#f3e03b",
@@ -48,13 +50,13 @@ quelle <- "Alle Infos und mehr unter:\nhttps://gkalvelage.github.io/nrw-wahlanal
 
 ## Das Wichtigste in Kürze
 
-Am 15. Mai 2022 sind Landtagswahlen in Nordrhein-Westfalen. Der WDR hat in seinem [Diversitäts-Check](https://www1.wdr.de/nachrichten/landespolitik/landtagswahl-2022/landtagswahl-kandidaten-diversitaet-100.html) bereits grob das Profil der Kandidatinnen und Kandidaten der Parteien für die Landtagswahl ausgewertet.
+Am 15. Mai 2022 waren Landtagswahlen in Nordrhein-Westfalen. Der WDR hat vor der Wahl in seinem [Diversitäts-Check](https://www1.wdr.de/nachrichten/landespolitik/landtagswahl-2022/landtagswahl-kandidaten-diversitaet-100.html) bereits grob das Profil aller Kandidatinnen und Kandidaten der Parteien für die Landtagswahl ausgewertet.
 
 Diese Analyse erweitere ich für die sechs großen Parteien und finde, dass ...
 
-- die Jüngsten (bis 25 J.) und die Ältesten (ab 65 J.) stark unterrepräsentiert sind ([hier](#mehr-als-ein-durchschnitt-die-kandidatinnen-nach-altersgruppen)).  
-- die Parteien sehr unterschiedliche Altersprofile haben ([hier](#die-linke-spiegelt-die-bevölkerung-am-besten-fdp-und-grüne-sind-am-jüngsten-und-die-afd-am-ältesten)).  
-- sich diese Profile verändern, betrachtet man nur aussichtsreiche Kandidat:innen ([hier](#nicht-in-jeder-partei-haben-jüngere-auch-eine-chance-bei-wem-könnte-der-listenplatz-reichen)).  
+- die Jüngsten und die Ältesten unter den Kandidierenden und den gewählten Abgeordneten stark unterrepräsentiert sind.  
+- die Parteien sehr unterschiedliche Altersprofile und -schwerpunkte bei ihren Kandidierenden hatten.    
+- sich diese Schwerpunkte teils deutlich verändert haben, betrachtet man nur die neu gewählten Abgeordneten.  
 
 Unten gibt es alle Details! **Lesezeit: 5 Min.**  
 
@@ -64,9 +66,9 @@ Du hast noch andere Ideen? Melde dich bei mir [\@g_kalvelage](https://twitter.co
 
 Die Parlamente spiegeln in unterschiedlicher Hinsicht nicht die Bevölkerung wider.^[Für den Bundestag schlüsselt die [Bundeszentrale für politische Bildung](https://www.bpb.de/kurz-knapp/zahlen-und-fakten/bundestagswahlen/341095/gewaehlte-abgeordnete/) verschiedene Merkmale auf.] Personen ohne Berufsausbildung oder Studium sind in der Regel z.B. deutlich unterrepräsentiert. Und auch Frauen bilden meist deutlich weniger als die Hälfte aller Abgeordneten.  
 
-Wir wissen prinzipiell auch, dass z.B. Jüngere und Ältere unterrepräsentiert sind. Aber wie deutlich ist der Unterschied zwischen den (potenziellen) Abgeordneten und der Bevölkerung -- konkret bei der NRW-Landtagswahl 2022? Und wie sind die Chancen der Jüngeren, in die Parlamente einzuziehen?  
+Wir wissen prinzipiell auch, dass z.B. Jüngere und Ältere unterrepräsentiert sind. Aber wie deutlich ist der Unterschied zwischen den (potenziellen) Abgeordneten und der Bevölkerung -- konkret bei der NRW-Landtagswahl 2022?  
 
-Um diese Fragen zu beantworten, analysiere ich das Alter aller Kandidat:innen der sechs großen Parteien.^[Ich konzentriere mich auf die Parteien mit der größten Chance, die [5%-Hürde](https://www.wahlrecht.de/landtage/nordrhein-westfalen.htm) zu erreichen. Die Kandidat:innen dieser Parteien bilden `r pct(nrow(kandi_landtag)/1375)` aller 1.375 Kandidat:innen zur Landtagswahl ab. Die Linke war zuletzt nicht im Landtag vertreten und steht nach [Umfragen](https://www.wahlrecht.de/umfragen/landtage/nrw.htm) unter 5%.] Mich interessiert, welches personelle Angebot -- bezogen auf das Alter -- die Parteien den Wähler:innen machen. Denn nur wenn überhaupt ein gutes Angebot  vorhanden ist, können Wähler:innen die Zusammensetzung des Parlaments beeinflussen.  
+Um diese Fragen zu beantworten, analysiere ich das Alter aller Kandidat:innen der sechs großen Parteien.^[Die Kandidat:innen dieser Parteien bilden `r pct(nrow(kandi_landtag)/1375)` aller 1.375 Kandidat:innen zur Landtagswahl ab. Die Linke ist letztlich nicht in den Landtag eingezogen, hatte vor der Wahl aber eine realistische Chance.] Mich interessiert, welches personelle Angebot -- bezogen auf das Alter -- die Parteien den Wähler:innen machen. Denn nur wenn überhaupt ein gutes Angebot  vorhanden ist, können Wähler:innen die Zusammensetzung des Parlaments beeinflussen.  
 
 ### Mehr als ein Durchschnitt -- die Kandidat:innen nach Altersgruppen
 
@@ -76,7 +78,7 @@ Ich teile die Kandidat:innen in sieben Altersgruppen ein (Figure \@ref(fig:alter
 
 Nicht jede Altersgruppe hat in der Bevölkerung das gleiche Gewicht. Deshalb vergleiche ich das Alter der Kandidat:innen mit dem Alter der gesamten Bevölkerung ab 15 Jahren in NRW.^[Quelle: Statistische Ämter des Bundes der Länder (dl-de/by-2-0) unter www.regionalstatistik.de (Code: 12411-04-02-4-B). Daten zum Stichtag: 21.12.2020.] Die 15- bis 17-Jährigen berücksichtige ich bewusst, obwohl sie weder selber wählen (aktives Wahlrecht) noch gewählt werden (passives Wahlrecht) dürfen. Über eine Herabsetzung des Wahlalters wird aber immer wieder diskutiert.^[Die wichtigste weitere Voraussetzung für die Wahlberechtigung -- eine deutsche Staatsangehörigkeit -- ignoriere ich zur Vereinfachung.]
 
-```{r alter-kandi-bev, layout="l-body-outset", fig.cap="Landtagskandidat:innen nach Altersgruppen, verglichen mit der NRW-Bevölkerung"}
+```{r alter-kandi-bev, layout="l-body-outset", fig.cap="Landtagskandidat:innen nach Altersgruppen, verglichen mit der NRW-Bevölkerung", fig.height=4}
 
 kandi_alter <- kandi_landtag %>%
   group_by(alter_kat) %>%
@@ -170,92 +172,117 @@ Bei FDP und Grünen verteilen sich die Kandidat:innen am gleichmäßigsten zwisc
 
 Anders ist dies bei der AfD, bei der die Gruppe der 65- bis 74-Jährigen sogar überrepräsentiert ist. Über ein Drittel der AfD-Kandidat:innen ist zudem zwischen 55 und 64 Jahren alt. Dafür sind Kandidat:innen bis unter 45 Jahren insgesamt unterrepräsentiert. Als einzige Partei hat die AfD niemanden unter 25 Jahren aufgestellt.
 
-### Nicht in jeder Partei haben Jüngere auch eine Chance -- bei wem könnte der Listenplatz reichen?
+### Junge oder alte Kandidat:innen aufzustellen ist nicht allein entscheidend --- wer wurde letztlich gewählt?
 
-Nur weil eine Partei junge Kandidat:innen aufstellt, bedeutet das noch nicht, dass diese auch eine realistische Chance haben, in den Landtag einzuziehen.  
+Letztlich entscheidend ist, welche Kandidat:innen in den Landtag gewählt wurden (Figure \@ref(fig:alter-wahlergebnis)).^[Quelle: Vorläufiges amtliches Endergebnis des [Landeswahlleiter](https://www.wahlergebnisse.nrw/landtagswahlen/2022/index.shtml)] Der bisherige NRW-Innenminister [Herbert Reul (CDU)](https://de.wikipedia.org/wiki/Herbert_Reul) ist mit 69 Jahren der älteste Abgeordnete. Der Dortmunder [Michael Röls (Grüne)](https://de.wikipedia.org/wiki/Michael_R%C3%B6ls) ist mit 24 Jahren der jüngste Abgeordnete. Beide werden dieses Jahr noch ein Jahr älter und gehen daher als 25 Jahre (Röls) bzw. 70 Jahre (Reul) in die Analyse ein.^[Da in den Wahldaten nur das Geburtsjahr verfügbar ist, wird das Alter einheitlich als 2022 - Geburtsjahr berechnet. Für Abgeordente, die nach der Wahl am 15. Mai in 2022 noch Geburtstag haben, ist das Alter daher um 1 Jahr zu hoch angegeben.]  
 
-Wie stehen also die Chancen der Jüngeren? 
+Unter-25-Jährige waren unter den Kandidat:innen bereits deutlich unterrepräsentiert. Sobald Michals Röls Anfang September 25 Jahre alt wird, ist kein:e Abgeordnete:r mehr unter 25 Jahre alt. 25- bis 34-Jährige waren unter den Kandidat:innen entweder leicht unterrepräsentiert (SPD, AfD, CDU) oder sogar überrepräsentiert (FDP, Grüne, Die Linke). Im neu gewählten Landtag sind nur 13% der Abgeordneten unter 35 Jahre alt.  
 
-Das ist schwierig einzuschätzen, weil Erst- und Zweitstimmen in Kombination entscheiden, wer in den Landtag einzieht. In NRW ist eine Prognose noch schwieriger, da durch eine hohe Zahl an Direktwahlkreisen viele Überhang- und Ausgleichsmandate entstehen können.^[Siehe hierzu z.B. die Hinweise von [Wahlrecht.de](https://www.wahlrecht.de/landtage/nordrhein-westfalen.htm). Der Landtag hat insg. mind. 181 Sitze, davon werden 128 per Direktwahl vergeben. Durch Überhang- und Ausgleichsmandate waren es zuletzt 199 Sitze (2017) bzw. 237 Sitze (2012).] Es bräuchte also eine Wahlkreisprognose, die mit rein öffentlichen Daten aber wenig verlässlich ist.^[Außerdem wurde seit der letzten Wahl die [Einteilung der Wahlkreise teils geändert](https://de.wikipedia.org/wiki/Liste_der_Landtagswahlkreise_in_Nordrhein-Westfalen_2022#%C3%84nderungen_zu_2017).]  
+Ältere (ab 65 Jahren) waren bereits unter den Kandidat:innen stark unterrepräsentiert. Im neuen Landtag wird diese Bevölkerungsgruppe, zu der in der Erwachsenenbevölkerung in NRW jede:r Vierte (26%) zählt, nur noch von einzelnen Abgeordneten aus CDU und SPD vertreten. Obwohl diese Bevölkerungsgruppe also ein sehr hohes Gewicht besitzt, schlägt sich dies kaum in älteren Abgeordneten nieder.
 
-Ich treffe daher vereinfachende Annahmen^[Am stärksten vereinfache ich bei der Erststimme: Ich nehme an, dass nur CDU und SPD Direktmandate gewinnen. Das war bei der letzten Wahl 2017 so. Beide Parteien liegen auch aktuell in etwa gleich auf und deutlich vor den Grünen. Der Abstand zu FDP, AfD und Die Linke ist nochmals deutlich größer. Die Grünen haben als einzige dieser Parteien bei der Bundestagswahl 2021 vier Direktmandate in NRW gewonnen. Die Wahlkreiszuschnitte zwischen Bundes- und Landtagswahl unterscheiden sich aber. Zudem sind die Kandidat:innen in diesen aussichtsreichen Städten größtenteils über sehr gute Listenplätze abgesichert.] und unterscheide in:
+```{r alter-wahlergebnis, fig.cap="NRW-Landtag 2022 nach Altersgruppen", layout="l-body-outset"}
 
-1. **aussichtsreiche** Kandidat:innen, die (zumindest) realistisch einziehen können
-2. Kandidat:innen, die nach Umfragen und letzten Wahlergebnissen **fast chancenlos** sind  
-
-**CDU** und **SPD** schließe ich aus. Ein schlechter Listenplatz geht bei beiden Parteien nicht automatisch mit einer geringen Chance auf ein Mandat einher, weil beide Parteien viele Direktmandate gewinnen.^[Dies zeigt sich z.B. daran, dass die SPD-Direktwahlgewinner:innen aus 2017, die 2022 erneut antreten, im Mittel nur Listenplatz `r kandi_landtag %>% filter(partei == "SPD" & stimme == "erststimme") %>% summarize(median(listenplatz, na.rm = TRUE)) %>% unlist()` besitzen (CDU: `r kandi_landtag %>% filter(partei == "CDU" & stimme == "erststimme") %>% summarize(median(listenplatz, na.rm = TRUE)) %>% unlist()`). Die CDU hat zudem `r nrow(filter(kandi_landtag, partei == "CDU" & is.na(listenplatz) & stimme == "erststimme"))` Kandidat:innen, die zuletzt ein Direktmandat gewannen, in 2022 aber keinen Listenplatz haben.] Es gibt außerdem keinen klaren Zusammenhang zwischen Listenplatz und Alter.  
-
-Es bleiben vier Parteien: **FDP, AfD, Grüne und Die Linke**. Ich nehme an, dass bei diesen Parteien die Landeslisten entscheiden. Kandidat:innen, die keinen Listenplatz haben (also nur zur Direktwahl antreten), sind somit "fast chancenlos". Vor allem für die AfD und Die Linke reduziert dies die Zahl der Kandidat:innen drastisch auf nur 23 (AfD) bzw. 30 (Die Linke).^[Von jeweils über 120 Kandidat:innen sind nur diese Kandidat:innen [offiziell für die jeweilige Landesliste zugelassen.](https://www.im.nrw/system/files/media/document/file/ltw22_lwa_zuglandeslisten.pdf)] FDP (118) und Grüne (90) haben mehr Listenkandidat:innen. In den letzten beiden Landtagen blieben beide Parteien aber immer unter 30 Sitzen.^[Die FDP hatte im letzten Landtag (ab 2017) 28 Sitze mit einem Zweitstimmenanteil von 12,6%. Die Grünen hatten im vorletzten Landtag (ab 2012) 29 Sitze bei einem Zweitstimmenanteil von 11,3%.]
-
-Auf Basis der [aktuellen Umfragen](https://www.wahlrecht.de/umfragen/landtage/nrw.htm) und der [letzten Sitzverteilung](https://de.wikipedia.org/wiki/Landtag_Nordrhein-Westfalen#Landtag_2017) wähle ich bewusst **grobe Orientierungspunkte**: Die Grünen erhalten 30 Sitze.^[Basis ist der Sitzanteil der FDP im letzten Landtag; aufgrund des besseren Umfragetrends aufgerundet.] Die FDP erhält 20 Sitze und die AfD erhält 16 Sitze.^[Basis ist jeweils der Sitzanteil der AfD im letzten Landtag; für die FDP aufgrund des besseren Umfragetrends aufgerundet. Für die AfD ändert eine alternative Schätzung wenig, da durch den 50%-Zusatzfaktor ohnehin alle Listenkandidat:innen einbezogen werden.] Die Linke erhält 14 Sitze.^[Basis ist der Sitzanteil der Grünen im letzten Landtag. Im Umfragetrend liegt Die Linke aktuell unter 5% und würde somit gar keine Sitze erhalten, was die folgende Analyse obsolet machen würde.] Um vorsichtig zu schätzen, multipliziere ich diese Orientierungspunkte mit dem Faktor 1,5. **Damit würde jede Partei ca. 50% mehr Mandate erhalten als dies zuletzt der Fall gewesen wäre (Grüne: 45, FDP: 30, AfD: 23, Die Linke: 21).**  
-
-```{r alter-chance, fig.cap="Die Chance auf ein Landtagsmandat nach Partei und Alter", layout="l-body-outset"}
-
-kandi_ohne_chance <- kandi_landtag %>%
-  filter(partei %in% c("FDP", "AfD", "GRÜNE", "DIE LINKE")) %>%
-  mutate(
-    chance = factor(case_when(
-    partei == "GRÜNE" & listenplatz <= 45 ~ "aussichtsreich",
-    partei == "FDP" & listenplatz <= 30 ~ "aussichtsreich",
-    partei == "AfD" & listenplatz <= 23 ~ "aussichtsreich",
-    partei == "DIE LINKE" & listenplatz <= 21 ~ "aussichtsreich",
-    TRUE ~ "fast chancenlos"),
-    levels = c("fast chancenlos", "aussichtsreich")),
-    partei = factor(case_when(
-    partei == "GRÜNE"~ "GRÜNE\n(bis zu 45 Sitze)",
-    partei == "FDP" ~ "FDP\n(bis zu 30 Sitze)",
-    partei == "AfD" ~ "AfD\n(bis zu 23 Sitze)",
-    partei == "DIE LINKE" ~ "DIE LINKE\n(bis zu 21 Sitze)"),
-    levels = c("GRÜNE\n(bis zu 45 Sitze)", "FDP\n(bis zu 30 Sitze)",
-               "AfD\n(bis zu 23 Sitze)", "DIE LINKE\n(bis zu 21 Sitze)")
-    )) %>%
-  group_by(partei, alter_kat, chance) %>%
+kandi_alter_wahlerg <- kandi_landtag %>%
+  filter(wahl %in% c("Direkt", "Liste")) %>%
+  mutate(alter_kat = fct_recode(alter_kat,
+                                "18-24" = "15-24 J.",
+                                "25-34" = "25-34 J.",
+                                "35-44" = "35-44 J.",
+                                "45-54" = "45-54 J.",
+                                "55-64" = "55-64 J.",
+                                "65+" = "65-74 J.",
+                                "65+" = "75 J. und älter")) %>%
+  group_by(partei, alter_kat) %>%
   count() %>%
   ungroup() %>%
-  mutate(alter_kat = fct_recode(alter_kat,
-                                `75+ J.` = "75 J. und älter",
-                                `18-24 J.` = "15-24 J."))
+  mutate(anteil = n/sum(n),
+         partei = fct_relevel(partei, "CDU", "SPD", "GRÜNE", "FDP", "AfD"))
 
-partei_col <- c("CDU" = "#000000", "SPD" = "#e2001a",
-                "FDP\n(bis zu 30 Sitze)" = "#f3e03b",
-                "AfD\n(bis zu 23 Sitze)" = "#009ee0",
-                "GRÜNE\n(bis zu 45 Sitze)" = "#46962b",
-                "DIE LINKE\n(bis zu 21 Sitze)" = "#be3075")
+partei_col <- c("CDU" = "#000000", "SPD" = "#e2001a", "GRÜNE" = "#46962b",
+                "FDP" = "#f3e03b", "AfD" = "#009ee0")
 
-ggplot(kandi_ohne_chance, aes(x = alter_kat, y = n,
-                              fill = partei, alpha = chance)) +
-  geom_col() +
-  facet_wrap(~partei) +
-  scale_fill_manual(values = partei_col) +
-  scale_alpha_manual(values = c(.4, 1), name = "") +
-  scale_y_continuous(labels = function(x){paste(x, "\nKand.")},
-                     expand = expansion(add = c(0, 3))) +
-  guides(color = "none", fill = "none",
-         alpha = guide_legend(reverse = TRUE, nrow = 1)) +
-  coord_flip() +
-  labs(x = "", y = "",
-       title = "Das Altersprofil ändert sich, betrachtet man nur aussichtsreiche Kandidat:innen.",
-       subtitle = "(aussichtsreich = guter Listenplatz, bei großzügiger Kalkulation)",
+ggplot(mapping = aes(x = alter_kat, y = anteil)) +
+  geom_col(data = kandi_alter_wahlerg, aes(fill = partei),
+           width = .6) +
+  geom_col(data = bev_alter_ab18,
+           color = "#899da4", fill = NA, linetype = "longdash", size = .5,
+           width = .75) +
+    annotate("text", x = 1.5, y = .22, label = "Anteile in\nBevölkerung",
+           color = "#899da4", size = 3, fontface = "bold") +
+  annotate("segment", x = 1.5, xend = 1.1, y = .2, yend = .11,
+           color = "#899da4",
+           arrow = arrow(type = "closed", length = unit(.3, "cm"))) +
+  annotate("segment", x = 1.5, xend = 1.8, y = .2, yend = .17,
+           color = "#899da4",
+           arrow = arrow(type = "closed", length = unit(.3, "cm"))) +
+  scale_x_discrete(labels = function(x) paste(x, "J.")) +
+  scale_y_continuous(labels = scales::label_percent(), expand = expansion()) +
+  scale_fill_manual(values = partei_col, name = "") +
+  scale_color_manual(values = partei_col) +
+  guides(color = "none") +
+  labs(x = "Landtagsabgeordnete\n(Altersgruppen; 2022-Geburtsjahr)", y = "",
+       title = expression(paste(bold("Die jüngere "), bold(underline(und)),
+                                bold(" die ältere Bevölkerung ist im NRW-Landtag "),
+                                bold("2022 unterrepräsentiert."))),
+       subtitle = paste0("Ab September 2022 ist kein:e Abgeordnete:r mehr unter 25 Jahre alt. Jede:r vierte",
+                         " Erwachsene in NRW ist 65 Jahre\noder älter. Personell vertreten ist auch ",
+                         "diese Gruppe aber kaum."),
        caption = quelle) +
-  theme(axis.text = element_text(size = 7),
-        strip.text = element_text(size = 8),
-        legend.position = c(.5, 1.1),
-        legend.key.size = unit(.5, "line"),
-        legend.text = element_text(size = 6.5),
-        panel.grid.major.y = element_blank(),
-        panel.grid.minor.y = element_blank())
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.title = element_text(size = 8))
 ```
 
-Als logische Folge der getroffenen Annahmen werden viele Kandidat:innen nicht in den Landtag einziehen (Figure \@ref(fig:alter-chance)):
+### Alle Parteien hatten Jüngere und Ältere aufgestellt, aber nicht immer auf den aussichtsreichen Plätzen
 
-- Für Die Linke ist generell fraglich, ob sie die erforderliche 5%-Hürde erreicht. Sollte sie es schaffen, würde sie potenziell Kandidat:innen aus (fast) allen Altersgruppen (auch den Jüngsten) stellen.  
-- Die AfD hat die kürzeste Landesliste mit nur 23 Kandidat:innen; ihre Direktkandidat:innen haben nur sehr geringe Chancen. Betrachtet man nur die Listenkandidat:innen, verschwindet der Schwerpunkt bei den Älteren.  
-- Bei der FDP verschiebt sich der Schwerpunkt von jünger zu älter, betrachtet man nur die aussichtsreichen Kandidat:innen. Die 25- bis 34-Jährigen, die unter allen Kandidat:innen die größte Gruppen bilden, sind unter den aussichtsreichen die kleinste Gruppe.  
-- Die aussichtsreichen Grünen verteilen sich gleichmäßig auf die mittleren Altersgruppen zwischen 25 und 54 Jahren. Ältere ab 55 Jahren sind bei den Grünen vergleichsweise weniger stark vertreten.  
+Im direkten Vergleich von aufgestellten Kandidat:innen zu gewählten Abgeordneten (Figure \@ref(fig:alter-flow)) wird deutlich, dass die Parteien zwar teils viele Jüngere und auch Ältere aufgestellt haben. Diese aber häufig eher ungünstige Listenplätze hatten oder in schwierig zu gewinnenden Wahlkreisen aufgestellt wurden -- und daher keine Mandate erhalten haben.    
 
-**Mit Blick auf die Jüngeren von Grünen, FDP, AfD und Die Linke bedeutet das:**
+```{r alter-flow, fig.cap="Gewählte Abgeordnete nach Altesgruppen", layout="l-body-outset", fig.height=6}
 
-- Unter-25-Jährige haben vor allem bei der Linkspartei die Chance auf ein Mandat.^[Plus eine Kandidatin auf Platz 41 der Grünen Liste.] Da die Linkspartei in aktuellen Umfragen unter der 5%-Hürde steht, könnte es letztlich kein (sehr) junges Mandat bei den vier kleineren Parteien geben.  
-- 25- bis 34-Jährige haben bessere Chancen. Alle vier kleineren Parteien haben aussichtsreiche Kandidat:innen. Mit Ausnahme der FDP besitzt diese Altersgruppe in etwa das gleiche Gewicht wie die 2-3 nächstälteren Gruppen.  
+kandi_alter_flow <- kandi_landtag %>%
+    mutate(alter_kat = fct_recode(alter_kat,
+                                "18-24" = "15-24 J.",
+                                "25-34" = "25-34 J.",
+                                "35-44" = "35-44 J.",
+                                "45-54" = "45-54 J.",
+                                "55-64" = "55-64 J.",
+                                "65+" = "65-74 J.",
+                                "65+" = "75 J. und älter")) %>%
+  group_by(partei, alter_kat, wahl) %>%
+  count()
+
+partei_col <- c("CDU" = "#000000", "SPD" = "#e2001a", "FDP" = "#f3e03b",
+                "AfD" = "#009ee0", "GRÜNE" = "#46962b", "DIE LINKE" = "#be3075")
+
+ggplot(kandi_alter_flow, aes(y = n,
+                             axis1 = fct_rev(alter_kat),
+                             axis2 = wahl)) +
+  geom_alluvium(aes(fill = partei, alpha = wahl), width = 1/8) +
+  geom_stratum(width = 1/5, fill = "#bbc6ca", color = "white") +
+  geom_text(stat = "stratum", aes(label = after_stat(stratum)),
+                 size = 2.25) +
+  scale_x_discrete(limits = c("Alter\nKandi.", "Wahl-\nergebnis"),
+                   expand = expansion()) +
+  scale_y_continuous(breaks = seq(0, 140, 20), name = "",
+                     expand = expansion(add = c(5, 5))) + 
+  scale_fill_manual(values = partei_col) +
+  scale_alpha_manual(values = c("Liste" = 1, "Direkt" = 1, "nicht\nge-\nwählt" = .2)) +
+  facet_wrap(~factor(partei,
+                     levels = c("CDU", "SPD", "GRÜNE", "FDP", "AfD", "DIE LINKE")),
+             scales = "free_x") +
+  guides(fill = "none", alpha = "none") +
+  labs(title = paste0("NRW-Wahl: Es gab teils viele jüngere Kandidat:innen.",
+                      " Mandate erhielten aber nur wenige."),
+       subtitle = paste0("Beispiel: Für die CDU ziehen 8 Kandidierende zw. 25-34 Jahren ",
+                         "und 27 Kandidierende zw. 45-54 Jahren ein. Ähnlich für\n",
+                         "die SPD (4 zu 17). Die FDP hat sehr viele Jüngere aufgestellt, ",
+                         "aber auf schlechten Listenplätzen. Bei Grünen und AfD ist\nes ",
+                         "ausgeglichener."),
+       caption = quelle) +
+  theme(panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        axis.text = element_text(size = 7),
+        strip.text = element_text(size = 7))
+```
 
 Du willst dir die Daten selber anschauen? **[Hier](https://gkalvelage.github.io/nrw-wahlanalyse-2022/daten.html) findest du eine filterbare Tabelle** und alle Rohdaten.

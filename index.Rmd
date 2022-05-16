@@ -271,7 +271,7 @@ ggplot(kandi_alter_flow, aes(y = n,
                      levels = c("CDU", "SPD", "GRÜNE", "FDP", "AfD", "DIE LINKE")),
              scales = "free_x") +
   guides(fill = "none", alpha = "none") +
-  labs(title = paste0("NRW-Wahl: Es gab teils viele jüngere Kandidat:innen.",
+  labs(title = paste0("Es gab teils viele jüngere Kandidat:innen.",
                       " Mandate erhielten aber nur wenige."),
        subtitle = paste0("Beispiel: Für die CDU ziehen 8 Kandidierende zw. 25-34 Jahren ",
                          "und 27 Kandidierende zw. 45-54 Jahren ein. Ähnlich für\n",
